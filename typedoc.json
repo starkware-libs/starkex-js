@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["./src/lib/index.ts"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "name": "StarkEx JavaScript Client Library",
+  "includeVersion": true
+}

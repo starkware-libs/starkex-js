@@ -1,0 +1,45 @@
+{
+  "root": true,
+  "globals": {
+    "require": true,
+    "process": true,
+    "module": true,
+    "__dirname": true
+  },
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.{ts,tsx}"],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+      },
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+      ],
+      "plugins": ["@typescript-eslint", "prettier"],
+      "rules": {
+        "prettier/prettier": "error",
+        "@typescript-eslint/no-explicit-any": ["off"]
+      }
+    }
+  ]
+}
