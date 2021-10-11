@@ -22,7 +22,8 @@
     "docs:generate": "typedoc",
     "docs:watch": "typedoc --watch",
     "node": "node src/server.js",
-    "publish": "echo \"Publish script is not implemented\""
+    "publish": "echo \"publish script is not implemented\"",
+    "test": "echo \"test script is not implemented\""
   },
   "husky": {
     "hooks": {
