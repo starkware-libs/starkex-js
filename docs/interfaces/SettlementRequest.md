@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.1](../README.md) / SettlementRequest
+[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / SettlementRequest
 
 # Interface: SettlementRequest
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:65](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L65)
+[gateway/gateway-request.ts:65](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L65)
 
 ---
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:66](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L66)
+[gateway/gateway-request.ts:66](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L66)
 
 ---
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:64](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L64)
+[gateway/gateway-request.ts:64](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L64)

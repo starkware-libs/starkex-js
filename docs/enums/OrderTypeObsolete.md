@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.1](../README.md) / OrderTypeObsolete
+[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / OrderTypeObsolete
 
 # Enumeration: OrderTypeObsolete
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:32](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L32)
+[gateway/gateway-types.ts:32](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-types.ts#L32)
 
 ---
 
@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:33](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L33)
+[gateway/gateway-types.ts:33](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-types.ts#L33)

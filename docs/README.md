@@ -1,67 +1,198 @@
-StarkEx JavaScript Client Library - v0.0.1
+StarkEx JavaScript Client Library - v0.0.3 / [Exports](modules.md)
 
-# StarkEx JavaScript Client Library - v0.0.1
+<!-- logo -->
+<p align="center">
+  <img width='300' src="https://raw.githubusercontent.com/starkware-industries/starkex-clientlib-js/master/img/starkex.svg">
+</p>
 
-## Table of contents
+<!-- tag line -->
+<h4 align='center'> JavaScript SDK for StarkEx</h4>
 
-### Enumerations
+<!-- primary badges -->
+<p align="center">
+  <a href="https://www.npmjs.com/package/starknet">
+    <img src='https://img.shields.io/github/package-json/v/starkware-industries/starkex-clientlib-js?label=npm' />
+  </a>
+  <a href="https://starkware.co/">
+    <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">
+  </a>
+</p>
 
-- [OrderTypeObsolete](enums/OrderTypeObsolete.md)
+`starkex-clientlib-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/)
+that can be used in both NodeJS and Browser environments.
 
-### Classes
+`starkex-clientlib-js` is written in [ECMAScript6] and strongly typed and transpiled to ECMAScript5 using [TypeScript].
 
-- [AvailabilityGateway](classes/AvailabilityGateway.md)
-- [FeederGateway](classes/FeederGateway.md)
-- [Gateway](classes/Gateway.md)
-- [StarkExClient](classes/StarkExClient.md)
+[typescript]: https://www.typescriptlang.org/
+[ecmascript6]: https://github.com/ericdouglas/ES6-Learning#articles--tutorials
 
-### Interfaces
+## Installation
 
-- [BatchIdsRequest](interfaces/BatchIdsRequest.md)
-- [CommitteeSignature](interfaces/CommitteeSignature.md)
-- [ConditionalTransferRequest](interfaces/ConditionalTransferRequest.md)
-- [DepositRequest](interfaces/DepositRequest.md)
-- [FalseFullWithdrawalRequest](interfaces/FalseFullWithdrawalRequest.md)
-- [FeeInfoExchangeRequest](interfaces/FeeInfoExchangeRequest.md)
-- [FeeInfoUserRequest](interfaces/FeeInfoUserRequest.md)
-- [FullWithdrawalRequest](interfaces/FullWithdrawalRequest.md)
-- [MintRequest](interfaces/MintRequest.md)
-- [OrderRequest](interfaces/OrderRequest.md)
-- [SettlementRequest](interfaces/SettlementRequest.md)
-- [Signature](interfaces/Signature.md)
-- [StarkExClientConfig](interfaces/StarkExClientConfig.md)
-- [TransferRequest](interfaces/TransferRequest.md)
-- [WithdrawRequest](interfaces/WithdrawRequest.md)
+_This package is Typescript ready_
 
-### Type aliases
+```bash
+// using npm
+npm i starkex-clientlib-js
 
-- [GatewayRequest](README.md#gatewayrequest)
-- [StarkExCertsConfig](README.md#starkexcertsconfig)
+// using yarn
+yarn add starkex-clientlib-js
+```
 
-## Type aliases
+## How to use it
 
-### GatewayRequest
+The library is a default export.
 
-Ƭ **GatewayRequest**: [`DepositRequest`](interfaces/DepositRequest.md) \| [`MintRequest`](interfaces/MintRequest.md) \| [`WithdrawRequest`](interfaces/WithdrawRequest.md) \| [`FullWithdrawalRequest`](interfaces/FullWithdrawalRequest.md) \| [`FalseFullWithdrawalRequest`](interfaces/FalseFullWithdrawalRequest.md) \| [`TransferRequest`](interfaces/TransferRequest.md) \| [`SettlementRequest`](interfaces/SettlementRequest.md) \| [`ConditionalTransferRequest`](interfaces/ConditionalTransferRequest.md)
+### Browser
 
-#### Defined in
+To use it browser, you need to use the code from `browser.js` file.]()
 
-[gateway/gateway-request.ts:8](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L8)
+```html
+<script src="path-to-local-library/browser.js"></script>
+```
+
+or via CDN
+
+```html
+<script src="https://path-to-cdn-library/browser.js"></script>
+```
+
+In this scenario, the library will be bound to the global window object with the property StarkExAPI.
+
+`window.StarkExAPI` or simple `StarkExAPI` can be used to access the library.
+
+If you have a toolchain available you can use an `import` statement.
+
+```ts
+import StarkExAPI from 'starkex-clientlib-js/browser';
+```
+
+```js
+const StarkExAPI = require('starkex-clientlib-js/browser');
+```
+
+_Because is a default export, here you can import it with what name you want_
+
+### Node
+
+For `NodeJS` environment, just replace `browser` with `node`
+
+```ts
+import StarkExAPI from 'starkex-clientlib-js/node';
+```
+
+```js
+const StarkExAPI = require('starkex-clientlib-js/node');
+```
+
+## Usage
+
+The object imported is a class that first needs to be instantiated:
+
+```ts
+new StarkExAPI(config: StarkExClientConfig): StarkExClient;
+```
+
+Where `config` is a configuration object of form:
+
+```ts
+interface StarkExClientConfig {
+  endpoint: string;
+  // optional - relevant only for node environment
+  certs?: {
+    cert: string;
+    key: string;
+    ca?: string;
+  };
+}
+```
+
+_Example_
+
+```ts
+const starkExAPI = new StarkExAPI({
+  endpoint: 'https://gw.playground-v2.starkex.co'
+});
+```
+
+_Example with certs (NodeJS environment)_
+
+```ts
+const starkExAPI = new StarkExAPI({
+  endpoint: 'https://playground.starkex.co',
+  certs: {
+    cert: 'USER_CERT',
+    key: 'USER_KEY'
+  }
+});
+```
+
+The `StarkExClient` object returned from the constructor exposing the different gateways existing on this API:
+
+#### `public gateway: Gateway`
+
+This is the StarkEx Services HTTP gateway version2 for all external trading interactions.
+
+_Example for is_alive_
+
+```ts
+const isAlive = await starkExAPI.gateway.isAlive();
+console.log(isAlive); // gateway is alive!
+```
+
+_Example for get_first_unused_tx_id_
+
+```ts
+const txId = await starkExAPI.gateway.getFirstUnusedTxId();
+console.log(txId); // 69
+```
+
+_Example for a DepositRequest_
+
+```ts
+const request = {
+  amount: 4029557120079369747,
+  starkKey: "0x7c65c1e82e2e662f728b4fa42485e3a0a5d2f346baa9455e3e70682c2094cac",
+  tokenId: "0x2dd48fd7a024204f7c1bd874da5e709d4713d60c8a70639eb1167b367a9c378",
+  vaultId: 1654615998
+};
+const response = await starkExAPI.gateway.deposit(request);
+console.log(response); // {"code": "TRANSACTION_PENDING"}
+```
+
+Full API docs for `gateway` can be found [here](docs/classes/Gateway.md).
+
+#### `public feederGateway: FeederGateway`
+
+This is the StarkEx Services HTTP gateway for feeder interactions. The Feeder is a gateway to the StarkEx system for
+retrieving transaction batch information by external parties
+
+_Example for get_batch_ids_
+
+```ts
+const batchIds = await starkExAPI.feederGateway.getBatchIds();
+console.log(batchIds); // [10000, 12345]
+```
+
+Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.md).
+
+#### `public availabilityGateway: AvailabilityGateway`
+
+This is the StarkEx Services HTTP gateway for committee interactions.
+
+_Example for get_batch_data_
+
+```ts
+const batchId = 5678;
+const batchData = await starkExAPI.availabilityGateway.getBatchData(batchId);
+console.log(batchData); // {...}
+```
+
+Full API docs for `availabilityGateway` can be found [here](docs/classes/AvailabilityGateway.md).
 
 ---
 
-### StarkExCertsConfig
+Note: All results will be exactly the **raw** response from the API.
 
-Ƭ **StarkExCertsConfig**: `Object`
+## API Docs
 
-#### Type declaration
-
-| Name   | Type     |
-| :----- | :------- |
-| `ca?`  | `string` |
-| `cert` | `string` |
-| `key`  | `string` |
-
-#### Defined in
-
-[starkex-client.ts:20](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/starkex-client.ts#L20)
+[Click here](docs/README.md) for full API documentation.

@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.1](../README.md) / FullWithdrawalRequest
+[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / FullWithdrawalRequest
 
 # Interface: FullWithdrawalRequest
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:41](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L41)
+[gateway/gateway-request.ts:41](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L41)
 
 ---
 
@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:40](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L40)
+[gateway/gateway-request.ts:40](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L40)
