@@ -21,7 +21,7 @@
 
 [availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/availability-gateway/availability-gateway-types.ts#L2)
 
-___
+---
 
 ### claimHash
 
@@ -31,7 +31,7 @@ ___
 
 [availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/availability-gateway/availability-gateway-types.ts#L5)
 
-___
+---
 
 ### memberKey
 
@@ -41,7 +41,7 @@ ___
 
 [availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/availability-gateway/availability-gateway-types.ts#L4)
 
-___
+---
 
 ### signature
 

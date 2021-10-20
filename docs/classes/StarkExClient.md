@@ -22,8 +22,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Defined in
@@ -40,7 +40,7 @@
 
 [starkex-client.ts:6](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/starkex-client.ts#L6)
 
-___
+---
 
 ### feederGateway
 
@@ -50,7 +50,7 @@ ___
 
 [starkex-client.ts:5](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/starkex-client.ts#L5)
 
-___
+---
 
 ### gateway
 

@@ -20,7 +20,7 @@
 
 [gateway/gateway-types.ts:20](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L20)
 
-___
+---
 
 ### sourceVaultId
 
@@ -30,7 +30,7 @@ ___
 
 [gateway/gateway-types.ts:21](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L21)
 
-___
+---
 
 ### tokenId
 

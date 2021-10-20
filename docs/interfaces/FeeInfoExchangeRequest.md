@@ -20,7 +20,7 @@
 
 [gateway/gateway-types.ts:26](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L26)
 
-___
+---
 
 ### destinationVaultId
 
@@ -30,7 +30,7 @@ ___
 
 [gateway/gateway-types.ts:27](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L27)
 
-___
+---
 
 ### feeTaken
 

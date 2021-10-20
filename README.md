@@ -1,7 +1,22 @@
-# starkex-clientlib-js
+<!-- logo -->
+<p align="center">
+  <img width='300' src="https://raw.githubusercontent.com/starkware-industries/starkex-clientlib-js/master/img/starkex.svg">
+</p>
 
-`starkex-clientlib-js` is a JavaScript wrapper around
-the [StarkEx API](https://starkware.co/starkex/api/)
+<!-- tag line -->
+<h4 align='center'> JavaScript SDK for StarkEx</h4>
+
+<!-- primary badges -->
+<p align="center">
+  <a href="https://www.npmjs.com/package/starknet">
+    <img src='https://img.shields.io/github/package-json/v/starkware-industries/starkex-clientlib-js?label=npm' />
+  </a>
+  <a href="https://starkware.co/">
+    <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">
+  </a>
+</p>
+
+`starkex-clientlib-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/)
 that can be used in both NodeJS and Browser environments.
 
 `starkex-clientlib-js` is written in [ECMAScript6] and strongly typed and transpiled to ECMAScript5 using [TypeScript].
@@ -146,7 +161,8 @@ Full API docs for `gateway` can be found [here](docs/classes/Gateway.md).
 
 #### `public feederGateway: FeederGateway`
 
-This is the StarkEx Services HTTP gateway for feeder interactions. The Feeder is a gateway to the StarkEx system for retrieving transaction batch information by external parties
+This is the StarkEx Services HTTP gateway for feeder interactions. The Feeder is a gateway to the StarkEx system for
+retrieving transaction batch information by external parties
 
 _Example for get_batch_ids_
 

@@ -28,7 +28,7 @@
 
 [gateway/gateway-request.ts:70](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L70)
 
-___
+---
 
 ### expirationTimestamp
 
@@ -38,7 +38,7 @@ ___
 
 [gateway/gateway-request.ts:77](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L77)
 
-___
+---
 
 ### fact
 
@@ -48,7 +48,7 @@ ___
 
 [gateway/gateway-request.ts:80](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L80)
 
-___
+---
 
 ### factRegistryAddress
 
@@ -58,7 +58,7 @@ ___
 
 [gateway/gateway-request.ts:79](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L79)
 
-___
+---
 
 ### nonce
 
@@ -68,7 +68,7 @@ ___
 
 [gateway/gateway-request.ts:71](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L71)
 
-___
+---
 
 ### receiverPublicKey
 
@@ -78,7 +78,7 @@ ___
 
 [gateway/gateway-request.ts:75](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L75)
 
-___
+---
 
 ### receiverVaultId
 
@@ -88,7 +88,7 @@ ___
 
 [gateway/gateway-request.ts:76](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L76)
 
-___
+---
 
 ### senderPublicKey
 
@@ -98,7 +98,7 @@ ___
 
 [gateway/gateway-request.ts:72](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L72)
 
-___
+---
 
 ### senderVaultId
 
@@ -108,7 +108,7 @@ ___
 
 [gateway/gateway-request.ts:73](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L73)
 
-___
+---
 
 ### signature
 
@@ -118,7 +118,7 @@ ___
 
 [gateway/gateway-request.ts:78](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L78)
 
-___
+---
 
 ### token
 

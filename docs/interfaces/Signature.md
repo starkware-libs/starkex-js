@@ -19,7 +19,7 @@
 
 [gateway/gateway-types.ts:15](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-types.ts#L15)
 
-___
+---
 
 ### s
 

@@ -19,7 +19,7 @@
 
 [starkex-client.ts:17](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/starkex-client.ts#L17)
 
-___
+---
 
 ### endpoint
 

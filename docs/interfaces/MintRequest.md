@@ -21,7 +21,7 @@
 
 [gateway/gateway-request.ts:29](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L29)
 
-___
+---
 
 ### starkKey
 
@@ -31,7 +31,7 @@ ___
 
 [gateway/gateway-request.ts:27](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L27)
 
-___
+---
 
 ### tokenId
 
@@ -41,7 +41,7 @@ ___
 
 [gateway/gateway-request.ts:28](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L28)
 
-___
+---
 
 ### vaultId
 

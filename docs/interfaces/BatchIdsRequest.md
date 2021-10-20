@@ -20,7 +20,7 @@
 
 [feeder-gateway/feeder-gateway-request.ts:3](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/feeder-gateway/feeder-gateway-request.ts#L3)
 
-___
+---
 
 ### sequenceNumber
 
@@ -30,7 +30,7 @@ ___
 
 [feeder-gateway/feeder-gateway-request.ts:4](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/feeder-gateway/feeder-gateway-request.ts#L4)
 
-___
+---
 
 ### vaultRoot
 

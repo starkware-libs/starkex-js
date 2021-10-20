@@ -48,7 +48,7 @@ StarkEx JavaScript Client Library - v0.0.1
 
 [gateway/gateway-request.ts:8](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L8)
 
-___
+---
 
 ### StarkExCertsConfig
 
@@ -56,11 +56,11 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `ca?` | `string` |
+| Name   | Type     |
+| :----- | :------- |
+| `ca?`  | `string` |
 | `cert` | `string` |
-| `key` | `string` |
+| `key`  | `string` |
 
 #### Defined in
 

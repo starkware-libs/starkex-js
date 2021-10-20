@@ -28,7 +28,7 @@
 
 [gateway/gateway-request.ts:50](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L50)
 
-___
+---
 
 ### expirationTimestamp
 
@@ -38,7 +38,7 @@ ___
 
 [gateway/gateway-request.ts:57](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L57)
 
-___
+---
 
 ### feeInfoExchange
 
@@ -48,7 +48,7 @@ ___
 
 [gateway/gateway-request.ts:60](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L60)
 
-___
+---
 
 ### feeInfoUser
 
@@ -58,7 +58,7 @@ ___
 
 [gateway/gateway-request.ts:59](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L59)
 
-___
+---
 
 ### nonce
 
@@ -68,7 +68,7 @@ ___
 
 [gateway/gateway-request.ts:51](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L51)
 
-___
+---
 
 ### receiverPublicKey
 
@@ -78,7 +78,7 @@ ___
 
 [gateway/gateway-request.ts:55](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L55)
 
-___
+---
 
 ### receiverVaultId
 
@@ -88,7 +88,7 @@ ___
 
 [gateway/gateway-request.ts:56](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L56)
 
-___
+---
 
 ### senderPublicKey
 
@@ -98,7 +98,7 @@ ___
 
 [gateway/gateway-request.ts:52](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L52)
 
-___
+---
 
 ### senderVaultId
 
@@ -108,7 +108,7 @@ ___
 
 [gateway/gateway-request.ts:53](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L53)
 
-___
+---
 
 ### signature
 
@@ -118,7 +118,7 @@ ___
 
 [gateway/gateway-request.ts:58](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L58)
 
-___
+---
 
 ### token
 

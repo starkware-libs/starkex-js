@@ -19,7 +19,7 @@
 
 [gateway/gateway-request.ts:41](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/gateway/gateway-request.ts#L41)
 
-___
+---
 
 ### vaultId
 

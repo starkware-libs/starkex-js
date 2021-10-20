@@ -29,8 +29,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -49,8 +49,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -61,7 +61,7 @@ GatewayBase.constructor
 
 [feeder-gateway/feeder-gateway.ts:11](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/feeder-gateway/feeder-gateway.ts#L11)
 
-___
+---
 
 ### getBatchIds
 
@@ -69,8 +69,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
 | `request` | [`BatchIdsRequest`](../interfaces/BatchIdsRequest.md) |
 
 #### Returns
@@ -81,7 +81,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:17](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/feeder-gateway/feeder-gateway.ts#L17)
 
-___
+---
 
 ### getBatchInfo
 
@@ -89,8 +89,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -101,7 +101,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:24](https://github.com/starkware-industries/starkex-clientlib-js/blob/c509284/src/lib/feeder-gateway/feeder-gateway.ts#L24)
 
-___
+---
 
 ### getLastBatchId
 
