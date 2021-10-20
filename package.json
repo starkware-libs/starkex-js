@@ -102,5 +102,11 @@
     "webpack-dev-server": "^4.0.0-beta.0",
     "webpack-merge": "^5.8.0",
     "webpack-node-externals": "^3.0.0"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "bash ./scripts/docs-publish.bash",
+      "posttag": "yarn run pushTaggedRelease && yarn run publish"
+    }
   }
 }
