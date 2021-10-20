@@ -54,7 +54,7 @@
     "docs:watch": "typedoc --watch",
     "node": "node src/server.js",
     "pushTaggedRelease": "git push --follow-tags --no-verify origin master",
-    "publish": "yarn run build && npm publish --access public",
+    "publish": "bash ./scripts/npm-publish.bash",
     "test": "echo \"test script is not implemented\""
   },
   "husky": {
