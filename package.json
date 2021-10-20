@@ -22,6 +22,7 @@
     "docs:generate": "typedoc",
     "docs:watch": "typedoc --watch",
     "node": "node src/server.js",
+    "pushTaggedRelease": "git push --follow-tags --no-verify origin master",
     "publish": "echo \"publish script is not implemented\"",
     "test": "echo \"test script is not implemented\""
   },

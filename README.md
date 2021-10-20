@@ -4,7 +4,7 @@
 the [StarkEx API](https://starkware.co/starkex/api/)
 that can be used in both NodeJS and Browser environments.
 
-`starkex-clientlib-js` is written in [ECMAScript6], strongly typed and transpiled in ECMAScript5 using [TypeScript].
+`starkex-clientlib-js` is written in [ECMAScript6] and strongly typed and transpiled to ECMAScript5 using [TypeScript].
 
 [typescript]: https://www.typescriptlang.org/
 [ecmascript6]: https://github.com/ericdouglas/ES6-Learning#articles--tutorials
@@ -142,7 +142,7 @@ const response = await starkExAPI.gateway.deposit(request);
 console.log(response); // {"code": "TRANSACTION_PENDING"}
 ```
 
-Full API docs for `gateway` can be found [here](docs/classes/Gateway.html).
+Full API docs for `gateway` can be found [here](docs/classes/Gateway.md).
 
 #### `public feederGateway: FeederGateway`
 
@@ -155,7 +155,7 @@ const batchIds = await starkExAPI.feederGateway.getBatchIds();
 console.log(batchIds); // [10000, 12345]
 ```
 
-Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.html).
+Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.md).
 
 #### `public availabilityGateway: AvailabilityGateway`
 
@@ -169,8 +169,12 @@ const batchData = await starkExAPI.availabilityGateway.getBatchData(batchId);
 console.log(batchData); // {...}
 ```
 
-Full API docs for `availabilityGateway` can be found [here](docs/classes/AvailabilityGateway.html).
+Full API docs for `availabilityGateway` can be found [here](docs/classes/AvailabilityGateway.md).
 
 ---
 
 Note: All results will be exactly the **raw** response from the API.
+
+## API Docs
+
+[Click here](docs/README.md) for full API documentation.
