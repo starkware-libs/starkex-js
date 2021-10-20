@@ -30,6 +30,13 @@
   "directories": {
     "doc": "docs"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "lib",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -47,7 +54,7 @@
     "docs:watch": "typedoc --watch",
     "node": "node src/server.js",
     "pushTaggedRelease": "git push --follow-tags --no-verify origin master",
-    "publish": "echo \"publish script is not implemented\"",
+    "publish": "yarn run build && npm publish --access public",
     "test": "echo \"test script is not implemented\""
   },
   "husky": {
