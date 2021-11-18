@@ -92,13 +92,27 @@ class Gateway extends GatewayBase {
     request: GatewayRequest
   ) {
     const formattedRequest = camelToUnderscore(request);
-    return await this.makeRequest(GatewayServiceType.ADD_TRANSACTION, 'POST', {
-      tx: {
-        type,
-        ...formattedRequest
-      },
-      tx_id: await this.getFirstUnusedTxId()
-    });
+    const txId = await this.getFirstUnusedTxId();
+    try {
+      const response = await this.makeRequest(
+        GatewayServiceType.ADD_TRANSACTION,
+        'POST',
+        {
+          tx: {
+            type,
+            ...formattedRequest
+          },
+          tx_id: txId
+        }
+      );
+      return {
+        txId,
+        ...response
+      };
+    } catch (err) {
+      //TODO: error handling
+      return Promise.reject({...err, txId});
+    }
   }
 }
 

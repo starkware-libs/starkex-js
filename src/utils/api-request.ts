@@ -46,21 +46,17 @@ export const apiRequest = async ({
   headers?: Record<string, string>;
   certs?: StarkExCertsConfig;
 }): Promise<AxiosResponse> => {
-  try {
-    let httpsAgent;
-    if (certs) {
-      /* eslint-disable-next-line @typescript-eslint/no-var-requires */
-      const https = require('https');
-      httpsAgent = new https.Agent({rejectUnauthorized: false, ...certs});
-    }
-    return await axios({
-      url: path,
-      method,
-      data: data || {},
-      headers: Object.assign({}, DEFAULT_HEADERS, headers),
-      httpsAgent
-    });
-  } catch (error) {
-    return Promise.reject(error);
+  let httpsAgent;
+  if (certs) {
+    /* eslint-disable-next-line @typescript-eslint/no-var-requires */
+    const https = require('https');
+    httpsAgent = new https.Agent({rejectUnauthorized: false, ...certs});
   }
+  return axios({
+    url: path,
+    method,
+    data: data || {},
+    headers: Object.assign({}, DEFAULT_HEADERS, headers),
+    httpsAgent
+  });
 };

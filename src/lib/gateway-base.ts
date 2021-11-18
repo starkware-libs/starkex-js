@@ -43,8 +43,8 @@ class GatewayBase {
       this.logger.debug('Response success:', response.data);
       return response.data;
     } catch (err) {
-      this.logger.error('Error in response:', err.message);
-      return err;
+      this.logger.error('Error in response:', err.response?.data?.message);
+      return Promise.reject(err.response?.data);
     }
   }
 }

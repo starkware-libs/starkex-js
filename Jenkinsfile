@@ -26,7 +26,7 @@ pipeline {
 
                             sh label: 'run lint', script:
                             '''
-                            yarn run eslint
+                            yarn run lint
                             yarn run typecheck
                             '''
                         }
