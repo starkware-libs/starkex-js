@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway-request.ts:3](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/feeder-gateway/feeder-gateway-request.ts#L3)
+[feeder-gateway/feeder-gateway-request.ts:3](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/feeder-gateway/feeder-gateway-request.ts#L3)
 
 ---
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway-request.ts:4](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/feeder-gateway/feeder-gateway-request.ts#L4)
+[feeder-gateway/feeder-gateway-request.ts:4](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/feeder-gateway/feeder-gateway-request.ts#L4)
 
 ---
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway-request.ts:2](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/feeder-gateway/feeder-gateway-request.ts#L2)
+[feeder-gateway/feeder-gateway-request.ts:2](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/feeder-gateway/feeder-gateway-request.ts#L2)

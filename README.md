@@ -1,6 +1,6 @@
 <!-- logo -->
 <p align="center">
-  <img width='300' src="https://raw.githubusercontent.com/starkware-industries/starkex-clientlib-js/master/img/starkex.svg">
+  <img width='300' src="https://raw.githubusercontent.com/starkware-libs/starkex-js/master/img/starkex.svg">
 </p>
 
 <!-- tag line -->
@@ -9,17 +9,17 @@
 <!-- primary badges -->
 <p align="center">
   <a href="https://www.npmjs.com/package/starknet">
-    <img src='https://img.shields.io/github/package-json/v/starkware-industries/starkex-clientlib-js?label=npm' />
+    <img src='https://img.shields.io/github/package-json/v/starkware-libs/starkex-js?label=npm' />
   </a>
   <a href="https://starkware.co/">
     <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">
   </a>
 </p>
 
-`starkex-clientlib-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/)
+`starkex-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/)
 that can be used in both NodeJS and Browser environments.
 
-`starkex-clientlib-js` is written in [ECMAScript6] and strongly typed and transpiled to ECMAScript5 using [TypeScript].
+`starkex-js` is written in [ECMAScript6] and strongly typed and transpiled to ECMAScript5 using [TypeScript].
 
 [typescript]: https://www.typescriptlang.org/
 [ecmascript6]: https://github.com/ericdouglas/ES6-Learning#articles--tutorials
@@ -30,10 +30,10 @@ _This package is Typescript ready_
 
 ```bash
 // using npm
-npm i starkex-clientlib-js
+npm i starkex-js
 
 // using yarn
-yarn add starkex-clientlib-js
+yarn add starkex-js
 ```
 
 ## How to use it
@@ -61,11 +61,11 @@ In this scenario, the library will be bound to the global window object with the
 If you have a toolchain available you can use an `import` statement.
 
 ```ts
-import StarkExAPI from 'starkex-clientlib-js/browser';
+import StarkExAPI from 'starkex-js/browser';
 ```
 
 ```js
-const StarkExAPI = require('starkex-clientlib-js/browser');
+const StarkExAPI = require('starkex-js/browser');
 ```
 
 _Because is a default export, here you can import it with what name you want_
@@ -75,11 +75,11 @@ _Because is a default export, here you can import it with what name you want_
 For `NodeJS` environment, just replace `browser` with `node`
 
 ```ts
-import StarkExAPI from 'starkex-clientlib-js/node';
+import StarkExAPI from 'starkex-js/node';
 ```
 
 ```js
-const StarkExAPI = require('starkex-clientlib-js/node');
+const StarkExAPI = require('starkex-js/node');
 ```
 
 ## Usage

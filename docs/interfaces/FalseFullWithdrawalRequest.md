@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:46](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L46)
+[gateway/gateway-request.ts:46](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L46)
 
 ---
 
@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:45](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L45)
+[gateway/gateway-request.ts:45](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L45)

@@ -47,7 +47,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:19](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L19)
+[gateway/gateway.ts:19](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L19)
 
 ## Methods
 
@@ -67,7 +67,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:63](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L63)
+[gateway/gateway.ts:63](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L63)
 
 ---
 
@@ -87,7 +87,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:45](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L45)
+[gateway/gateway.ts:45](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L45)
 
 ---
 
@@ -107,7 +107,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:81](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L81)
+[gateway/gateway.ts:81](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L81)
 
 ---
 
@@ -127,7 +127,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:72](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L72)
+[gateway/gateway.ts:72](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L72)
 
 ---
 
@@ -141,7 +141,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:33](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L33)
+[gateway/gateway.ts:33](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L33)
 
 ---
 
@@ -155,7 +155,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:29](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L29)
+[gateway/gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L29)
 
 ---
 
@@ -175,7 +175,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:23](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L23)
+[gateway/gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L23)
 
 ---
 
@@ -189,7 +189,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:37](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L37)
+[gateway/gateway.ts:37](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L37)
 
 ---
 
@@ -209,7 +209,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:49](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L49)
+[gateway/gateway.ts:49](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L49)
 
 ---
 
@@ -229,7 +229,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:53](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L53)
+[gateway/gateway.ts:53](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L53)
 
 ---
 
@@ -249,7 +249,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:59](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L59)
+[gateway/gateway.ts:59](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L59)
 
 ---
 
@@ -269,4 +269,4 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:41](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L41)
+[gateway/gateway.ts:41](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway.ts#L41)
