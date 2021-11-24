@@ -1,6 +1,6 @@
 <!-- logo -->
 <p align="center">
-  <img width='300' src="https://raw.githubusercontent.com/starkware-industries/starkex-clientlib-js/master/img/starkex.svg">
+  <img width='300' src="https://raw.githubusercontent.com/starkware-libs/starkex-js/master/img/starkex.svg">
 </p>
 
 <!-- tag line -->
@@ -9,7 +9,7 @@
 <!-- primary badges -->
 <p align="center">
   <a href="https://www.npmjs.com/package/starknet">
-    <img src='https://img.shields.io/github/package-json/v/starkware-industries/starkex-clientlib-js?label=npm' />
+    <img src='https://img.shields.io/github/package-json/v/starkware-libs/starkex-js?label=npm' />
   </a>
   <a href="https://starkware.co/">
     <img src="https://img.shields.io/badge/powered_by-StarkWare-navy">

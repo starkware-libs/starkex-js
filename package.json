@@ -14,13 +14,13 @@
     "blockchain",
     "etherium"
   ],
-  "homepage": "https://github.com/starkware-industries/starkex-clientlib-js#readme",
+  "homepage": "https://github.com/starkware-libs/starkex-js#readme",
   "bugs": {
-    "url": "https://github.com/starkware-industries/starkex-clientlib-js/issues"
+    "url": "https://github.com/starkware-libs/starkex-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starkware-industries/starkex-clientlib-js.git"
+    "url": "git+https://github.com/starkware-libs/starkex-js.git"
   },
   "license": "ISC",
   "author": "Dan Ziv",

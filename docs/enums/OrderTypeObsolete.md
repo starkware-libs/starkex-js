@@ -17,9 +17,9 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:32](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-types.ts#L32)
+[gateway/gateway-types.ts:32](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-types.ts#L32)
 
----
+___
 
 ### TRANSFER
 
@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:33](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-types.ts#L33)
+[gateway/gateway-types.ts:33](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-types.ts#L33)

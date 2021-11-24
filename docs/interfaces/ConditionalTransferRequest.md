@@ -26,9 +26,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:70](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L70)
+[gateway/gateway-request.ts:70](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L70)
 
----
+___
 
 ### expirationTimestamp
 
@@ -36,9 +36,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:77](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L77)
+[gateway/gateway-request.ts:77](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L77)
 
----
+___
 
 ### fact
 
@@ -46,9 +46,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:80](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L80)
+[gateway/gateway-request.ts:80](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L80)
 
----
+___
 
 ### factRegistryAddress
 
@@ -56,9 +56,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:79](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L79)
+[gateway/gateway-request.ts:79](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L79)
 
----
+___
 
 ### nonce
 
@@ -66,9 +66,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:71](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L71)
+[gateway/gateway-request.ts:71](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L71)
 
----
+___
 
 ### receiverPublicKey
 
@@ -76,9 +76,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:75](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L75)
+[gateway/gateway-request.ts:75](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L75)
 
----
+___
 
 ### receiverVaultId
 
@@ -86,9 +86,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:76](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L76)
+[gateway/gateway-request.ts:76](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L76)
 
----
+___
 
 ### senderPublicKey
 
@@ -96,9 +96,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:72](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L72)
+[gateway/gateway-request.ts:72](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L72)
 
----
+___
 
 ### senderVaultId
 
@@ -106,9 +106,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:73](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L73)
+[gateway/gateway-request.ts:73](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L73)
 
----
+___
 
 ### signature
 
@@ -116,9 +116,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:78](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L78)
+[gateway/gateway-request.ts:78](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L78)
 
----
+___
 
 ### token
 
@@ -126,4 +126,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:74](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L74)
+[gateway/gateway-request.ts:74](https://github.com/starkware-libs/starkex-js/blob/cb9862d/src/lib/gateway/gateway-request.ts#L74)
