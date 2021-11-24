@@ -22,13 +22,13 @@
 
 #### Parameters
 
-| Name     | Type                                                          |
-| :------- | :------------------------------------------------------------ |
+| Name | Type |
+| :------ | :------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Defined in
 
-[starkex-client.ts:8](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/starkex-client.ts#L8)
+[starkex-client.ts:8](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L8)
 
 ## Properties
 
@@ -38,9 +38,9 @@
 
 #### Defined in
 
-[starkex-client.ts:6](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/starkex-client.ts#L6)
+[starkex-client.ts:6](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L6)
 
----
+___
 
 ### feederGateway
 
@@ -48,9 +48,9 @@
 
 #### Defined in
 
-[starkex-client.ts:5](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/starkex-client.ts#L5)
+[starkex-client.ts:5](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L5)
 
----
+___
 
 ### gateway
 
@@ -58,4 +58,4 @@
 
 #### Defined in
 
-[starkex-client.ts:4](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/starkex-client.ts#L4)
+[starkex-client.ts:4](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L4)

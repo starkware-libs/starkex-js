@@ -19,9 +19,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:29](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L29)
+[gateway/gateway-request.ts:29](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L29)
 
----
+___
 
 ### starkKey
 
@@ -29,9 +29,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:27](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L27)
+[gateway/gateway-request.ts:27](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L27)
 
----
+___
 
 ### tokenId
 
@@ -39,9 +39,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:28](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L28)
+[gateway/gateway-request.ts:28](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L28)
 
----
+___
 
 ### vaultId
 
@@ -49,4 +49,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:26](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L26)
+[gateway/gateway-request.ts:26](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L26)

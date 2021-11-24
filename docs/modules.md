@@ -46,9 +46,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:8](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/gateway/gateway-request.ts#L8)
+[gateway/gateway-request.ts:8](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L8)
 
----
+___
 
 ### StarkExCertsConfig
 
@@ -56,12 +56,12 @@
 
 #### Type declaration
 
-| Name   | Type     |
-| :----- | :------- |
-| `ca?`  | `string` |
+| Name | Type |
+| :------ | :------ |
+| `ca?` | `string` |
 | `cert` | `string` |
-| `key`  | `string` |
+| `key` | `string` |
 
 #### Defined in
 
-[starkex-client.ts:20](https://github.com/starkware-libs/starkex-js/blob/beb0349/src/lib/starkex-client.ts#L20)
+[starkex-client.ts:20](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L20)
