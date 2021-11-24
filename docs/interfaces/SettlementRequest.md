@@ -18,9 +18,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:65](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L65)
+[gateway/gateway-request.ts:65](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L65)
 
----
+___
 
 ### partyBOrder
 
@@ -28,9 +28,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:66](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L66)
+[gateway/gateway-request.ts:66](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L66)
 
----
+___
 
 ### settlementInfo
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:64](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway-request.ts#L64)
+[gateway/gateway-request.ts:64](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L64)

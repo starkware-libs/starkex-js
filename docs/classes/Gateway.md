@@ -37,8 +37,8 @@
 
 #### Parameters
 
-| Name     | Type                                                          |
-| :------- | :------------------------------------------------------------ |
+| Name | Type |
+| :------ | :------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -47,7 +47,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:19](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L19)
+[gateway/gateway.ts:19](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L19)
 
 ## Methods
 
@@ -57,8 +57,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                                        |
-| :-------- | :-------------------------------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`ConditionalTransferRequest`](../interfaces/ConditionalTransferRequest.md) |
 
 #### Returns
@@ -67,9 +67,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:63](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L63)
+[gateway/gateway.ts:63](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L63)
 
----
+___
 
 ### deposit
 
@@ -77,8 +77,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                |
-| :-------- | :-------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`DepositRequest`](../interfaces/DepositRequest.md) |
 
 #### Returns
@@ -87,9 +87,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:45](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L45)
+[gateway/gateway.ts:45](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L45)
 
----
+___
 
 ### falseFullWithdrawal
 
@@ -97,8 +97,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                                        |
-| :-------- | :-------------------------------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`FalseFullWithdrawalRequest`](../interfaces/FalseFullWithdrawalRequest.md) |
 
 #### Returns
@@ -107,9 +107,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:81](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L81)
+[gateway/gateway.ts:81](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L81)
 
----
+___
 
 ### fullWithdrawal
 
@@ -117,8 +117,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                              |
-| :-------- | :---------------------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`FullWithdrawalRequest`](../interfaces/FullWithdrawalRequest.md) |
 
 #### Returns
@@ -127,9 +127,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:72](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L72)
+[gateway/gateway.ts:72](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L72)
 
----
+___
 
 ### getFirstUnusedTxId
 
@@ -141,9 +141,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:33](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L33)
+[gateway/gateway.ts:33](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L33)
 
----
+___
 
 ### getStarkDexAddress
 
@@ -155,9 +155,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:29](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L29)
+[gateway/gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L29)
 
----
+___
 
 ### getTransaction
 
@@ -165,8 +165,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name   | Type     |
-| :----- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `txId` | `number` |
 
 #### Returns
@@ -175,9 +175,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:23](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L23)
+[gateway/gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L23)
 
----
+___
 
 ### isAlive
 
@@ -189,9 +189,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:37](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L37)
+[gateway/gateway.ts:37](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L37)
 
----
+___
 
 ### mint
 
@@ -199,8 +199,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                          |
-| :-------- | :-------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`MintRequest`](../interfaces/MintRequest.md) |
 
 #### Returns
@@ -209,9 +209,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:49](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L49)
+[gateway/gateway.ts:49](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L49)
 
----
+___
 
 ### settlement
 
@@ -219,8 +219,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                      |
-| :-------- | :-------------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`SettlementRequest`](../interfaces/SettlementRequest.md) |
 
 #### Returns
@@ -229,9 +229,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:53](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L53)
+[gateway/gateway.ts:53](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L53)
 
----
+___
 
 ### transfer
 
@@ -239,8 +239,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                  |
-| :-------- | :---------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`TransferRequest`](../interfaces/TransferRequest.md) |
 
 #### Returns
@@ -249,9 +249,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:59](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L59)
+[gateway/gateway.ts:59](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L59)
 
----
+___
 
 ### withdrawal
 
@@ -259,8 +259,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name      | Type                                                  |
-| :-------- | :---------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `request` | [`WithdrawRequest`](../interfaces/WithdrawRequest.md) |
 
 #### Returns
@@ -269,4 +269,4 @@ GatewayBase.constructor
 
 #### Defined in
 
-[gateway/gateway.ts:41](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/gateway/gateway.ts#L41)
+[gateway/gateway.ts:41](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway.ts#L41)

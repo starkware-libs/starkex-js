@@ -19,9 +19,9 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/availability-gateway/availability-gateway-types.ts#L2)
+[availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway-types.ts#L2)
 
----
+___
 
 ### claimHash
 
@@ -29,9 +29,9 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/availability-gateway/availability-gateway-types.ts#L5)
+[availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway-types.ts#L5)
 
----
+___
 
 ### memberKey
 
@@ -39,9 +39,9 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/availability-gateway/availability-gateway-types.ts#L4)
+[availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway-types.ts#L4)
 
----
+___
 
 ### signature
 
@@ -49,4 +49,4 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:3](https://github.com/starkware-industries/starkex-clientlib-js/blob/ade8477/src/lib/availability-gateway/availability-gateway-types.ts#L3)
+[availability-gateway/availability-gateway-types.ts:3](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway-types.ts#L3)

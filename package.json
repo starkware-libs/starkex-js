@@ -1,7 +1,7 @@
 {
-  "name": "@starkware-industries/starkex-clientlib-js",
+  "name": "@starkware-industries/starkex-js",
   "version": "0.0.3",
-  "description": "`starkex-clientlib-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/) that can be used in both NodeJS and Browser environments.",
+  "description": "`starkex-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/) that can be used in both NodeJS and Browser environments.",
   "keywords": [
     "starkware",
     "starkex",
@@ -14,13 +14,13 @@
     "blockchain",
     "etherium"
   ],
-  "homepage": "https://github.com/starkware-industries/starkex-clientlib-js#readme",
+  "homepage": "https://github.com/starkware-libs/starkex-js#readme",
   "bugs": {
-    "url": "https://github.com/starkware-industries/starkex-clientlib-js/issues"
+    "url": "https://github.com/starkware-libs/starkex-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starkware-industries/starkex-clientlib-js.git"
+    "url": "git+https://github.com/starkware-libs/starkex-js.git"
   },
   "license": "ISC",
   "author": "Dan Ziv",
