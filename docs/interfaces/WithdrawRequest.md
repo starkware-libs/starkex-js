@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / WithdrawRequest
+[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / WithdrawRequest
 
 # Interface: WithdrawRequest
 
@@ -19,9 +19,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:36](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L36)
+[gateway/gateway-request.ts:36](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L36)
 
-___
+---
 
 ### starkKey
 
@@ -29,9 +29,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:34](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L34)
+[gateway/gateway-request.ts:34](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L34)
 
-___
+---
 
 ### tokenId
 
@@ -39,9 +39,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:35](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L35)
+[gateway/gateway-request.ts:35](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L35)
 
-___
+---
 
 ### vaultId
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:33](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L33)
+[gateway/gateway-request.ts:33](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L33)

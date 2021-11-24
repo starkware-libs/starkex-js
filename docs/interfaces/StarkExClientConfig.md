@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / StarkExClientConfig
+[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / StarkExClientConfig
 
 # Interface: StarkExClientConfig
 
@@ -17,9 +17,9 @@
 
 #### Defined in
 
-[starkex-client.ts:17](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L17)
+[starkex-client.ts:17](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/starkex-client.ts#L17)
 
-___
+---
 
 ### endpoint
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[starkex-client.ts:16](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/starkex-client.ts#L16)
+[starkex-client.ts:16](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/starkex-client.ts#L16)

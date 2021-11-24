@@ -1,4 +1,4 @@
-StarkEx JavaScript Client Library - v0.0.3 / [Exports](modules.md)
+StarkEx JavaScript Client Library - v0.0.4 / [Exports](modules.md)
 
 <!-- logo -->
 <p align="center">
@@ -44,7 +44,7 @@ The library is a default export.
 
 ### Browser
 
-To use it browser, you need to use the code from `browser.js` file.]()
+To use it browser, you need to use the code from `browser.js` file.
 
 ```html
 <script src="path-to-local-library/browser.js"></script>
@@ -156,7 +156,7 @@ const request = {
   vaultId: 1654615998
 };
 const response = await starkExAPI.gateway.deposit(request);
-console.log(response); // {"code": "TRANSACTION_PENDING"}
+console.log(response); // {txId: 3921, "code": "TRANSACTION_PENDING"}
 ```
 
 Full API docs for `gateway` can be found [here](docs/classes/Gateway.md).
@@ -195,4 +195,4 @@ Note: All results will be exactly the **raw** response from the API.
 
 ## API Docs
 
-[Click here](docs/README.md) for full API documentation.
+[Click here](docs/modules.md) for full API documentation.

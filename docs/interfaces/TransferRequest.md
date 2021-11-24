@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / TransferRequest
+[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / TransferRequest
 
 # Interface: TransferRequest
 
@@ -26,9 +26,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L50)
+[gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L50)
 
-___
+---
 
 ### expirationTimestamp
 
@@ -36,9 +36,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:57](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L57)
+[gateway/gateway-request.ts:57](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L57)
 
-___
+---
 
 ### feeInfoExchange
 
@@ -46,9 +46,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:60](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L60)
+[gateway/gateway-request.ts:60](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L60)
 
-___
+---
 
 ### feeInfoUser
 
@@ -56,9 +56,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:59](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L59)
+[gateway/gateway-request.ts:59](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L59)
 
-___
+---
 
 ### nonce
 
@@ -66,9 +66,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L51)
+[gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L51)
 
-___
+---
 
 ### receiverPublicKey
 
@@ -76,9 +76,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:55](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L55)
+[gateway/gateway-request.ts:55](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L55)
 
-___
+---
 
 ### receiverVaultId
 
@@ -86,9 +86,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:56](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L56)
+[gateway/gateway-request.ts:56](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L56)
 
-___
+---
 
 ### senderPublicKey
 
@@ -96,9 +96,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L52)
+[gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L52)
 
-___
+---
 
 ### senderVaultId
 
@@ -106,9 +106,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:53](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L53)
+[gateway/gateway-request.ts:53](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L53)
 
-___
+---
 
 ### signature
 
@@ -116,9 +116,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:58](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L58)
+[gateway/gateway-request.ts:58](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L58)
 
-___
+---
 
 ### token
 
@@ -126,4 +126,4 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:54](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L54)
+[gateway/gateway-request.ts:54](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L54)

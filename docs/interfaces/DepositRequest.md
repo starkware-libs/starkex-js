@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / DepositRequest
+[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / DepositRequest
 
 # Interface: DepositRequest
 
@@ -19,9 +19,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:22](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L22)
+[gateway/gateway-request.ts:22](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L22)
 
-___
+---
 
 ### starkKey
 
@@ -29,9 +29,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L20)
+[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L20)
 
-___
+---
 
 ### tokenId
 
@@ -39,9 +39,9 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L21)
+[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L21)
 
-___
+---
 
 ### vaultId
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[gateway/gateway-request.ts:19](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/gateway/gateway-request.ts#L19)
+[gateway/gateway-request.ts:19](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L19)

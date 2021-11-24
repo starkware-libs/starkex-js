@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / FeederGateway
+[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / FeederGateway
 
 # Class: FeederGateway
 
@@ -29,8 +29,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -39,7 +39,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:7](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/feeder-gateway/feeder-gateway.ts#L7)
+[feeder-gateway/feeder-gateway.ts:7](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/feeder-gateway/feeder-gateway.ts#L7)
 
 ## Methods
 
@@ -49,8 +49,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -59,9 +59,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:11](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/feeder-gateway/feeder-gateway.ts#L11)
+[feeder-gateway/feeder-gateway.ts:11](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/feeder-gateway/feeder-gateway.ts#L11)
 
-___
+---
 
 ### getBatchIds
 
@@ -69,8 +69,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
 | `request` | [`BatchIdsRequest`](../interfaces/BatchIdsRequest.md) |
 
 #### Returns
@@ -79,9 +79,9 @@ ___
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:17](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/feeder-gateway/feeder-gateway.ts#L17)
+[feeder-gateway/feeder-gateway.ts:17](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/feeder-gateway/feeder-gateway.ts#L17)
 
-___
+---
 
 ### getBatchInfo
 
@@ -89,8 +89,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -99,9 +99,9 @@ ___
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:24](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/feeder-gateway/feeder-gateway.ts#L24)
+[feeder-gateway/feeder-gateway.ts:24](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/feeder-gateway/feeder-gateway.ts#L24)
 
-___
+---
 
 ### getLastBatchId
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:30](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/feeder-gateway/feeder-gateway.ts#L30)
+[feeder-gateway/feeder-gateway.ts:30](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/feeder-gateway/feeder-gateway.ts#L30)

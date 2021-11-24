@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.3](../README.md) / [Exports](../modules.md) / AvailabilityGateway
+[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / AvailabilityGateway
 
 # Class: AvailabilityGateway
 
@@ -27,8 +27,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -37,7 +37,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway.ts#L8)
+[availability-gateway/availability-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/availability-gateway/availability-gateway.ts#L8)
 
 ## Methods
 
@@ -47,8 +47,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type                                                        |
+| :----- | :---------------------------------------------------------- |
 | `data` | [`CommitteeSignature`](../interfaces/CommitteeSignature.md) |
 
 #### Returns
@@ -57,9 +57,9 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:12](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway.ts#L12)
+[availability-gateway/availability-gateway.ts:12](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/availability-gateway/availability-gateway.ts#L12)
 
-___
+---
 
 ### getBatchData
 
@@ -67,8 +67,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -77,4 +77,4 @@ ___
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:21](https://github.com/starkware-libs/starkex-js/blob/37187cc/src/lib/availability-gateway/availability-gateway.ts#L21)
+[availability-gateway/availability-gateway.ts:21](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/availability-gateway/availability-gateway.ts#L21)
