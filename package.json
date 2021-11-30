@@ -53,6 +53,7 @@
     "docs:generate": "typedoc",
     "docs:watch": "typedoc --watch",
     "node": "node src/server.js",
+    "pre-release": "standard-version --prerelease --skip.changelog",
     "pushTaggedRelease": "git push --follow-tags --no-verify origin master",
     "publish": "bash ./scripts/npm-publish.bash",
     "test": "echo \"test script is not implemented\""
