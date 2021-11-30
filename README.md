@@ -30,10 +30,10 @@ _This package is Typescript ready_
 
 ```bash
 // using npm
-npm i starkex-js
+npm i @starkware-industries/starkex-js
 
 // using yarn
-yarn add starkex-js
+yarn add @starkware-industries/starkex-js
 ```
 
 ## How to use it
@@ -61,11 +61,11 @@ In this scenario, the library will be bound to the global window object with the
 If you have a toolchain available you can use an `import` statement.
 
 ```ts
-import StarkExAPI from 'starkex-js/browser';
+import StarkExAPI from '@starkware-industries/starkex-js/browser';
 ```
 
 ```js
-const StarkExAPI = require('starkex-js/browser');
+const StarkExAPI = require('@starkware-industries/starkex-js/browser');
 ```
 
 _Because is a default export, here you can import it with what name you want_
@@ -79,7 +79,7 @@ import StarkExAPI from 'starkex-js/node';
 ```
 
 ```js
-const StarkExAPI = require('starkex-js/node');
+const StarkExAPI = require('@starkware-industries/starkex-js/node');
 ```
 
 ## Usage
