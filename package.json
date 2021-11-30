@@ -105,8 +105,7 @@
   },
   "standard-version": {
     "scripts": {
-      "postbump": "bash ./scripts/docs-publish.bash",
-      "posttag": "yarn run pushTaggedRelease && yarn run publish"
+      "postbump": "bash ./scripts/docs-publish.bash"
     }
   }
 }
