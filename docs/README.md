@@ -13,7 +13,7 @@ StarkEx JavaScript Client Library - v0.0.5 / [Exports](modules.md)
   <a href="https://www.typescriptlang.org/">
     <img src='https://badges.aleen42.com/src/typescript.svg' />
   </a> 
-  <a href="https://www.npmjs.com/package/starknet">
+  <a href="https://www.npmjs.com/package/@starkware-industries/starkex-js">
     <img src='https://img.shields.io/github/package-json/v/starkware-libs/starkex-js?label=npm' />
   </a>
   <a href="https://starkware.co/">
