@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / MintRequest
+[StarkEx JavaScript Client Library - v0.0.5](../README.md) / [Exports](../modules.md) / MintRequest
 
 # Interface: MintRequest
 
@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:29](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L29)
+[gateway/gateway-request.ts:29](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/gateway/gateway-request.ts#L29)
 
 ---
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:27](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L27)
+[gateway/gateway-request.ts:27](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/gateway/gateway-request.ts#L27)
 
 ---
 
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:28](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L28)
+[gateway/gateway-request.ts:28](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/gateway/gateway-request.ts#L28)
 
 ---
 
@@ -49,4 +49,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:26](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L26)
+[gateway/gateway-request.ts:26](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/gateway/gateway-request.ts#L26)
