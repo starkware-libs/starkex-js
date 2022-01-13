@@ -16,6 +16,7 @@ type GatewayRequest =
   | ConditionalTransferRequest;
 
 interface DepositRequest {
+  txId?: number;
   vaultId: number;
   starkKey: string;
   tokenId: string;
@@ -23,6 +24,7 @@ interface DepositRequest {
 }
 
 interface MintRequest {
+  txId?: number;
   vaultId: number;
   starkKey: string;
   tokenId: string;
@@ -30,6 +32,7 @@ interface MintRequest {
 }
 
 interface WithdrawRequest {
+  txId?: number;
   vaultId: number;
   starkKey: string;
   tokenId: string;
@@ -37,16 +40,19 @@ interface WithdrawRequest {
 }
 
 interface FullWithdrawalRequest {
+  txId?: number;
   vaultId: number;
   starkKey: string;
 }
 
 interface FalseFullWithdrawalRequest {
+  txId?: number;
   vaultId: number;
   starkKey: string;
 }
 
 interface TransferRequest {
+  txId?: number;
   amount: number;
   nonce: number;
   senderPublicKey: string;
@@ -61,12 +67,14 @@ interface TransferRequest {
 }
 
 interface SettlementRequest {
+  txId?: number;
   settlementInfo: SettlementInfoRequest;
   partyAOrder: OrderRequest;
   partyBOrder: OrderRequest;
 }
 
 interface ConditionalTransferRequest {
+  txId?: number;
   amount: number;
   nonce: number;
   senderPublicKey: string;

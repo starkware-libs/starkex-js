@@ -91,8 +91,9 @@ class Gateway extends GatewayBase {
     type: GatewayRequestType,
     request: GatewayRequest
   ) {
+    const txId = request.txId ?? (await this.getFirstUnusedTxId());
+    delete request.txId;
     const formattedRequest = camelToUnderscore(request);
-    const txId = await this.getFirstUnusedTxId();
     try {
       const response = await this.makeRequest(
         GatewayServiceType.ADD_TRANSACTION,
