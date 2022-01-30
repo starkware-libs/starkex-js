@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.4](https://github.com/starkware-libs/starkex-js/compare/v0.0.3...v0.0.4) (2021-11-24)
 
-
 ### Bug Fixes
 
-* **gateway:** caller is not aware of the sent txId ([#10](https://github.com/starkware-libs/starkex-js/issues/10)) ([cb9862d](https://github.com/starkware-libs/starkex-js/commit/cb9862d687998deec928b8068bd8d1e69c0a90f4))
+- **gateway:** caller is not aware of the sent txId ([#10](https://github.com/starkware-libs/starkex-js/issues/10)) ([cb9862d](https://github.com/starkware-libs/starkex-js/commit/cb9862d687998deec928b8068bd8d1e69c0a90f4))
 
 ### [0.0.3](https://github.com/starkware-libs/starkex-js/compare/v0.0.2...v0.0.3) (2021-10-20)
 

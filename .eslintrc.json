@@ -4,11 +4,13 @@
     "require": true,
     "process": true,
     "module": true,
+    "chai": true,
     "__dirname": true
   },
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "mocha": true
   },
   "parser": "babel-eslint",
   "parserOptions": {

@@ -3,14 +3,10 @@ import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {
   ConditionalTransferRequest,
-  DepositRequest,
-  FalseFullWithdrawalRequest,
-  FullWithdrawalRequest,
   GatewayRequest,
-  MintRequest,
   SettlementRequest,
-  TransferRequest,
-  WithdrawRequest
+  TransactionRequest,
+  TransferRequest
 } from './gateway-request';
 import {GatewayRequestType} from './gateway-request-type';
 import {GatewayServiceType} from './gateway-service-type';
@@ -38,62 +34,63 @@ class Gateway extends GatewayBase {
     return this.makeRequest(GatewayServiceType.IS_ALIVE);
   }
 
-  public withdrawal(request: WithdrawRequest): Promise<Record<string, string>> {
-    return this._addTransaction(GatewayRequestType.WITHDRAWAL_REQUEST, request);
+  public withdrawal(
+    request: TransactionRequest
+  ): Promise<Record<string, string>> {
+    return this.addTransaction(GatewayRequestType.WITHDRAWAL_REQUEST, request);
   }
 
-  public deposit(request: DepositRequest): Promise<Record<string, string>> {
-    return this._addTransaction(GatewayRequestType.DEPOSIT_REQUEST, request);
+  public deposit(request: TransactionRequest): Promise<Record<string, string>> {
+    return this.addTransaction(GatewayRequestType.DEPOSIT_REQUEST, request);
   }
 
-  public mint(request: MintRequest): Promise<Record<string, string>> {
-    return this._addTransaction(GatewayRequestType.MINT_REQUEST, request);
+  public mint(request: TransactionRequest): Promise<Record<string, string>> {
+    return this.addTransaction(GatewayRequestType.MINT_REQUEST, request);
   }
 
   public settlement(
     request: SettlementRequest
   ): Promise<Record<string, string>> {
-    return this._addTransaction(GatewayRequestType.SETTLEMENT_REQUEST, request);
+    return this.addTransaction(GatewayRequestType.SETTLEMENT_REQUEST, request);
   }
 
   public transfer(request: TransferRequest): Promise<Record<string, string>> {
-    return this._addTransaction(GatewayRequestType.TRANSFER_REQUEST, request);
+    return this.addTransaction(GatewayRequestType.TRANSFER_REQUEST, request);
   }
 
   public conditionalTransfer(
     request: ConditionalTransferRequest
   ): Promise<Record<string, string>> {
-    return this._addTransaction(
+    return this.addTransaction(
       GatewayRequestType.CONDITIONAL_TRANSFER_REQUEST,
       request
     );
   }
 
   public fullWithdrawal(
-    request: FullWithdrawalRequest
+    request: TransactionRequest
   ): Promise<Record<string, string>> {
-    return this._addTransaction(
+    return this.addTransaction(
       GatewayRequestType.FULL_WITHDRAWAL_REQUEST,
       request
     );
   }
 
   public falseFullWithdrawal(
-    request: FalseFullWithdrawalRequest
+    request: TransactionRequest
   ): Promise<Record<string, string>> {
-    return this._addTransaction(
+    return this.addTransaction(
       GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST,
       request
     );
   }
 
-  private async _addTransaction(
+  private async addTransaction(
     type: GatewayRequestType,
     request: GatewayRequest
   ) {
-    const txId = request.txId ?? (await this.getFirstUnusedTxId());
-    delete request.txId;
-    const formattedRequest = camelToUnderscore(request);
+    const {txId, ...nativeRequest} = request;
+    const formattedRequest = camelToUnderscore(nativeRequest);
     try {
       const response = await this.makeRequest(
         GatewayServiceType.ADD_TRANSACTION,

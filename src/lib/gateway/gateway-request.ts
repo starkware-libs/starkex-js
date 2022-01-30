@@ -6,53 +6,23 @@ import {
 } from './gateway-types';
 
 type GatewayRequest =
-  | DepositRequest
-  | MintRequest
-  | WithdrawRequest
-  | FullWithdrawalRequest
-  | FalseFullWithdrawalRequest
+  | TransactionRequest
   | TransferRequest
   | SettlementRequest
   | ConditionalTransferRequest;
 
-interface DepositRequest {
-  txId?: number;
-  vaultId: number;
-  starkKey: string;
-  tokenId: string;
-  amount: number;
+interface Request {
+  txId: number;
 }
 
-interface MintRequest {
-  txId?: number;
+interface TransactionRequest extends Request {
   vaultId: number;
   starkKey: string;
-  tokenId: string;
-  amount: number;
+  tokenId?: string;
+  amount?: number;
 }
 
-interface WithdrawRequest {
-  txId?: number;
-  vaultId: number;
-  starkKey: string;
-  tokenId: string;
-  amount: number;
-}
-
-interface FullWithdrawalRequest {
-  txId?: number;
-  vaultId: number;
-  starkKey: string;
-}
-
-interface FalseFullWithdrawalRequest {
-  txId?: number;
-  vaultId: number;
-  starkKey: string;
-}
-
-interface TransferRequest {
-  txId?: number;
+interface TransferRequest extends Request {
   amount: number;
   nonce: number;
   senderPublicKey: string;
@@ -66,26 +36,15 @@ interface TransferRequest {
   feeInfoExchange?: FeeInfoExchangeRequest;
 }
 
-interface SettlementRequest {
-  txId?: number;
+interface ConditionalTransferRequest extends TransferRequest {
+  factRegistryAddress: string;
+  fact: string;
+}
+
+interface SettlementRequest extends Request {
   settlementInfo: SettlementInfoRequest;
   partyAOrder: OrderRequest;
   partyBOrder: OrderRequest;
-}
-
-interface ConditionalTransferRequest {
-  txId?: number;
-  amount: number;
-  nonce: number;
-  senderPublicKey: string;
-  senderVaultId: number;
-  token: string;
-  receiverPublicKey: string;
-  receiverVaultId: number;
-  expirationTimestamp: number;
-  signature: Signature;
-  factRegistryAddress: string;
-  fact: string;
 }
 
 interface SettlementInfoRequest {
@@ -97,11 +56,7 @@ interface SettlementInfoRequest {
 
 export {
   GatewayRequest,
-  DepositRequest,
-  MintRequest,
-  WithdrawRequest,
-  FullWithdrawalRequest,
-  FalseFullWithdrawalRequest,
+  TransactionRequest,
   TransferRequest,
   SettlementRequest,
   ConditionalTransferRequest
