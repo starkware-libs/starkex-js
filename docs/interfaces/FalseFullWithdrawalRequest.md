@@ -4,6 +4,8 @@
 
 ## Hierarchy
 
+- `Request`
+
 - `WithVault`
 
   ↳ **`FalseFullWithdrawalRequest`**
@@ -24,7 +26,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:38](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L38)
+[gateway/gateway-request.ts:42](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/gateway/gateway-request.ts#L42)
 
 ---
 
@@ -34,11 +36,11 @@
 
 #### Inherited from
 
-WithVault.txId
+Request.txId
 
 #### Defined in
 
-[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L17)
+[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/gateway/gateway-request.ts#L17)
 
 ---
 
@@ -52,4 +54,4 @@ WithVault.vaultId
 
 #### Defined in
 
-[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L21)
+[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/gateway/gateway-request.ts#L21)

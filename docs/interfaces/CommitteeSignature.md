@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/availability-gateway/availability-gateway-types.ts#L2)
+[availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway-types.ts#L2)
 
 ---
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/availability-gateway/availability-gateway-types.ts#L5)
+[availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway-types.ts#L5)
 
 ---
 
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/availability-gateway/availability-gateway-types.ts#L4)
+[availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway-types.ts#L4)
 
 ---
 
@@ -49,4 +49,4 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:3](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/availability-gateway/availability-gateway-types.ts#L3)
+[availability-gateway/availability-gateway-types.ts:3](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway-types.ts#L3)

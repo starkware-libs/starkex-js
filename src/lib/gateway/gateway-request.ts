@@ -17,24 +17,28 @@ interface Request {
   txId: number;
 }
 
-interface WithVault extends Request {
+interface WithVault {
   vaultId: number;
 }
 
-interface WithAmount extends Request {
+interface WithStarkKey {
+  starkKey: string;
+}
+
+interface WithAmount {
   tokenId: string;
   amount: number;
 }
 
-interface TransactionRequest extends WithAmount, WithVault {
-  starkKey: string;
-}
+interface TransactionRequest
+  extends Request,
+    WithAmount,
+    WithVault,
+    WithStarkKey {}
 
-interface FullWithdrawalRequest extends WithVault {
-  starkKey: string;
-}
+interface FullWithdrawalRequest extends Request, WithVault, WithStarkKey {}
 
-interface FalseFullWithdrawalRequest extends WithVault {
+interface FalseFullWithdrawalRequest extends Request, WithVault {
   requesterStarkKey: string;
 }
 
