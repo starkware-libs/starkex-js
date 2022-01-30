@@ -36,80 +36,70 @@ describe('Gateway', () => {
   });
 
   describe('requests validation', () => {
-    it('should throw error for tx when missing txId', async () => {
+    const objectShouldFailSchema = async (request, field, method, done) => {
+      const errorValue = ['Missing data for required field.'];
+      let expectedError;
+
+      if (field === 'tx_id') {
+        expectedError = {
+          ...SchemaValidationError,
+          txId: undefined,
+          problems: {
+            tx_id: errorValue
+          }
+        };
+      } else {
+        expectedError = {
+          ...SchemaValidationError,
+          txId,
+          problems: {
+            tx: {
+              [field]: errorValue
+            }
+          }
+        };
+      }
+
+      try {
+        await starkExAPI.gateway[method](request);
+      } catch (ex) {
+        error = ex;
+      }
+      assert.deepEqual(error, expectedError);
+      done();
+    };
+
+    it('should throw error for tx when missing txId', done => {
       const request = {
         amount,
         starkKey,
         tokenId,
         vaultId
       };
-      const expectedError = {
-        ...SchemaValidationError,
-        txId: undefined,
-        problems: {
-          tx_id: ['Missing data for required field.']
-        }
-      };
-
-      try {
-        await starkExAPI.gateway.deposit(request);
-      } catch (ex) {
-        error = ex;
-      }
-      assert.deepEqual(error, expectedError);
+      objectShouldFailSchema(request, 'tx_id', 'deposit', done);
     });
 
-    it('should throw error for tx when missing starkKey', async () => {
+    it('should throw error for tx when missing starkKey', done => {
       const request = {
         amount,
         tokenId,
         vaultId,
         txId
       };
-      const expectedError = {
-        ...SchemaValidationError,
-        txId,
-        problems: {
-          tx: {
-            stark_key: ['Missing data for required field.']
-          }
-        }
-      };
-
-      try {
-        await starkExAPI.gateway.withdrawal(request);
-      } catch (ex) {
-        error = ex;
-      }
-      assert.deepEqual(error, expectedError);
+      objectShouldFailSchema(request, 'stark_key', 'deposit', done);
     });
 
-    it('should throw error for tx when missing vaultId', async () => {
+    it('should throw error for tx when missing vaultId', done => {
       const request = {
         amount,
         tokenId,
         starkKey,
         txId
       };
-      const expectedError = {
-        ...SchemaValidationError,
-        txId,
-        problems: {
-          tx: {
-            vault_id: ['Missing data for required field.']
-          }
-        }
-      };
-
-      try {
-        await starkExAPI.gateway.withdrawal(request);
-      } catch (ex) {
-        error = ex;
-      }
-      assert.deepEqual(error, expectedError);
+      objectShouldFailSchema(request, 'vault_id', 'deposit', done);
     });
 
-    it('should throw error for transfer when missing nonce', async () => {
+    it('should throw error for transfer when missing nonce', done => {
       const request = {
         txId,
         amount,
@@ -121,25 +111,10 @@ describe('Gateway', () => {
         expirationTimestamp,
         signature
       };
-      const expectedError = {
-        ...SchemaValidationError,
-        txId,
-        problems: {
-          tx: {
-            nonce: ['Missing data for required field.']
-          }
-        }
-      };
-
-      try {
-        await starkExAPI.gateway.transfer(request);
-      } catch (ex) {
-        error = ex;
-      }
-      assert.deepEqual(error, expectedError);
+      objectShouldFailSchema(request, 'nonce', 'transfer', done);
     });
 
-    it('should throw error for conditional transfer when missing fact', async () => {
+    it('should throw error for conditional transfer when missing fact', done => {
       const request = {
         txId,
         amount,
@@ -153,22 +128,7 @@ describe('Gateway', () => {
         signature,
         factRegistryAddress
       };
-      const expectedError = {
-        ...SchemaValidationError,
-        txId,
-        problems: {
-          tx: {
-            fact: ['Missing data for required field.']
-          }
-        }
-      };
-
-      try {
-        await starkExAPI.gateway.conditionalTransfer(request);
-      } catch (ex) {
-        error = ex;
-      }
-      assert.deepEqual(error, expectedError);
+      objectShouldFailSchema(request, 'fact', 'conditionalTransfer', done);
     });
   });
 });
