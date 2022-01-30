@@ -20,18 +20,16 @@
 - [BatchIdsRequest](interfaces/BatchIdsRequest.md)
 - [CommitteeSignature](interfaces/CommitteeSignature.md)
 - [ConditionalTransferRequest](interfaces/ConditionalTransferRequest.md)
-- [DepositRequest](interfaces/DepositRequest.md)
 - [FalseFullWithdrawalRequest](interfaces/FalseFullWithdrawalRequest.md)
 - [FeeInfoExchangeRequest](interfaces/FeeInfoExchangeRequest.md)
 - [FeeInfoUserRequest](interfaces/FeeInfoUserRequest.md)
 - [FullWithdrawalRequest](interfaces/FullWithdrawalRequest.md)
-- [MintRequest](interfaces/MintRequest.md)
 - [OrderRequest](interfaces/OrderRequest.md)
 - [SettlementRequest](interfaces/SettlementRequest.md)
 - [Signature](interfaces/Signature.md)
 - [StarkExClientConfig](interfaces/StarkExClientConfig.md)
+- [TransactionRequest](interfaces/TransactionRequest.md)
 - [TransferRequest](interfaces/TransferRequest.md)
-- [WithdrawRequest](interfaces/WithdrawRequest.md)
 
 ### Type aliases
 
@@ -42,11 +40,11 @@
 
 ### GatewayRequest
 
-Ƭ **GatewayRequest**: [`DepositRequest`](interfaces/DepositRequest.md) \| [`MintRequest`](interfaces/MintRequest.md) \| [`WithdrawRequest`](interfaces/WithdrawRequest.md) \| [`FullWithdrawalRequest`](interfaces/FullWithdrawalRequest.md) \| [`FalseFullWithdrawalRequest`](interfaces/FalseFullWithdrawalRequest.md) \| [`TransferRequest`](interfaces/TransferRequest.md) \| [`SettlementRequest`](interfaces/SettlementRequest.md) \| [`ConditionalTransferRequest`](interfaces/ConditionalTransferRequest.md)
+Ƭ **GatewayRequest**: [`TransactionRequest`](interfaces/TransactionRequest.md) \| [`TransferRequest`](interfaces/TransferRequest.md) \| [`SettlementRequest`](interfaces/SettlementRequest.md) \| [`FullWithdrawalRequest`](interfaces/FullWithdrawalRequest.md) \| [`FalseFullWithdrawalRequest`](interfaces/FalseFullWithdrawalRequest.md) \| [`ConditionalTransferRequest`](interfaces/ConditionalTransferRequest.md)
 
 #### Defined in
 
-[gateway/gateway-request.ts:8](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L8)
+[gateway/gateway-request.ts:8](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L8)
 
 ---
 
@@ -64,4 +62,4 @@
 
 #### Defined in
 
-[starkex-client.ts:20](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/starkex-client.ts#L20)
+[starkex-client.ts:20](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/starkex-client.ts#L20)

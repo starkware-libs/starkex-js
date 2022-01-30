@@ -2,6 +2,12 @@
 
 # Interface: SettlementRequest
 
+## Hierarchy
+
+- `Request`
+
+  ↳ **`SettlementRequest`**
+
 ## Table of contents
 
 ### Properties
@@ -9,6 +15,7 @@
 - [partyAOrder](SettlementRequest.md#partyaorder)
 - [partyBOrder](SettlementRequest.md#partyborder)
 - [settlementInfo](SettlementRequest.md#settlementinfo)
+- [txId](SettlementRequest.md#txid)
 
 ## Properties
 
@@ -18,7 +25,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:65](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L65)
+[gateway/gateway-request.ts:62](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L62)
 
 ---
 
@@ -28,7 +35,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:66](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L66)
+[gateway/gateway-request.ts:63](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L63)
 
 ---
 
@@ -38,4 +45,18 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:64](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L64)
+[gateway/gateway-request.ts:61](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L61)
+
+---
+
+### txId
+
+• **txId**: `number`
+
+#### Inherited from
+
+Request.txId
+
+#### Defined in
+
+[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L17)

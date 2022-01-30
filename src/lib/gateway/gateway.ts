@@ -2,6 +2,8 @@ import {camelToUnderscore} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {
+  FalseFullWithdrawalRequest,
+  FullWithdrawalRequest,
   ConditionalTransferRequest,
   GatewayRequest,
   SettlementRequest,
@@ -68,7 +70,7 @@ class Gateway extends GatewayBase {
   }
 
   public fullWithdrawal(
-    request: TransactionRequest
+    request: FullWithdrawalRequest
   ): Promise<Record<string, string>> {
     return this.addTransaction(
       GatewayRequestType.FULL_WITHDRAWAL_REQUEST,
@@ -77,7 +79,7 @@ class Gateway extends GatewayBase {
   }
 
   public falseFullWithdrawal(
-    request: TransactionRequest
+    request: FalseFullWithdrawalRequest
   ): Promise<Record<string, string>> {
     return this.addTransaction(
       GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST,

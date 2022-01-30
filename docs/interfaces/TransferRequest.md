@@ -2,6 +2,14 @@
 
 # Interface: TransferRequest
 
+## Hierarchy
+
+- `Request`
+
+  ↳ **`TransferRequest`**
+
+  ↳↳ [`ConditionalTransferRequest`](ConditionalTransferRequest.md)
+
 ## Table of contents
 
 ### Properties
@@ -17,6 +25,7 @@
 - [senderVaultId](TransferRequest.md#sendervaultid)
 - [signature](TransferRequest.md#signature)
 - [token](TransferRequest.md#token)
+- [txId](TransferRequest.md#txid)
 
 ## Properties
 
@@ -26,7 +35,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L50)
+[gateway/gateway-request.ts:42](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L42)
 
 ---
 
@@ -36,7 +45,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:57](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L57)
+[gateway/gateway-request.ts:49](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L49)
 
 ---
 
@@ -46,7 +55,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:60](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L60)
+[gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L52)
 
 ---
 
@@ -56,7 +65,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:59](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L59)
+[gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L51)
 
 ---
 
@@ -66,7 +75,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L51)
+[gateway/gateway-request.ts:43](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L43)
 
 ---
 
@@ -76,7 +85,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:55](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L55)
+[gateway/gateway-request.ts:47](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L47)
 
 ---
 
@@ -86,7 +95,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:56](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L56)
+[gateway/gateway-request.ts:48](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L48)
 
 ---
 
@@ -96,7 +105,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L52)
+[gateway/gateway-request.ts:44](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L44)
 
 ---
 
@@ -106,7 +115,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:53](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L53)
+[gateway/gateway-request.ts:45](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L45)
 
 ---
 
@@ -116,7 +125,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:58](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L58)
+[gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L50)
 
 ---
 
@@ -126,4 +135,18 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:54](https://github.com/starkware-libs/starkex-js/blob/8a20d56/src/lib/gateway/gateway-request.ts#L54)
+[gateway/gateway-request.ts:46](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L46)
+
+---
+
+### txId
+
+• **txId**: `number`
+
+#### Inherited from
+
+Request.txId
+
+#### Defined in
+
+[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L17)

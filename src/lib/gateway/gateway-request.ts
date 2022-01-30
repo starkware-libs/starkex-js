@@ -9,17 +9,33 @@ type GatewayRequest =
   | TransactionRequest
   | TransferRequest
   | SettlementRequest
+  | FullWithdrawalRequest
+  | FalseFullWithdrawalRequest
   | ConditionalTransferRequest;
 
 interface Request {
   txId: number;
 }
 
-interface TransactionRequest extends Request {
+interface WithVault extends Request {
   vaultId: number;
+}
+
+interface WithAmount extends Request {
+  tokenId: string;
+  amount: number;
+}
+
+interface TransactionRequest extends WithAmount, WithVault {
   starkKey: string;
-  tokenId?: string;
-  amount?: number;
+}
+
+interface FullWithdrawalRequest extends WithVault {
+  starkKey: string;
+}
+
+interface FalseFullWithdrawalRequest extends WithVault {
+  requesterStarkKey: string;
 }
 
 interface TransferRequest extends Request {
@@ -56,6 +72,8 @@ interface SettlementInfoRequest {
 
 export {
   GatewayRequest,
+  FalseFullWithdrawalRequest,
+  FullWithdrawalRequest,
   TransactionRequest,
   TransferRequest,
   SettlementRequest,
