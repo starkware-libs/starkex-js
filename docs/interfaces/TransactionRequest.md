@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.4](../README.md) / [Exports](../modules.md) / TransactionRequest
+[StarkEx JavaScript Client Library - v0.0.5](../README.md) / [Exports](../modules.md) / TransactionRequest
 
 # Interface: TransactionRequest
 
@@ -32,7 +32,7 @@ WithAmount.amount
 
 #### Defined in
 
-[gateway/gateway-request.ts:26](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L26)
+[gateway/gateway-request.ts:26](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L26)
 
 ---
 
@@ -42,7 +42,7 @@ WithAmount.amount
 
 #### Defined in
 
-[gateway/gateway-request.ts:30](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L30)
+[gateway/gateway-request.ts:30](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L30)
 
 ---
 
@@ -56,7 +56,7 @@ WithAmount.tokenId
 
 #### Defined in
 
-[gateway/gateway-request.ts:25](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L25)
+[gateway/gateway-request.ts:25](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L25)
 
 ---
 
@@ -70,7 +70,7 @@ WithAmount.txId
 
 #### Defined in
 
-[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L17)
+[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L17)
 
 ---
 
@@ -84,4 +84,4 @@ WithVault.vaultId
 
 #### Defined in
 
-[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/5a44e1f/src/lib/gateway/gateway-request.ts#L21)
+[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/6a1530f/src/lib/gateway/gateway-request.ts#L21)

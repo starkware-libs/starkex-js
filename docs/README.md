@@ -1,4 +1,4 @@
-StarkEx JavaScript Client Library - v0.0.4 / [Exports](modules.md)
+StarkEx JavaScript Client Library - v0.0.5 / [Exports](modules.md)
 
 <!-- logo -->
 <p align="center">
@@ -13,7 +13,7 @@ StarkEx JavaScript Client Library - v0.0.4 / [Exports](modules.md)
   <a href="https://www.typescriptlang.org/">
     <img src='https://badges.aleen42.com/src/typescript.svg' />
   </a> 
-  <a href="https://www.npmjs.com/package/starknet">
+  <a href="https://www.npmjs.com/package/@starkware-industries/starkex-js">
     <img src='https://img.shields.io/github/package-json/v/starkware-libs/starkex-js?label=npm' />
   </a>
   <a href="https://starkware.co/">
@@ -153,13 +153,14 @@ _Example for a DepositRequest_
 
 ```ts
 const request = {
+  txId: 10234993,
   amount: 4029557120079369747,
   starkKey: "0x7c65c1e82e2e662f728b4fa42485e3a0a5d2f346baa9455e3e70682c2094cac",
   tokenId: "0x2dd48fd7a024204f7c1bd874da5e709d4713d60c8a70639eb1167b367a9c378",
   vaultId: 1654615998
 };
 const response = await starkExAPI.gateway.deposit(request);
-console.log(response); // {txId: 3921, "code": "TRANSACTION_PENDING"}
+console.log(response); // {txId: 10234993, "code": "TRANSACTION_PENDING"}
 ```
 
 Full API docs for `gateway` can be found [here](docs/classes/Gateway.md).
