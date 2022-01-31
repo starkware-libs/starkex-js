@@ -47,7 +47,7 @@
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix .",
     "lint": "yarn run eslint && yarn run typecheck",
-    "format": "prettier --write \"**/*.+(ts|js|json|md|html)\"",
+    "format": "prettier --write \"**/*.+(ts|js|json|md|html|yml)\"",
     "release": "standard-version",
     "release:dry": "standard-version --dry-run",
     "docs:generate": "typedoc",
