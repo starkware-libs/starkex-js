@@ -81,5 +81,6 @@ export {
   TransactionRequest,
   TransferRequest,
   SettlementRequest,
-  ConditionalTransferRequest
+  ConditionalTransferRequest,
+  SettlementInfoRequest
 };
