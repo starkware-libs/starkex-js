@@ -53,7 +53,7 @@
     "docs:generate": "typedoc",
     "docs:watch": "typedoc --watch",
     "node": "node src/server.js",
-    "pre-release": "standard-version --prerelease --skip.changelog",
+    "pre-release": "standard-version --prerelease --skip.changelog --releaseCommitMessageFormat 'chore(prerelease): {{currentTag}}'",
     "pushTaggedRelease": "git push --follow-tags --no-verify origin master",
     "publish": "bash ./scripts/npm-publish.bash",
     "test": "mocha"
