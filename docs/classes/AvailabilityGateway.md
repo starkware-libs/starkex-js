@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.5](../README.md) / [Exports](../modules.md) / AvailabilityGateway
+[StarkEx JavaScript Client Library - v0.0.6-0](../README.md) / [Exports](../modules.md) / AvailabilityGateway
 
 # Class: AvailabilityGateway
 
@@ -37,7 +37,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway.ts#L8)
+[availability-gateway/availability-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/availability-gateway/availability-gateway.ts#L8)
 
 ## Methods
 
@@ -57,7 +57,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:12](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway.ts#L12)
+[availability-gateway/availability-gateway.ts:12](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/availability-gateway/availability-gateway.ts#L12)
 
 ---
 
@@ -77,4 +77,4 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:21](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/availability-gateway/availability-gateway.ts#L21)
+[availability-gateway/availability-gateway.ts:21](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/availability-gateway/availability-gateway.ts#L21)

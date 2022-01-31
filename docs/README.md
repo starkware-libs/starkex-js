@@ -1,4 +1,4 @@
-StarkEx JavaScript Client Library - v0.0.5 / [Exports](modules.md)
+StarkEx JavaScript Client Library - v0.0.6-0 / [Exports](modules.md)
 
 <!-- logo -->
 <p align="center">
