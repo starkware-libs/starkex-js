@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6-0](../README.md) / [Exports](../modules.md) / FeeInfoExchangeRequest
+[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / FeeInfoExchangeRequest
 
 # Interface: FeeInfoExchangeRequest
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:26](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-types.ts#L26)
+[gateway/gateway-types.ts:26](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-types.ts#L26)
 
 ---
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:27](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-types.ts#L27)
+[gateway/gateway-types.ts:27](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-types.ts#L27)
 
 ---
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:28](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-types.ts#L28)
+[gateway/gateway-types.ts:28](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-types.ts#L28)

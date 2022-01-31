@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6-0](../README.md) / [Exports](../modules.md) / FullWithdrawalRequest
+[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / FullWithdrawalRequest
 
 # Interface: FullWithdrawalRequest
 
@@ -32,7 +32,7 @@ WithStarkKey.starkKey
 
 #### Defined in
 
-[gateway/gateway-request.ts:25](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-request.ts#L25)
+[gateway/gateway-request.ts:25](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L25)
 
 ---
 
@@ -46,7 +46,7 @@ Request.txId
 
 #### Defined in
 
-[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-request.ts#L17)
+[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L17)
 
 ---
 
@@ -60,4 +60,4 @@ WithVault.vaultId
 
 #### Defined in
 
-[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-request.ts#L21)
+[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L21)

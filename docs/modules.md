@@ -1,6 +1,6 @@
-[StarkEx JavaScript Client Library - v0.0.6-0](README.md) / Exports
+[StarkEx JavaScript Client Library - v0.0.6](README.md) / Exports
 
-# StarkEx JavaScript Client Library - v0.0.6-0
+# StarkEx JavaScript Client Library - v0.0.6
 
 ## Table of contents
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:8](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/gateway/gateway-request.ts#L8)
+[gateway/gateway-request.ts:8](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L8)
 
 ---
 
@@ -63,4 +63,4 @@
 
 #### Defined in
 
-[starkex-client.ts:20](https://github.com/starkware-libs/starkex-js/blob/f906f83/src/lib/starkex-client.ts#L20)
+[starkex-client.ts:20](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/starkex-client.ts#L20)
