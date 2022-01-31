@@ -2,11 +2,22 @@
 
 # Interface: FullWithdrawalRequest
 
+## Hierarchy
+
+- `Request`
+
+- `WithVault`
+
+- `WithStarkKey`
+
+  ↳ **`FullWithdrawalRequest`**
+
 ## Table of contents
 
 ### Properties
 
 - [starkKey](FullWithdrawalRequest.md#starkkey)
+- [txId](FullWithdrawalRequest.md#txid)
 - [vaultId](FullWithdrawalRequest.md#vaultid)
 
 ## Properties
@@ -15,9 +26,27 @@
 
 • **starkKey**: `string`
 
+#### Inherited from
+
+WithStarkKey.starkKey
+
 #### Defined in
 
-[gateway/gateway-request.ts:41](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/gateway/gateway-request.ts#L41)
+[gateway/gateway-request.ts:25](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/gateway/gateway-request.ts#L25)
+
+---
+
+### txId
+
+• **txId**: `number`
+
+#### Inherited from
+
+Request.txId
+
+#### Defined in
+
+[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/gateway/gateway-request.ts#L17)
 
 ---
 
@@ -25,6 +54,10 @@
 
 • **vaultId**: `number`
 
+#### Inherited from
+
+WithVault.vaultId
+
 #### Defined in
 
-[gateway/gateway-request.ts:40](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/gateway/gateway-request.ts#L40)
+[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/gateway/gateway-request.ts#L21)

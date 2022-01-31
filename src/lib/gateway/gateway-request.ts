@@ -6,47 +6,43 @@ import {
 } from './gateway-types';
 
 type GatewayRequest =
-  | DepositRequest
-  | MintRequest
-  | WithdrawRequest
-  | FullWithdrawalRequest
-  | FalseFullWithdrawalRequest
+  | TransactionRequest
   | TransferRequest
   | SettlementRequest
+  | FullWithdrawalRequest
+  | FalseFullWithdrawalRequest
   | ConditionalTransferRequest;
 
-interface DepositRequest {
+interface Request {
+  txId: number;
+}
+
+interface WithVault {
   vaultId: number;
+}
+
+interface WithStarkKey {
   starkKey: string;
+}
+
+interface WithAmount {
   tokenId: string;
   amount: number;
 }
 
-interface MintRequest {
-  vaultId: number;
-  starkKey: string;
-  tokenId: string;
-  amount: number;
+interface TransactionRequest
+  extends Request,
+    WithAmount,
+    WithVault,
+    WithStarkKey {}
+
+interface FullWithdrawalRequest extends Request, WithVault, WithStarkKey {}
+
+interface FalseFullWithdrawalRequest extends Request, WithVault {
+  requesterStarkKey: string;
 }
 
-interface WithdrawRequest {
-  vaultId: number;
-  starkKey: string;
-  tokenId: string;
-  amount: number;
-}
-
-interface FullWithdrawalRequest {
-  vaultId: number;
-  starkKey: string;
-}
-
-interface FalseFullWithdrawalRequest {
-  vaultId: number;
-  starkKey: string;
-}
-
-interface TransferRequest {
+interface TransferRequest extends Request {
   amount: number;
   nonce: number;
   senderPublicKey: string;
@@ -60,24 +56,15 @@ interface TransferRequest {
   feeInfoExchange?: FeeInfoExchangeRequest;
 }
 
-interface SettlementRequest {
+interface ConditionalTransferRequest extends TransferRequest {
+  factRegistryAddress: string;
+  fact: string;
+}
+
+interface SettlementRequest extends Request {
   settlementInfo: SettlementInfoRequest;
   partyAOrder: OrderRequest;
   partyBOrder: OrderRequest;
-}
-
-interface ConditionalTransferRequest {
-  amount: number;
-  nonce: number;
-  senderPublicKey: string;
-  senderVaultId: number;
-  token: string;
-  receiverPublicKey: string;
-  receiverVaultId: number;
-  expirationTimestamp: number;
-  signature: Signature;
-  factRegistryAddress: string;
-  fact: string;
 }
 
 interface SettlementInfoRequest {
@@ -89,11 +76,9 @@ interface SettlementInfoRequest {
 
 export {
   GatewayRequest,
-  DepositRequest,
-  MintRequest,
-  WithdrawRequest,
-  FullWithdrawalRequest,
   FalseFullWithdrawalRequest,
+  FullWithdrawalRequest,
+  TransactionRequest,
   TransferRequest,
   SettlementRequest,
   ConditionalTransferRequest

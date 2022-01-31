@@ -56,7 +56,7 @@
     "pre-release": "standard-version --prerelease --skip.changelog",
     "pushTaggedRelease": "git push --follow-tags --no-verify origin master",
     "publish": "bash ./scripts/npm-publish.bash",
-    "test": "echo \"test script is not implemented\""
+    "test": "mocha"
   },
   "husky": {
     "hooks": {
@@ -83,6 +83,7 @@
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "babel-eslint": "^10.1.0",
+    "chai": "^4.3.6",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "copy-webpack-plugin": "^9.0.1",
     "cross-env": "^7.0.3",
@@ -91,6 +92,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.1.1",
+    "mocha": "^9.2.0",
     "prettier": "^2.3.2",
     "standard-version": "^9.3.1",
     "terser-webpack-plugin": "^5.1.4",

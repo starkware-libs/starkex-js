@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[starkex-client.ts:8](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/starkex-client.ts#L8)
+[starkex-client.ts:8](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/starkex-client.ts#L8)
 
 ## Properties
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[starkex-client.ts:6](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/starkex-client.ts#L6)
+[starkex-client.ts:6](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/starkex-client.ts#L6)
 
 ---
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[starkex-client.ts:5](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/starkex-client.ts#L5)
+[starkex-client.ts:5](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/starkex-client.ts#L5)
 
 ---
 
@@ -58,4 +58,4 @@
 
 #### Defined in
 
-[starkex-client.ts:4](https://github.com/starkware-libs/starkex-js/blob/ed910a6/src/lib/starkex-client.ts#L4)
+[starkex-client.ts:4](https://github.com/starkware-libs/starkex-js/blob/31ba85c/src/lib/starkex-client.ts#L4)
