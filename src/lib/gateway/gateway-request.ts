@@ -110,8 +110,8 @@ type FalseFullWithdrawalTransaction = FalseFullWithdrawalRequest & {
   type: GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST;
 };
 
-// Each Tx of a MultiTransaction Transaction should be from following type -
-// Use base request types but exclude 'txId' property
+// Each Tx of a MultiTransaction Transaction should be from a following type -
+// Use a base request type but exclude 'txId' property
 
 type MultiTransactionTransaction = Omit<DepositTransaction
   | WithdrawalTransaction
