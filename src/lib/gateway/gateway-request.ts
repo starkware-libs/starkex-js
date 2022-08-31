@@ -1,3 +1,4 @@
+import {GatewayRequestType} from './gateway-request-type';
 import {
   FeeInfoExchangeRequest,
   FeeInfoUserRequest,
@@ -11,7 +12,8 @@ type GatewayRequest =
   | SettlementRequest
   | FullWithdrawalRequest
   | FalseFullWithdrawalRequest
-  | ConditionalTransferRequest;
+  | ConditionalTransferRequest
+  | MultiTransactionRequest;
 
 interface Request {
   txId: number;
@@ -74,6 +76,56 @@ interface SettlementInfoRequest {
   partyBFeeInfo?: FeeInfoExchangeRequest;
 }
 
+// Transactions' type and request-body tuples
+
+type WithdrawalTransaction = TransactionRequest & {
+  type: GatewayRequestType.WITHDRAWAL_REQUEST;
+};
+
+type DepositTransaction = TransactionRequest & {
+  type: GatewayRequestType.DEPOSIT_REQUEST;
+};
+
+type MintTransaction = TransactionRequest & {
+  type: GatewayRequestType.MINT_REQUEST;
+};
+
+type SettlementTransaction = SettlementRequest & {
+  type: GatewayRequestType.SETTLEMENT_REQUEST;
+};
+
+type TransferTransaction = TransferRequest & {
+  type: GatewayRequestType.TRANSFER_REQUEST;
+};
+
+type ConditionalTransferTransaction = ConditionalTransferRequest & {
+  type: GatewayRequestType.CONDITIONAL_TRANSFER_REQUEST;
+};
+
+type FullWithdrawalTransaction = FullWithdrawalRequest & {
+  type: GatewayRequestType.FULL_WITHDRAWAL_REQUEST;
+};
+
+type FalseFullWithdrawalTransaction = FalseFullWithdrawalRequest & {
+  type: GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST;
+};
+
+// Each Tx of a MultiTransaction Transaction should be from following type -
+// Use base request types but exclude 'txId' property
+
+type MultiTransactionTransaction = Omit<DepositTransaction
+  | WithdrawalTransaction
+  | MintTransaction
+  | SettlementTransaction
+  | TransferTransaction
+  | ConditionalTransferTransaction
+  | FullWithdrawalTransaction
+  | FalseFullWithdrawalTransaction, 'txId'>;
+
+interface MultiTransactionRequest extends Request {
+  txs: Array<MultiTransactionTransaction>;
+}
+
 export {
   GatewayRequest,
   FalseFullWithdrawalRequest,
@@ -82,5 +134,6 @@ export {
   TransferRequest,
   SettlementRequest,
   ConditionalTransferRequest,
-  SettlementInfoRequest
+  SettlementInfoRequest,
+  MultiTransactionRequest
 };
