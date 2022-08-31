@@ -1,6 +1,9 @@
+import {StarkErrorCode} from './common';
 import {AvailabilityGateway, FeederGateway, Gateway} from './index';
 
 class StarkExClient {
+  public static readonly StarkErrorCode = StarkErrorCode;
+
   public gateway: Gateway;
   public feederGateway: FeederGateway;
   public availabilityGateway: AvailabilityGateway;
