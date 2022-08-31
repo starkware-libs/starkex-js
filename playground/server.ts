@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import StarkExAPI from '../dist/node';
 import fs from 'fs';
 import path from 'path';

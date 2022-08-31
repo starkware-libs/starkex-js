@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const StarkExAPI = require('../dist/node');
 const path = require('path');
 const fs = require('fs');
