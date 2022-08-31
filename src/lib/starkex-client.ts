@@ -1,7 +1,8 @@
-import {AvailabilityGateway, FeederGateway, Gateway, StarkExUtils} from './index';
+import {StarkErrorCode} from './common';
+import {AvailabilityGateway, FeederGateway, Gateway} from './index';
 
 class StarkExClient {
-  public static readonly StarkErrorCode = StarkExUtils.StarkErrorCode;
+  public static readonly StarkErrorCode = StarkErrorCode;
 
   public gateway: Gateway;
   public feederGateway: FeederGateway;
