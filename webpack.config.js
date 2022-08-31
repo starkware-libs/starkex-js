@@ -87,5 +87,5 @@ module.exports = () => {
   if (isProductionEnv) {
     return [merge(nodeConfig, prodConfig), merge(browserConfig, prodConfig)];
   }
-  return merge(browserConfig, devConfig);
+  return [merge(nodeConfig, devConfig), merge(browserConfig, devConfig)];
 };
