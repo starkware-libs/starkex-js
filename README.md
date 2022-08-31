@@ -171,8 +171,13 @@ retrieving transaction batch information by external parties
 _Example for get_batch_ids_
 
 ```ts
-const batchIds = await starkExAPI.feederGateway.getBatchIds();
-console.log(batchIds); // [10000, 12345]
+const batchIdsRequest = {
+  vaultRoot: '0x46bc9d7b7716bc33b1db5b7509c0a076ab9424ba5e16dd26de8097a62f1ef1d1',
+  orderRoot: '0x84695d9d13ec0eeafc07b7d0c5da3f30e42e468bc69413c2b77e62cd8cdeb9a8',
+  sequenceNumber: 5678
+};
+const batchIds = await starkExAPI.feederGateway.getBatchIds(batchIdsRequest);
+console.log(batchIds); // [123, 456]
 ```
 
 Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.md).
