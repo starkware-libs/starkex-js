@@ -78,7 +78,7 @@ interface SettlementInfoRequest {
 
 // Transactions' type and request-body tuples
 // Use a base request type but exclude Request interface
-type ExcludeRequest<T> = Pick<T, Exclude<keyof T, keyof Request>>
+type ExcludeRequest<T> = Pick<T, Exclude<keyof T, keyof Request>>;
 
 type WithdrawalTransaction = ExcludeRequest<TransactionRequest> & {
   type: GatewayRequestType.WITHDRAWAL_REQUEST;
@@ -100,17 +100,19 @@ type TransferTransaction = ExcludeRequest<TransferRequest> & {
   type: GatewayRequestType.TRANSFER_REQUEST;
 };
 
-type ConditionalTransferTransaction = ExcludeRequest<ConditionalTransferRequest> & {
-  type: GatewayRequestType.CONDITIONAL_TRANSFER_REQUEST;
-};
+type ConditionalTransferTransaction =
+  ExcludeRequest<ConditionalTransferRequest> & {
+    type: GatewayRequestType.CONDITIONAL_TRANSFER_REQUEST;
+  };
 
 type FullWithdrawalTransaction = ExcludeRequest<FullWithdrawalRequest> & {
   type: GatewayRequestType.FULL_WITHDRAWAL_REQUEST;
 };
 
-type FalseFullWithdrawalTransaction = ExcludeRequest<FalseFullWithdrawalRequest> & {
-  type: GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST;
-};
+type FalseFullWithdrawalTransaction =
+  ExcludeRequest<FalseFullWithdrawalRequest> & {
+    type: GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST;
+  };
 
 // Each Tx of a MultiTransaction Transaction should be from a following type -
 
