@@ -77,50 +77,52 @@ interface SettlementInfoRequest {
 }
 
 // Transactions' type and request-body tuples
+// Use a base request type but exclude Request interface
+type ExcludeRequest<T> = Pick<T, Exclude<keyof T, keyof Request>>
 
-type WithdrawalTransaction = TransactionRequest & {
+type WithdrawalTransaction = ExcludeRequest<TransactionRequest> & {
   type: GatewayRequestType.WITHDRAWAL_REQUEST;
 };
 
-type DepositTransaction = TransactionRequest & {
+type DepositTransaction = ExcludeRequest<TransactionRequest> & {
   type: GatewayRequestType.DEPOSIT_REQUEST;
 };
 
-type MintTransaction = TransactionRequest & {
+type MintTransaction = ExcludeRequest<TransactionRequest> & {
   type: GatewayRequestType.MINT_REQUEST;
 };
 
-type SettlementTransaction = SettlementRequest & {
+type SettlementTransaction = ExcludeRequest<SettlementRequest> & {
   type: GatewayRequestType.SETTLEMENT_REQUEST;
 };
 
-type TransferTransaction = TransferRequest & {
+type TransferTransaction = ExcludeRequest<TransferRequest> & {
   type: GatewayRequestType.TRANSFER_REQUEST;
 };
 
-type ConditionalTransferTransaction = ConditionalTransferRequest & {
+type ConditionalTransferTransaction = ExcludeRequest<ConditionalTransferRequest> & {
   type: GatewayRequestType.CONDITIONAL_TRANSFER_REQUEST;
 };
 
-type FullWithdrawalTransaction = FullWithdrawalRequest & {
+type FullWithdrawalTransaction = ExcludeRequest<FullWithdrawalRequest> & {
   type: GatewayRequestType.FULL_WITHDRAWAL_REQUEST;
 };
 
-type FalseFullWithdrawalTransaction = FalseFullWithdrawalRequest & {
+type FalseFullWithdrawalTransaction = ExcludeRequest<FalseFullWithdrawalRequest> & {
   type: GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST;
 };
 
 // Each Tx of a MultiTransaction Transaction should be from a following type -
-// Use a base request type but exclude 'txId' property
 
-type MultiTransactionTransaction = Omit<DepositTransaction
+type MultiTransactionTransaction =
+  | DepositTransaction
   | WithdrawalTransaction
   | MintTransaction
   | SettlementTransaction
   | TransferTransaction
   | ConditionalTransferTransaction
   | FullWithdrawalTransaction
-  | FalseFullWithdrawalTransaction, 'txId'>;
+  | FalseFullWithdrawalTransaction;
 
 interface MultiTransactionRequest extends Request {
   txs: Array<MultiTransactionTransaction>;
