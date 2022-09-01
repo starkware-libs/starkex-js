@@ -114,7 +114,7 @@ type FalseFullWithdrawalTransaction =
     type: GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST;
   };
 
-// Each Tx of a MultiTransaction Transaction should be from a following type -
+// Each Tx of a MultiTransaction Transaction should be of a following type -
 
 type MultiTransactionTransaction =
   | DepositTransaction
