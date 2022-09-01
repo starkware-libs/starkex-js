@@ -10,7 +10,7 @@ const camelToUnderscore = (obj: Record<string, any>): Record<string, any> => {
     let val = obj[key];
 
     if (Array.isArray(val)) {
-      val = val.map((v) => camelToUnderscore(v));
+      val = val.map(v => camelToUnderscore(v));
     } else if (typeof val === 'object') {
       val = camelToUnderscore(val);
     }
