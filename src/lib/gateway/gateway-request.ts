@@ -2,6 +2,7 @@ import {GatewayRequestType} from './gateway-request-type';
 import {
   FeeInfoExchangeRequest,
   FeeInfoUserRequest,
+  NumericSequence,
   OrderRequest,
   Signature
 } from './gateway-types';
@@ -16,11 +17,11 @@ type GatewayRequest =
   | MultiTransactionRequest;
 
 interface Request {
-  txId: number;
+  txId: NumericSequence;
 }
 
 interface WithVault {
-  vaultId: number;
+  vaultId: NumericSequence;
 }
 
 interface WithStarkKey {
@@ -28,8 +29,8 @@ interface WithStarkKey {
 }
 
 interface WithAmount {
-  tokenId: string;
-  amount: number;
+  tokenId: NumericSequence;
+  amount: NumericSequence;
 }
 
 interface TransactionRequest
@@ -45,14 +46,14 @@ interface FalseFullWithdrawalRequest extends Request, WithVault {
 }
 
 interface TransferRequest extends Request {
-  amount: number;
-  nonce: number;
+  amount: NumericSequence;
+  nonce: NumericSequence;
   senderPublicKey: string;
-  senderVaultId: number;
+  senderVaultId: NumericSequence;
   token: string;
   receiverPublicKey: string;
-  receiverVaultId: number;
-  expirationTimestamp: number;
+  receiverVaultId: NumericSequence;
+  expirationTimestamp: NumericSequence;
   signature: Signature;
   feeInfoUser?: FeeInfoUserRequest;
   feeInfoExchange?: FeeInfoExchangeRequest;
