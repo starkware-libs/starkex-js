@@ -18,14 +18,14 @@ describe('Gateway', () => {
 
   describe('multitranaction', () => {
     it('should success with a valid input', async () => {
-      const request = { vaultId, tokenId, starkKey, amount };
+      const request = {vaultId, tokenId, starkKey, amount};
       const txId = await starkExAPI.gateway.getFirstUnusedTxId();
 
       const response = await starkExAPI.gateway.multiTransaction({
         txId,
         txs: [
-          { type: StarkExAPI.GatewayRequestType.DEPOSIT_REQUEST, ...request },
-          { type: StarkExAPI.GatewayRequestType.WITHDRAWAL_REQUEST, ...request }
+          {type: StarkExAPI.GatewayRequestType.DEPOSIT_REQUEST, ...request},
+          {type: StarkExAPI.GatewayRequestType.WITHDRAWAL_REQUEST, ...request}
         ]
       });
 
