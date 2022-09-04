@@ -1,4 +1,4 @@
-// Represents a numeric (only) sequence to hold numbers 
+// Represents a numeric (only) sequence to hold numbers
 // that cannot fit into the build-in JS number type
 type NumericSequence = number | string;
 
