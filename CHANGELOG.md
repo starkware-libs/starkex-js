@@ -1,3 +1,10 @@
+## [0.1.0-dev.1](https://github.com/starkware-libs/starkex-js/compare/v0.0.6...v0.1.0-dev.1) (2022-09-05)
+
+
+### 🧩 Features
+
+* **2847512314:** Add Stark Error Code ([#16](https://github.com/starkware-libs/starkex-js/issues/16)) ([b276cda](https://github.com/starkware-libs/starkex-js/commit/b276cdae756e01461252472e5b5e7cc348e4e1e1))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
