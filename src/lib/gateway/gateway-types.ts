@@ -1,12 +1,16 @@
+// Represents a numeric (only) sequence to hold numbers
+// that cannot fit into the built-in JS number type
+type NumericSequence = number | string;
+
 interface OrderRequest {
   orderType: OrderTypeObsolete;
-  nonce: number;
-  amountSell: number;
-  amountBuy: number;
+  nonce: NumericSequence;
+  amountSell: string;
+  amountBuy: string;
   tokenSell: string;
   tokenBuy: string;
-  vaultIdSell: number;
-  vaultIdBuy: number;
+  vaultIdSell: NumericSequence;
+  vaultIdBuy: NumericSequence;
   expirationTimestamp: number;
   feeInfo?: FeeInfoUserRequest;
 }
@@ -18,13 +22,13 @@ interface Signature {
 
 interface FeeInfoUserRequest {
   feeLimit: number;
-  sourceVaultId: number;
+  sourceVaultId: NumericSequence;
   tokenId: string;
 }
 
 interface FeeInfoExchangeRequest {
   destinationStarkKey: string;
-  destinationVaultId: number;
+  destinationVaultId: NumericSequence;
   feeTaken: number;
 }
 
@@ -38,5 +42,6 @@ export {
   Signature,
   FeeInfoUserRequest,
   FeeInfoExchangeRequest,
+  NumericSequence,
   OrderTypeObsolete
 };

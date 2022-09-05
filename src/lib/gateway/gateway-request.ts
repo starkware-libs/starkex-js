@@ -1,6 +1,7 @@
 import {
   FeeInfoExchangeRequest,
   FeeInfoUserRequest,
+  NumericSequence,
   OrderRequest,
   Signature
 } from './gateway-types';
@@ -14,11 +15,11 @@ type GatewayRequest =
   | ConditionalTransferRequest;
 
 interface Request {
-  txId: number;
+  txId: NumericSequence;
 }
 
 interface WithVault {
-  vaultId: number;
+  vaultId: NumericSequence;
 }
 
 interface WithStarkKey {
@@ -27,7 +28,7 @@ interface WithStarkKey {
 
 interface WithAmount {
   tokenId: string;
-  amount: number;
+  amount: string;
 }
 
 interface TransactionRequest
@@ -43,13 +44,13 @@ interface FalseFullWithdrawalRequest extends Request, WithVault {
 }
 
 interface TransferRequest extends Request {
-  amount: number;
-  nonce: number;
+  amount: string;
+  nonce: NumericSequence;
   senderPublicKey: string;
-  senderVaultId: number;
+  senderVaultId: NumericSequence;
   token: string;
   receiverPublicKey: string;
-  receiverVaultId: number;
+  receiverVaultId: NumericSequence;
   expirationTimestamp: number;
   signature: Signature;
   feeInfoUser?: FeeInfoUserRequest;
