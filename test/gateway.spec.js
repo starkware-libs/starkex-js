@@ -11,7 +11,7 @@ describe('Gateway', () => {
   let starkExAPI, error;
   const vaultId = 1;
   const txId = 1;
-  const amount = 1;
+  const amount = "1";
   const starkKey = '0x2';
   const tokenId = '0x1';
   const nonce = 2;
