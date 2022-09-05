@@ -1,3 +1,10 @@
+## [0.1.0-dev.2](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.1...v0.1.0-dev.2) (2022-09-05)
+
+
+### 🧩 Features
+
+* **2847512320:** adjust numeric types ([#20](https://github.com/starkware-libs/starkex-js/issues/20)) ([37550b7](https://github.com/starkware-libs/starkex-js/commit/37550b7d1d1a858e8a3afe93c0ecfe06e8419978))
+
 ## [0.1.0-dev.1](https://github.com/starkware-libs/starkex-js/compare/v0.0.6...v0.1.0-dev.1) (2022-09-05)
 
 
