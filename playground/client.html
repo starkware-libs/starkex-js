@@ -7,16 +7,18 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="./browser.js"></script>
+    <script src="../dist/browser.js"></script>
     <title>StarkEX JavaScript Client Lib</title>
   </head>
   <body>
+    <h3>Is Alive: </h3><h3 id="stark"></h3>
     <script>
-      (async function () {
+      (window.onload = async function () {
         const starkExAPI = new StarkExAPI({
           endpoint: 'https://gw.playground-v2.starkex.co'
         });
-        await starkExAPI.gateway.isAlive();
+        const result = await starkExAPI.gateway.isAlive();
+        document.getElementById("stark").innerHTML = result;
       })();
     </script>
   </body>

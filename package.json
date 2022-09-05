@@ -26,7 +26,7 @@
   "author": "Dan Ziv",
   "main": "browser.js",
   "module": "node.js",
-  "types": "types/index.t.ts",
+  "types": "types/index.d.ts",
   "directories": {
     "doc": "docs"
   },
@@ -44,7 +44,7 @@
     "prebuild": "npm run clean",
     "build": "cross-env NODE_ENV=production webpack --mode=production",
     "precommit": "lint-staged",
-    "start": "cross-env NODE_ENV=development webpack serve",
+    "start": "webpack --watch --mode development --env development",
     "typecheck": "tsc --noemit",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix .",
@@ -52,11 +52,12 @@
     "format": "prettier --write \"**/*.+(ts|js|json|md|html|yml)\"",
     "docs:generate": "typedoc",
     "docs:watch": "typedoc --watch",
-    "node": "node src/server.js",
     "release": "semantic-release",
     "release:dry": "semantic-release --no-ci --dry-run",
     "publish": "bash ./scripts/npm-publish.bash",
-    "test": "mocha"
+    "test": "mocha",
+    "playground:js": "node playground/server.js",
+    "playground:ts": "ts-node -O '{\"module\": \"commonjs\"}' -T playground/server.ts"
   },
   "husky": {
     "hooks": {
