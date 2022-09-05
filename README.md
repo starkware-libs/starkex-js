@@ -152,13 +152,38 @@ _Example for a DepositRequest_
 ```ts
 const request = {
   txId: 10234993,
-  amount: 4029557120079369747,
+  amount: "4029557120079369747",
   starkKey: "0x7c65c1e82e2e662f728b4fa42485e3a0a5d2f346baa9455e3e70682c2094cac",
   tokenId: "0x2dd48fd7a024204f7c1bd874da5e709d4713d60c8a70639eb1167b367a9c378",
   vaultId: 1654615998
 };
 const response = await starkExAPI.gateway.deposit(request);
-console.log(response); // {txId: 10234993, "code": "TRANSACTION_PENDING"}
+console.log(response); // {txId: 10234993, code: "TRANSACTION_PENDING"}
+```
+
+_Example for a MultiTransactionRequest_
+
+```ts
+const response = await starkExClient.gateway.multiTransaction({
+  txId: 10234994,
+  txs: [
+    {
+      type: StarkExClient.GatewayRequestType.DEPOSIT_REQUEST,
+      amount: "4029557120079369747",
+      starkKey: "0x7c65c1e82e2e662f728b4fa42485e3a0a5d2f346baa9455e3e70682c2094cac",
+      tokenId: "0x2dd48fd7a024204f7c1bd874da5e709d4713d60c8a70639eb1167b367a9c378",
+      vaultId: 1654615998
+    },
+    {
+      type: StarkExClient.GatewayRequestType.WITHDRAWAL_REQUEST,
+      amount: "4029557120079369747",
+      starkKey: "0x7c65c1e82e2e662f728b4fa42485e3a0a5d2f346baa9455e3e70682c2094cac",
+      tokenId: "0x2dd48fd7a024204f7c1bd874da5e709d4713d60c8a70639eb1167b367a9c378",
+      vaultId: 1654615998
+    },
+  ],
+});
+console.log(response); // {txId: 10234994, code: "TRANSACTION_PENDING"}
 ```
 
 Full API docs for `gateway` can be found [here](docs/classes/Gateway.md).

@@ -1,8 +1,10 @@
 import {StarkErrorCode} from './common';
+import {GatewayRequestType} from './gateway/gateway-request-type';
 import {AvailabilityGateway, FeederGateway, Gateway} from './index';
 
 class StarkExClient {
   public static readonly StarkErrorCode = StarkErrorCode;
+  public static readonly GatewayRequestType = GatewayRequestType;
 
   public gateway: Gateway;
   public feederGateway: FeederGateway;

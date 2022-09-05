@@ -8,7 +8,8 @@ import {
   GatewayRequest,
   SettlementRequest,
   TransactionRequest,
-  TransferRequest
+  TransferRequest,
+  MultiTransactionRequest
 } from './gateway-request';
 import {GatewayRequestType} from './gateway-request-type';
 import {GatewayServiceType} from './gateway-service-type';
@@ -83,6 +84,15 @@ class Gateway extends GatewayBase {
   ): Promise<Record<string, string>> {
     return this.addTransaction(
       GatewayRequestType.FALSE_FULL_WITHDRAWAL_REQUEST,
+      request
+    );
+  }
+
+  public multiTransaction(
+    request: MultiTransactionRequest
+  ): Promise<Record<string, string>> {
+    return this.addTransaction(
+      GatewayRequestType.MULTI_TRANSACTION_REQUEST,
       request
     );
   }
