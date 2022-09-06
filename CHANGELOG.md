@@ -1,3 +1,10 @@
+## [0.1.0-dev.3](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.2...v0.1.0-dev.3) (2022-09-06)
+
+
+### 🧩 Features
+
+* **3075511177:** support multi-transaction ([#21](https://github.com/starkware-libs/starkex-js/issues/21)) ([d788a18](https://github.com/starkware-libs/starkex-js/commit/d788a1823c0d2786250c915c1bf9891683a2478b))
+
 ## [0.1.0-dev.2](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.1...v0.1.0-dev.2) (2022-09-05)
 
 
