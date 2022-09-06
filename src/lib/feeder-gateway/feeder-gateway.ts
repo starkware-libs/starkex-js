@@ -8,6 +8,14 @@ class FeederGateway extends GatewayBase {
     super(config, '/v2/feeder_gateway');
   }
 
+  public isAlive(): Promise<string> {
+    return this.makeRequest(`${FeederGatewayServiceType.IS_ALIVE}`);
+  }
+
+  public isReady(): Promise<string> {
+    return this.makeRequest(`${FeederGatewayServiceType.IS_READY}`);
+  }
+
   public getBatchEnclosingIds(batchId: number): Promise<number[]> {
     return this.makeRequest(
       `${FeederGatewayServiceType.GET_BATCH_ENCLOSING_IDS}?batch_id=${batchId}`
