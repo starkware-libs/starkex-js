@@ -18,10 +18,14 @@ class AvailabilityGateway extends GatewayBase {
     );
   }
 
-  public getBatchData(batchId: number): Promise<Record<string, any>> {
-    return this.makeRequest(
-      `${AvailabilityGatewayServiceType.GET_BATCH_DATA}?batch_id=${batchId}`
-    );
+  public getBatchData(batchId: number, validateRollup = false): Promise<Record<string, any>> {
+    let url = `${AvailabilityGatewayServiceType.GET_BATCH_DATA}?batch_id=${batchId}`;
+
+    if (validateRollup) {
+      url += '&validate_rollup=True';
+    }
+
+    return this.makeRequest(url);
   }
 }
 
