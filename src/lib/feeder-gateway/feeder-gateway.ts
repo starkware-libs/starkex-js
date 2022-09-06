@@ -5,7 +5,7 @@ import {FeederGatewayServiceType} from './feeder-gateway-service-type';
 
 class FeederGateway extends GatewayBase {
   constructor(config: StarkExClientConfig) {
-    super(config, '/feeder_gateway');
+    super(config, '/v2/feeder_gateway');
   }
 
   public getBatchEnclosingIds(batchId: number): Promise<number[]> {
@@ -29,6 +29,12 @@ class FeederGateway extends GatewayBase {
 
   public getLastBatchId(): Promise<number> {
     return this.makeRequest(`${FeederGatewayServiceType.GET_LAST_BATCH_ID}`);
+  }
+
+  public getPrevBatchId(batchId: number): Promise<number> {
+    return this.makeRequest(
+      `${FeederGatewayServiceType.GET_PREV_BATCH_ID}?batch_id=${batchId}`
+    );
   }
 }
 
