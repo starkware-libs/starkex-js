@@ -207,20 +207,6 @@ console.log(batchIds); // [123, 456]
 
 Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.md).
 
-#### `public availabilityGateway: AvailabilityGateway`
-
-This is the StarkEx Services HTTP gateway for committee interactions.
-
-_Example for get_batch_data_
-
-```ts
-const batchId = 5678;
-const batchData = await starkExAPI.availabilityGateway.getBatchData(batchId);
-console.log(batchData); // {...}
-```
-
-Full API docs for `availabilityGateway` can be found [here](docs/classes/AvailabilityGateway.md).
-
 ---
 
 Note: All results will be exactly the **raw** response from the API.
