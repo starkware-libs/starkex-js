@@ -13,13 +13,15 @@ class StarkExClient {
   constructor(config: StarkExClientConfig) {
     this.gateway = new Gateway(config.gateway);
     this.feederGateway = new FeederGateway(config.gateway);
-    this.availabilityGateway = new AvailabilityGateway(config.availabilityGateway);
+    this.availabilityGateway = new AvailabilityGateway(
+      config.availabilityGateway
+    );
   }
 }
 
 interface StarkExClientConfig {
   gateway: StarkExGatewayConfig;
-  availabilityGateway: StarkExGatewayConfig;
+  availabilityGateway: StarkExAvailabilityGatewayConfig;
 }
 
 interface StarkExGatewayConfig {
@@ -27,10 +29,19 @@ interface StarkExGatewayConfig {
   certs?: StarkExCertsConfig;
 }
 
-type StarkExCertsConfig = {
+interface StarkExAvailabilityGatewayConfig extends StarkExGatewayConfig {
+  certs: StarkExCertsConfig;
+}
+
+interface StarkExCertsConfig {
   cert: string;
   key: string;
   ca?: string;
-};
+}
 
-export {StarkExClient, StarkExGatewayConfig, StarkExClientConfig, StarkExCertsConfig};
+export {
+  StarkExClient,
+  StarkExClientConfig,
+  StarkExGatewayConfig,
+  StarkExCertsConfig
+};
