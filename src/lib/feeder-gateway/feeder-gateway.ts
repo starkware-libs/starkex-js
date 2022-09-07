@@ -1,4 +1,4 @@
-import {ApiVersion} from '../../utils/api-versioning';
+import {ApiVersion} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {BatchIdsRequest} from './feeder-gateway-request';

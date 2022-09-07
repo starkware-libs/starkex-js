@@ -1,5 +1,4 @@
-import {camelToUnderscore} from '../../utils';
-import {ApiVersion} from '../../utils/api-versioning';
+import {camelToUnderscore, ApiVersion} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {AvailabilityGatewayServiceType} from './availability-gateway-service-type';

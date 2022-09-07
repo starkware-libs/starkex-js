@@ -1,9 +1,12 @@
-import {apiRequest, capitalize, getLogger, ILogger} from '../utils';
 import {
+  apiRequest,
+  capitalize,
+  getLogger,
+  ILogger,
   ApiGatewayPath,
   ApiVersion,
   mapApiVersionToUrlPrefix
-} from '../utils/api-versioning';
+} from '../utils';
 import {StarkExCertsConfig, StarkExClientConfig} from './starkex-client';
 import {Method} from 'axios';
 
