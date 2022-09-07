@@ -1,3 +1,4 @@
+import {ApiVersion} from '../../utils/api-versioning';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {BatchIdsRequest} from './feeder-gateway-request';
@@ -5,15 +6,10 @@ import {FeederGatewayServiceType} from './feeder-gateway-service-type';
 
 class FeederGateway extends GatewayBase {
   constructor(config: StarkExClientConfig) {
-    super(config, '/v2/feeder_gateway');
-  }
-
-  public isAlive(): Promise<string> {
-    return this.makeRequest(`${FeederGatewayServiceType.IS_ALIVE}`);
-  }
-
-  public isReady(): Promise<string> {
-    return this.makeRequest(`${FeederGatewayServiceType.IS_READY}`);
+    super(config, {
+      gatewayRoute: 'feeder_gateway',
+      defaultVersion: ApiVersion.V2
+    });
   }
 
   public getBatchEnclosingIds(batchId: number): Promise<number[]> {

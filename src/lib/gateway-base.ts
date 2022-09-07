@@ -1,4 +1,9 @@
 import {apiRequest, capitalize, getLogger, ILogger} from '../utils';
+import {
+  ApiGatewayPath,
+  ApiVersion,
+  mapApiVersionToUrlPrefix
+} from '../utils/api-versioning';
 import {StarkExCertsConfig, StarkExClientConfig} from './starkex-client';
 import {Method} from 'axios';
 
@@ -7,13 +12,30 @@ class GatewayBase {
   private readonly endpoint: string;
   private readonly certs: StarkExCertsConfig;
 
-  constructor(config: StarkExClientConfig, path: string) {
+  constructor(
+    config: StarkExClientConfig,
+    private readonly path: ApiGatewayPath
+  ) {
     const {endpoint, certs} = config;
-    this.initLogger(path);
-    this.endpoint = `${endpoint}${path}`;
-    if (certs) {
-      this.certs = certs;
-    }
+    this.endpoint = endpoint;
+    this.certs = certs;
+
+    this.initLogger(this.getEndpoint());
+  }
+
+  private getEndpoint(options?: {version: ApiVersion}) {
+    const version =
+      options?.version === undefined
+        ? this.path.defaultVersion
+        : options.version;
+
+    return [
+      this.endpoint,
+      mapApiVersionToUrlPrefix[version],
+      this.path.gatewayRoute
+    ]
+      .filter(a => !!a)
+      .join('/');
   }
 
   private initLogger(path: string): void {
@@ -30,12 +52,13 @@ class GatewayBase {
   protected async makeRequest(
     path: string,
     method?: Method,
-    data?: Record<string, any>
+    data?: Record<string, any>,
+    version?: ApiVersion
   ): Promise<any> {
     try {
       this.logger.debug(`Sending request to ${path}`, data);
       const response = await apiRequest({
-        path: `${this.endpoint}/${path}`,
+        path: `${this.getEndpoint({version})}/${path}`,
         method,
         data,
         certs: this.certs
