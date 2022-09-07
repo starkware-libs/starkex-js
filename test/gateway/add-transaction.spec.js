@@ -12,7 +12,12 @@ describe('Gateway', () => {
 
   before(() => {
     starkExAPI = new StarkExAPI({
-      endpoint: 'https://gw.playground-v2.starkex.co'
+      gateway: {
+        endpoint: 'https://gw.playground-v2.starkex.co'
+      },
+      availabilityGateway: {
+        endpoint: 'https://av-gw.playground-v2.starkex.co'
+      }
     });
   });
 
