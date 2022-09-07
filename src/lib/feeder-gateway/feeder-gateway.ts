@@ -1,10 +1,10 @@
 import {GatewayBase} from '../gateway-base';
-import {StarkExClientConfig} from '../starkex-client';
+import {StarkExGatewayConfig} from '../starkex-client';
 import {BatchIdsRequest} from './feeder-gateway-request';
 import {FeederGatewayServiceType} from './feeder-gateway-service-type';
 
 class FeederGateway extends GatewayBase {
-  constructor(config: StarkExClientConfig) {
+  constructor(config: StarkExGatewayConfig) {
     super(config, '/feeder_gateway');
   }
 

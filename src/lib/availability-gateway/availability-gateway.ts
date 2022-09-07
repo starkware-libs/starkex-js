@@ -1,11 +1,11 @@
 import {camelToUnderscore} from '../../utils';
 import {GatewayBase} from '../gateway-base';
-import {StarkExClientConfig} from '../starkex-client';
+import {StarkExGatewayConfig} from '../starkex-client';
 import {AvailabilityGatewayServiceType} from './availability-gateway-service-type';
 import {CommitteeSignature} from './availability-gateway-types';
 
 class AvailabilityGateway extends GatewayBase {
-  constructor(config: StarkExClientConfig) {
+  constructor(config: StarkExGatewayConfig) {
     super(config, '/availability_gateway');
   }
 

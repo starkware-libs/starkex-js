@@ -1,5 +1,5 @@
 import {apiRequest, capitalize, getLogger, ILogger} from '../utils';
-import {StarkExCertsConfig, StarkExClientConfig} from './starkex-client';
+import {StarkExCertsConfig, StarkExGatewayConfig} from './starkex-client';
 import {Method} from 'axios';
 
 class GatewayBase {
@@ -7,7 +7,7 @@ class GatewayBase {
   private readonly endpoint: string;
   private readonly certs: StarkExCertsConfig;
 
-  constructor(config: StarkExClientConfig, path: string) {
+  constructor(config: StarkExGatewayConfig, path: string) {
     const {endpoint, certs} = config;
     this.initLogger(path);
     this.endpoint = `${endpoint}${path}`;
@@ -34,8 +34,12 @@ class GatewayBase {
   ): Promise<any> {
     try {
       this.logger.debug(`Sending request to ${path}`, data);
+      path = `${this.endpoint}/${path}`;
+      // path = 'https://av-gw.playground-v2.starkex.co/availability_gateway/is_alive'
+      // path = 'https://av-gw.playground-v2.starkex.co/v2/gateway/is_alive'
+      console.log({path});
       const response = await apiRequest({
-        path: `${this.endpoint}/${path}`,
+        path,
         method,
         data,
         certs: this.certs
@@ -43,6 +47,7 @@ class GatewayBase {
       this.logger.debug('Response success:', response.data);
       return response.data;
     } catch (err) {
+      console.log(6666, err.toJSON());
       this.logger.error('Error in response:', err.response?.data?.message);
       return Promise.reject(err.response?.data);
     }

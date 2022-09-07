@@ -1,6 +1,6 @@
 import {camelToUnderscore} from '../../utils';
 import {GatewayBase} from '../gateway-base';
-import {StarkExClientConfig} from '../starkex-client';
+import {StarkExGatewayConfig} from '../starkex-client';
 import {
   FalseFullWithdrawalRequest,
   FullWithdrawalRequest,
@@ -15,7 +15,7 @@ import {GatewayRequestType} from './gateway-request-type';
 import {GatewayServiceType} from './gateway-service-type';
 
 class Gateway extends GatewayBase {
-  constructor(config: StarkExClientConfig) {
+  constructor(config: StarkExGatewayConfig) {
     super(config, '/v2/gateway');
   }
 
