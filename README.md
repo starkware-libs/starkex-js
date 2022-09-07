@@ -111,7 +111,9 @@ _Example_
 
 ```ts
 const starkExAPI = new StarkExAPI({
-  endpoint: 'https://gw.playground-v2.starkex.co'
+  gateway: {
+    endpoint: 'https://gw.playground-v2.starkex.co',
+  }
 });
 ```
 
@@ -119,13 +121,24 @@ _Example with certs (NodeJS environment)_
 
 ```ts
 const starkExAPI = new StarkExAPI({
-  endpoint: 'https://playground.starkex.co',
-  certs: {
-    cert: 'USER_CERT',
-    key: 'USER_KEY'
+  gateway: {
+    endpoint: 'https://gw.playground-v2.starkex.co',
+    certs: {
+      cert: 'GW_USER_CERT',
+      key: 'GW_USER_KEY',
+    },
+  },
+  availabilityGateway: {
+    endpoint: 'https://av-gw.playground-v2.starkex.co',
+    certs: {
+      cert: 'AV_GW_USER_CERT',
+      key: 'AV_GW_USER_KEY',
+    },
   }
 });
 ```
+
+`AvailabilityGateway` is optional and can be accessed only with a certs object.
 
 The `StarkExClient` object returned from the constructor exposing the different gateways existing on this API:
 

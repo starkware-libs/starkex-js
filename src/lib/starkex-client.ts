@@ -21,7 +21,7 @@ class StarkExClient {
 
 interface StarkExClientConfig {
   gateway: StarkExGatewayConfig;
-  availabilityGateway: StarkExAvailabilityGatewayConfig;
+  availabilityGateway?: StarkExAvailabilityGatewayConfig;
 }
 
 interface StarkExGatewayConfig {
