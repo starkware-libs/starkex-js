@@ -8,12 +8,10 @@ class StarkExClient {
 
   public gateway: Gateway;
   public feederGateway: FeederGateway;
-  public availabilityGateway: AvailabilityGateway;
 
   constructor(config: StarkExClientConfig) {
     this.gateway = new Gateway(config);
     this.feederGateway = new FeederGateway(config);
-    this.availabilityGateway = new AvailabilityGateway(config);
   }
 }
 
