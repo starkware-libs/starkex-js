@@ -7,13 +7,26 @@ class GatewayBase {
   private readonly endpoint: string;
   private readonly certs: StarkExCertsConfig;
 
-  constructor(config: StarkExGatewayConfig, path: string) {
+  constructor(
+    config: StarkExGatewayConfig,
+    private readonly path: {gatewayRoute: string; defaultVersion: string}
+  ) {
     const {endpoint, certs} = config;
-    this.initLogger(path);
-    this.endpoint = `${endpoint}${path}`;
-    if (certs) {
-      this.certs = certs;
-    }
+    this.endpoint = endpoint;
+    this.certs = certs;
+
+    this.initLogger(this.getEndpoint());
+  }
+
+  private getEndpoint(options?: {version: string}) {
+    const version =
+      options?.version === undefined
+        ? this.path.defaultVersion
+        : options.version;
+
+    return [this.endpoint, version, this.path.gatewayRoute]
+      .filter(a => !!a)
+      .join('/');
   }
 
   private initLogger(path: string): void {
@@ -30,14 +43,13 @@ class GatewayBase {
   protected async makeRequest(
     path: string,
     method?: Method,
-    data?: Record<string, any>
+    data?: Record<string, any>,
+    version?: string
   ): Promise<any> {
     try {
       this.logger.debug(`Sending request to ${path}`, data);
-      path = `${this.endpoint}/${path}`;
-      // path = 'https://av-gw.playground-v2.starkex.co/availability_gateway/is_alive'
-      // path = 'https://av-gw.playground-v2.starkex.co/v2/gateway/is_alive'
-      console.log({path});
+      path = `${this.getEndpoint({version})}/${path}`;
+      console.log(path);
       const response = await apiRequest({
         path,
         method,

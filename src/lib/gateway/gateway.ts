@@ -16,7 +16,7 @@ import {GatewayServiceType} from './gateway-service-type';
 
 class Gateway extends GatewayBase {
   constructor(config: StarkExGatewayConfig) {
-    super(config, '/v2/gateway');
+    super(config, {gatewayRoute: 'gateway', defaultVersion: 'v2'});
   }
 
   public getTransaction(txId: number): Promise<Record<string, any>> {

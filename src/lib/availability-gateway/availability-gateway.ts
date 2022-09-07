@@ -6,7 +6,7 @@ import {CommitteeSignature} from './availability-gateway-types';
 
 class AvailabilityGateway extends GatewayBase {
   constructor(config: StarkExGatewayConfig) {
-    super(config, '/availability_gateway');
+    super(config, {gatewayRoute: 'availability_gateway', defaultVersion: ''});
   }
 
   public approveNewRoots(data: CommitteeSignature): Promise<string> {

@@ -5,7 +5,7 @@ import {FeederGatewayServiceType} from './feeder-gateway-service-type';
 
 class FeederGateway extends GatewayBase {
   constructor(config: StarkExGatewayConfig) {
-    super(config, '/feeder_gateway');
+    super(config, {gatewayRoute: 'feeder_gateway', defaultVersion: 'v2'});
   }
 
   public getBatchEnclosingIds(batchId: number): Promise<number[]> {
