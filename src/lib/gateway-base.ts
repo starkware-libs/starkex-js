@@ -34,12 +34,8 @@ class GatewayBase {
   ): Promise<any> {
     try {
       this.logger.debug(`Sending request to ${path}`, data);
-      path = `${this.endpoint}/${path}`;
-      // path = 'https://av-gw.playground-v2.starkex.co/availability_gateway/is_alive'
-      // path = 'https://av-gw.playground-v2.starkex.co/v2/gateway/is_alive'
-      console.log({path});
       const response = await apiRequest({
-        path,
+        path: `${this.endpoint}/${path}`,
         method,
         data,
         certs: this.certs
@@ -47,7 +43,6 @@ class GatewayBase {
       this.logger.debug('Response success:', response.data);
       return response.data;
     } catch (err) {
-      console.log(6666, err.toJSON());
       this.logger.error('Error in response:', err.response?.data?.message);
       return Promise.reject(err.response?.data);
     }
