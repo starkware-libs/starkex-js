@@ -15,7 +15,9 @@
     <script>
       (window.onload = async function () {
         const starkExAPI = new StarkExAPI({
-          endpoint: 'https://gw.playground-v2.starkex.co'
+          gateway: {
+            endpoint: 'https://gw.playground-v2.starkex.co'
+          }
         });
         const result = await starkExAPI.gateway.isAlive();
         document.getElementById("stark").innerHTML = result;

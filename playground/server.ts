@@ -8,7 +8,9 @@ const readCert = certType =>
   fs.readFileSync(path.resolve(`certs/user.${certType}`));
 
 const starkExAPI = new StarkExAPI({
-  endpoint: 'https://gw.playground-v2.starkex.co'
+  gateway: {
+    endpoint: 'https://gw.playground-v2.starkex.co'
+  }
 });
 
 // const starkExAPIWithCerts = new StarkExAPI({
