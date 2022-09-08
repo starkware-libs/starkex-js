@@ -1,6 +1,6 @@
 {
   "name": "@starkware-industries/starkex-js",
-  "version": "0.1.0-dev.3",
+  "version": "0.1.0-dev.5",
   "description": "`starkex-js` is a JavaScript wrapper around the [StarkEx API](https://starkware.co/starkex/api/) that can be used in both NodeJS and Browser environments.",
   "keywords": [
     "starkware",
