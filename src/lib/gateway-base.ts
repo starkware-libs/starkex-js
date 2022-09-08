@@ -26,11 +26,8 @@ class GatewayBase {
     this.initLogger(this.getEndpoint());
   }
 
-  private getEndpoint(options?: {version: ApiVersion}) {
-    const version =
-      options?.version === undefined
-        ? this.path.defaultVersion
-        : options.version;
+  private getEndpoint(version?: ApiVersion) {
+    version = version === undefined ? this.path.defaultVersion : version;
 
     return [
       this.endpoint,
@@ -61,7 +58,7 @@ class GatewayBase {
     try {
       this.logger.debug(`Sending request to ${path}`, data);
       const response = await apiRequest({
-        path: `${this.getEndpoint({version})}/${path}`,
+        path: `${this.getEndpoint(version)}/${path}`,
         method,
         data,
         certs: this.certs
