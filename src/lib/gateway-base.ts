@@ -27,11 +27,9 @@ class GatewayBase {
   }
 
   private getEndpoint(version?: ApiVersion) {
-    version = version === undefined ? this.path.defaultVersion : version;
-
     return [
       this.endpoint,
-      mapApiVersionToUrlPrefix[version],
+      mapApiVersionToUrlPrefix[version || this.path.defaultVersion],
       this.path.gatewayRoute
     ]
       .filter(a => !!a)
