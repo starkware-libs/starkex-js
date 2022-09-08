@@ -1,3 +1,10 @@
+## [0.1.0-dev.5](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.4...v0.1.0-dev.5) (2022-09-08)
+
+
+### 🧩 Features
+
+* **3202221738:** feeder gateway - add v4.5 capabilities ([#26](https://github.com/starkware-libs/starkex-js/issues/26)) ([a6b5975](https://github.com/starkware-libs/starkex-js/commit/a6b59755ffb1d46c82495f6cb05275a4ee8a33dc))
+
 ## [0.1.0-dev.4](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.3...v0.1.0-dev.4) (2022-09-08)
 
 
