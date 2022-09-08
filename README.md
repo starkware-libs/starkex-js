@@ -207,6 +207,24 @@ console.log(batchIds); // [123, 456]
 
 Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.md).
 
+
+_Deprecated functionality_
+
+Since StarkEx v4.5, `gateway` and `feeder gateway` apis expect to receive http requests for version 2 (`v2` prefix inside the request url).
+
+Deprecated functions, that still uses the old version of the StarkEx api (no url prefix), are marked with a `DEPRECATED` prefix by the SDK. This was done in order to inform the user that even though those methods are still supported by the api, they will be deleted in the next version.
+
+For example, a request to `/v2/feeder_gateway/get_batch_info` will be made by:
+```ts
+await starkExAPI.feederGateway.getBatchInfo(1);
+```
+
+While:
+```ts
+await starkExAPI.feederGateway.DEPRECATED_getBatchInfo(1);
+```
+will make a request to `/feeder_gateway/get_batch_info`.
+
 ---
 
 Note: All results will be exactly the **raw** response from the API.

@@ -1,4 +1,4 @@
-import {ApiVersion} from '../../utils';
+import {ApiVersion, Messages} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {BatchIdsRequest} from './feeder-gateway-request';
@@ -26,10 +26,26 @@ class FeederGateway extends GatewayBase {
     );
   }
 
-  public getBatchIds(request: BatchIdsRequest): Promise<number[]> {
+  public DEPRECATED_getBatchIds(request: BatchIdsRequest): Promise<number[]> {
+    this.logger.error(`DEPRECATED_getBatchIds: ${Messages.DEPRECATION}`);
     const {vaultRoot, orderRoot, sequenceNumber} = request;
     return this.makeRequest(
-      `${FeederGatewayServiceType.GET_BATCH_IDS}?vault_root=${vaultRoot}&order_root=${orderRoot}&sequence_number=${sequenceNumber}`
+      `${FeederGatewayServiceType.GET_BATCH_IDS}?vault_root=${vaultRoot}&order_root=${orderRoot}&sequence_number=${sequenceNumber}`,
+      'GET',
+      undefined,
+      ApiVersion.V1
+    );
+  }
+
+  public DEPRECATED_getBatchInfo(
+    batchId: number
+  ): Promise<Record<string, any>> {
+    this.logger.error(`DEPRECATED_getBatchInfo: ${Messages.DEPRECATION}`);
+    return this.makeRequest(
+      `${FeederGatewayServiceType.GET_BATCH_INFO}?batch_id=${batchId}`,
+      'GET',
+      undefined,
+      ApiVersion.V1
     );
   }
 
