@@ -37,10 +37,10 @@ class FeederGateway extends GatewayBase {
     );
   }
 
-  public DEDEPRECATED_getBatchInfo(
+  public DEPRECATED_getBatchInfo(
     batchId: number
   ): Promise<Record<string, any>> {
-    this.logger.error(`DEDEPRECATED_getBatchInfo: ${Messages.DEPRECATION}`);
+    this.logger.error(`DEPRECATED_getBatchInfo: ${Messages.DEPRECATION}`);
     return this.makeRequest(
       `${FeederGatewayServiceType.GET_BATCH_INFO}?batch_id=${batchId}`,
       'GET',

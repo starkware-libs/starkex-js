@@ -1,3 +1,10 @@
+## [0.1.0-dev.6](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.5...v0.1.0-dev.6) (2022-09-08)
+
+
+### 🧩 Features
+
+* **3127791831:** dynamic versioning ([#27](https://github.com/starkware-libs/starkex-js/issues/27)) ([935dd55](https://github.com/starkware-libs/starkex-js/commit/935dd552ffa3a3790d1c107b024d4c8a51c6e337))
+
 ## [0.1.0-dev.5](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.4...v0.1.0-dev.5) (2022-09-08)
 
 
