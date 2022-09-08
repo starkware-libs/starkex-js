@@ -207,9 +207,6 @@ console.log(batchIds); // [123, 456]
 
 Full API docs for `feederGateway` can be found [here](docs/classes/FeederGateway.md).
 
----
-
-Note: All results will be exactly the **raw** response from the API.
 
 _Deprecated functionality_
 
@@ -227,6 +224,10 @@ While:
 await starkExAPI.feederGateway.DEDEPRECATED_getBatchInfo(1);
 ```
 will make a request to `/feeder_gateway/get_batch_info`.
+
+---
+
+Note: All results will be exactly the **raw** response from the API.
 
 ## API Docs
 
