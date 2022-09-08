@@ -1,3 +1,10 @@
+## [0.1.0-dev.4](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.3...v0.1.0-dev.4) (2022-09-08)
+
+
+### 🧩 Features
+
+* **3127780111:** drop support for availability gateway ([#25](https://github.com/starkware-libs/starkex-js/issues/25)) ([bf8bbcf](https://github.com/starkware-libs/starkex-js/commit/bf8bbcf4da9c2d3f528662c0014c91e31f142fcf))
+
 ## [0.1.0-dev.3](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.2...v0.1.0-dev.3) (2022-09-06)
 
 
