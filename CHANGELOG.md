@@ -1,3 +1,10 @@
+## [0.1.0-dev.7](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.6...v0.1.0-dev.7) (2022-09-08)
+
+
+### 🧩 Features
+
+* **3200394536:** gateway - add mark_transaction_for_replacement support ([#29](https://github.com/starkware-libs/starkex-js/issues/29)) ([da402e7](https://github.com/starkware-libs/starkex-js/commit/da402e71d3764a5364f807fadb923c71aba67c29))
+
 ## [0.1.0-dev.6](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.5...v0.1.0-dev.6) (2022-09-08)
 
 
