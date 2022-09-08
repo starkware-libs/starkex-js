@@ -221,7 +221,7 @@ await starkExAPI.feederGateway.getBatchInfo(1);
 
 While:
 ```ts
-await starkExAPI.feederGateway.DEDEPRECATED_getBatchInfo(1);
+await starkExAPI.feederGateway.DEPRECATED_getBatchInfo(1);
 ```
 will make a request to `/feeder_gateway/get_batch_info`.
 
