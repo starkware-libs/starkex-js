@@ -1,3 +1,4 @@
+import {ApiVersion} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {BatchIdsRequest} from './feeder-gateway-request';
@@ -5,7 +6,10 @@ import {FeederGatewayServiceType} from './feeder-gateway-service-type';
 
 class FeederGateway extends GatewayBase {
   constructor(config: StarkExClientConfig) {
-    super(config, '/v2/feeder_gateway');
+    super(config, {
+      gatewayRoute: 'feeder_gateway',
+      defaultVersion: ApiVersion.V2
+    });
   }
 
   public isAlive(): Promise<string> {

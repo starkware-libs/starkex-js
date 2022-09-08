@@ -1,4 +1,4 @@
-import {camelToUnderscore} from '../../utils';
+import {camelToUnderscore, ApiVersion} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {
@@ -16,7 +16,7 @@ import {GatewayServiceType} from './gateway-service-type';
 
 class Gateway extends GatewayBase {
   constructor(config: StarkExClientConfig) {
-    super(config, '/v2/gateway');
+    super(config, {gatewayRoute: 'gateway', defaultVersion: ApiVersion.V2});
   }
 
   public getTransaction(txId: number): Promise<Record<string, any>> {

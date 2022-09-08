@@ -1,4 +1,4 @@
-import {camelToUnderscore} from '../../utils';
+import {camelToUnderscore, ApiVersion} from '../../utils';
 import {GatewayBase} from '../gateway-base';
 import {StarkExClientConfig} from '../starkex-client';
 import {AvailabilityGatewayServiceType} from './availability-gateway-service-type';
@@ -6,7 +6,10 @@ import {CommitteeSignature} from './availability-gateway-types';
 
 class AvailabilityGateway extends GatewayBase {
   constructor(config: StarkExClientConfig) {
-    super(config, '/availability_gateway');
+    super(config, {
+      gatewayRoute: 'availability_gateway',
+      defaultVersion: ApiVersion.V1
+    });
   }
 
   public approveNewRoots(data: CommitteeSignature): Promise<string> {
