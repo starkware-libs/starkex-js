@@ -80,7 +80,7 @@ module.exports = {
     {
       prepare: () => {
         execSync('npm run docs:generate');
-      },
+      }
     },
     '@semantic-release/changelog',
     [
