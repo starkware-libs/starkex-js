@@ -1,3 +1,5 @@
+const {execSync} = require('child_process');
+
 module.exports = {
   branches: [
     'master',
@@ -75,6 +77,11 @@ module.exports = {
         }
       }
     ],
+    {
+      prepare: () => {
+        execSync('npm run docs:generate');
+      }
+    },
     '@semantic-release/changelog',
     [
       '@semantic-release/npm',
@@ -85,7 +92,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: ['package.json', 'yarn.lock', 'CHANGELOG.md'],
+        assets: ['package.json', 'yarn.lock', 'CHANGELOG.md', 'docs'],
         message:
           "<%= branch === 'dev' ? 'prerelease' : 'release' %>: <%= nextRelease.gitTag %>\n\n <%= nextRelease.notes %>"
       }
