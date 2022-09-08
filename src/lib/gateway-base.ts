@@ -56,7 +56,7 @@ class GatewayBase {
     try {
       this.logger.debug(`Sending request to ${path}`, data);
       const response = await apiRequest({
-        path: `${this.getEndpoint(version)}/${path}`,
+        path: `${this.getEndpoint(version)}/${ path }`,
         method,
         data,
         certs: this.certs
