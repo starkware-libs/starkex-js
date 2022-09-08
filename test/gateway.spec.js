@@ -131,4 +131,14 @@ describe('Gateway', () => {
       objectShouldFailSchema(request, 'fact', 'conditionalTransfer', done);
     });
   });
+
+  it.only('should succeed markTransactionForReplacement', async () => {
+    const resposne = await starkExAPI.gateway.markTransactionForReplacement(
+      txId
+    );
+
+    chai
+      .expect(resposne)
+      .to.equal(`transaction ${txId} marked for replacement`);
+  });
 });

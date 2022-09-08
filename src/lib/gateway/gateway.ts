@@ -13,6 +13,7 @@ import {
 } from './gateway-request';
 import {GatewayRequestType} from './gateway-request-type';
 import {GatewayServiceType} from './gateway-service-type';
+import {NumericSequence} from './gateway-types';
 
 class Gateway extends GatewayBase {
   constructor(config: StarkExClientConfig) {
@@ -31,6 +32,13 @@ class Gateway extends GatewayBase {
 
   public getFirstUnusedTxId(): Promise<number> {
     return this.makeRequest(GatewayServiceType.GET_FIRST_UNUSED_TX_ID);
+  }
+
+  public markTransactionForReplacement(txId: NumericSequence): Promise<string> {
+    return this.makeRequest(
+      `${GatewayServiceType.MARK_TRANSACTION_FOR_REPLACEMENT}?tx_id=${txId}`,
+      'POST'
+    );
   }
 
   public isAlive(): Promise<string> {
