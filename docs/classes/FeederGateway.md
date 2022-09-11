@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / FeederGateway
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / FeederGateway
 
 # Class: FeederGateway
 
@@ -16,10 +16,14 @@
 
 ### Methods
 
+- [DEPRECATED_getBatchIds](FeederGateway.md#deprecated_getbatchids)
+- [DEPRECATED_getBatchInfo](FeederGateway.md#deprecated_getbatchinfo)
 - [getBatchEnclosingIds](FeederGateway.md#getbatchenclosingids)
-- [getBatchIds](FeederGateway.md#getbatchids)
 - [getBatchInfo](FeederGateway.md#getbatchinfo)
 - [getLastBatchId](FeederGateway.md#getlastbatchid)
+- [getPrevBatchId](FeederGateway.md#getprevbatchid)
+- [isAlive](FeederGateway.md#isalive)
+- [isReady](FeederGateway.md#isready)
 
 ## Constructors
 
@@ -39,9 +43,49 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:7](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway.ts#L7)
+[feeder-gateway/feeder-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L8)
 
 ## Methods
+
+### DEPRECATED_getBatchIds
+
+▸ **DEPRECATED_getBatchIds**(`request`): `Promise`<`number`[]\>
+
+#### Parameters
+
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
+| `request` | [`BatchIdsRequest`](../interfaces/BatchIdsRequest.md) |
+
+#### Returns
+
+`Promise`<`number`[]\>
+
+#### Defined in
+
+[feeder-gateway/feeder-gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L29)
+
+---
+
+### DEPRECATED_getBatchInfo
+
+▸ **DEPRECATED_getBatchInfo**(`batchId`): `Promise`<`Record`<`string`, `any`\>\>
+
+#### Parameters
+
+| Name      | Type     |
+| :-------- | :------- |
+| `batchId` | `number` |
+
+#### Returns
+
+`Promise`<`Record`<`string`, `any`\>\>
+
+#### Defined in
+
+[feeder-gateway/feeder-gateway.ts:40](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L40)
+
+---
 
 ### getBatchEnclosingIds
 
@@ -59,27 +103,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:11](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway.ts#L11)
-
----
-
-### getBatchIds
-
-▸ **getBatchIds**(`request`): `Promise`<`number`[]\>
-
-#### Parameters
-
-| Name      | Type                                                  |
-| :-------- | :---------------------------------------------------- |
-| `request` | [`BatchIdsRequest`](../interfaces/BatchIdsRequest.md) |
-
-#### Returns
-
-`Promise`<`number`[]\>
-
-#### Defined in
-
-[feeder-gateway/feeder-gateway.ts:17](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway.ts#L17)
+[feeder-gateway/feeder-gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L23)
 
 ---
 
@@ -99,7 +123,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:24](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway.ts#L24)
+[feeder-gateway/feeder-gateway.ts:52](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L52)
 
 ---
 
@@ -113,4 +137,52 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:30](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway.ts#L30)
+[feeder-gateway/feeder-gateway.ts:58](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L58)
+
+---
+
+### getPrevBatchId
+
+▸ **getPrevBatchId**(`batchId`): `Promise`<`number`\>
+
+#### Parameters
+
+| Name      | Type     |
+| :-------- | :------- |
+| `batchId` | `number` |
+
+#### Returns
+
+`Promise`<`number`\>
+
+#### Defined in
+
+[feeder-gateway/feeder-gateway.ts:62](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L62)
+
+---
+
+### isAlive
+
+▸ **isAlive**(): `Promise`<`string`\>
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Defined in
+
+[feeder-gateway/feeder-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L15)
+
+---
+
+### isReady
+
+▸ **isReady**(): `Promise`<`string`\>
+
+#### Returns
+
+`Promise`<`string`\>
+
+#### Defined in
+
+[feeder-gateway/feeder-gateway.ts:19](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L19)

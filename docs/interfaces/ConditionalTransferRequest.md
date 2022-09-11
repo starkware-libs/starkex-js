@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / ConditionalTransferRequest
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / ConditionalTransferRequest
 
 # Interface: ConditionalTransferRequest
 
@@ -31,7 +31,7 @@
 
 ### amount
 
-• **amount**: `number`
+• **amount**: `string`
 
 #### Inherited from
 
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:46](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L46)
+[gateway/gateway-request.ts:49](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L49)
 
 ---
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:53](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L53)
+[gateway/gateway-request.ts:56](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L56)
 
 ---
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:61](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L61)
+[gateway/gateway-request.ts:64](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L64)
 
 ---
 
@@ -73,7 +73,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:60](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L60)
+[gateway/gateway-request.ts:63](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L63)
 
 ---
 
@@ -87,7 +87,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:56](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L56)
+[gateway/gateway-request.ts:59](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L59)
 
 ---
 
@@ -101,13 +101,13 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:55](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L55)
+[gateway/gateway-request.ts:58](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L58)
 
 ---
 
 ### nonce
 
-• **nonce**: `number`
+• **nonce**: [`NumericSequence`](../modules.md#numericsequence)
 
 #### Inherited from
 
@@ -115,7 +115,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:47](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L47)
+[gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L50)
 
 ---
 
@@ -129,13 +129,13 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L51)
+[gateway/gateway-request.ts:54](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L54)
 
 ---
 
 ### receiverVaultId
 
-• **receiverVaultId**: `number`
+• **receiverVaultId**: [`NumericSequence`](../modules.md#numericsequence)
 
 #### Inherited from
 
@@ -143,7 +143,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L52)
+[gateway/gateway-request.ts:55](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L55)
 
 ---
 
@@ -157,13 +157,13 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:48](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L48)
+[gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L51)
 
 ---
 
 ### senderVaultId
 
-• **senderVaultId**: `number`
+• **senderVaultId**: [`NumericSequence`](../modules.md#numericsequence)
 
 #### Inherited from
 
@@ -171,7 +171,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:49](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L49)
+[gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L52)
 
 ---
 
@@ -185,7 +185,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:54](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L54)
+[gateway/gateway-request.ts:57](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L57)
 
 ---
 
@@ -199,13 +199,13 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L50)
+[gateway/gateway-request.ts:53](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L53)
 
 ---
 
 ### txId
 
-• **txId**: `number`
+• **txId**: [`NumericSequence`](../modules.md#numericsequence)
 
 #### Inherited from
 
@@ -213,4 +213,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L17)
+[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L20)

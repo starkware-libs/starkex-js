@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / StarkExClient
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / StarkExClient
 
 # Class: StarkExClient
 
@@ -10,9 +10,10 @@
 
 ### Properties
 
-- [availabilityGateway](StarkExClient.md#availabilitygateway)
 - [feederGateway](StarkExClient.md#feedergateway)
 - [gateway](StarkExClient.md#gateway)
+- [GatewayRequestType](StarkExClient.md#gatewayrequesttype)
+- [StarkErrorCode](StarkExClient.md#starkerrorcode)
 
 ## Constructors
 
@@ -28,19 +29,9 @@
 
 #### Defined in
 
-[starkex-client.ts:8](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/starkex-client.ts#L8)
+[starkex-client.ts:12](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L12)
 
 ## Properties
-
-### availabilityGateway
-
-• **availabilityGateway**: [`AvailabilityGateway`](AvailabilityGateway.md)
-
-#### Defined in
-
-[starkex-client.ts:6](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/starkex-client.ts#L6)
-
----
 
 ### feederGateway
 
@@ -48,7 +39,7 @@
 
 #### Defined in
 
-[starkex-client.ts:5](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/starkex-client.ts#L5)
+[starkex-client.ts:10](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L10)
 
 ---
 
@@ -58,4 +49,24 @@
 
 #### Defined in
 
-[starkex-client.ts:4](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/starkex-client.ts#L4)
+[starkex-client.ts:9](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L9)
+
+---
+
+### GatewayRequestType
+
+▪ `Static` `Readonly` **GatewayRequestType**: typeof [`GatewayRequestType`](../enums/GatewayRequestType.md) = `GatewayRequestType`
+
+#### Defined in
+
+[starkex-client.ts:7](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L7)
+
+---
+
+### StarkErrorCode
+
+▪ `Static` `Readonly` **StarkErrorCode**: typeof [`StarkErrorCode`](../enums/StarkErrorCode.md) = `StarkErrorCode`
+
+#### Defined in
+
+[starkex-client.ts:6](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L6)

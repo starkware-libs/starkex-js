@@ -79,7 +79,8 @@ module.exports = {
     ],
     {
       prepare: () => {
-        execSync('npm run docs:generate');
+        execSync('yarn run docs:generate');
+        execSync('yarn run format');
       }
     },
     '@semantic-release/changelog',

@@ -140,5 +140,16 @@ export {
   SettlementRequest,
   ConditionalTransferRequest,
   SettlementInfoRequest,
-  MultiTransactionRequest
+  MultiTransactionRequest,
+  MultiTransactionTransaction,
+  DepositTransaction,
+  WithdrawalTransaction,
+  MintTransaction,
+  SettlementTransaction,
+  TransferTransaction,
+  ConditionalTransferTransaction,
+  FullWithdrawalTransaction,
+  FalseFullWithdrawalTransaction,
+  ExcludeRequest,
+  Request
 };

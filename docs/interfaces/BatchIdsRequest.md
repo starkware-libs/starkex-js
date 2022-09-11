@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / BatchIdsRequest
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / BatchIdsRequest
 
 # Interface: BatchIdsRequest
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway-request.ts:3](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway-request.ts#L3)
+[feeder-gateway/feeder-gateway-request.ts:3](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway-request.ts#L3)
 
 ---
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway-request.ts:4](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway-request.ts#L4)
+[feeder-gateway/feeder-gateway-request.ts:4](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway-request.ts#L4)
 
 ---
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway-request.ts:2](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/feeder-gateway/feeder-gateway-request.ts#L2)
+[feeder-gateway/feeder-gateway-request.ts:2](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway-request.ts#L2)
