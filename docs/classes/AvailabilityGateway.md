@@ -27,8 +27,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -47,8 +47,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type                                                        |
+| :----- | :---------------------------------------------------------- |
 | `data` | [`CommitteeSignature`](../interfaces/CommitteeSignature.md) |
 
 #### Returns
@@ -59,7 +59,7 @@ GatewayBase.constructor
 
 [availability-gateway/availability-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway.ts#L15)
 
-___
+---
 
 ### getBatchData
 
@@ -67,8 +67,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns

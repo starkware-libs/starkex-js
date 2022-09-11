@@ -21,7 +21,7 @@
 
 [gateway/gateway-request.ts:76](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L76)
 
-___
+---
 
 ### partyASold
 
@@ -31,7 +31,7 @@ ___
 
 [gateway/gateway-request.ts:74](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L74)
 
-___
+---
 
 ### partyBFeeInfo
 
@@ -41,7 +41,7 @@ ___
 
 [gateway/gateway-request.ts:77](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L77)
 
-___
+---
 
 ### partyBSold
 

@@ -6,541 +6,541 @@
 
 ### Enumeration members
 
-- [API\_FUNCTION\_TEMPORARILY\_DISABLED](StarkErrorCode.md#api_function_temporarily_disabled)
-- [BATCH\_CREATION\_FAILURE](StarkErrorCode.md#batch_creation_failure)
-- [BATCH\_FULL](StarkErrorCode.md#batch_full)
-- [BATCH\_NOT\_READY](StarkErrorCode.md#batch_not_ready)
-- [CONFLICTING\_ORDER\_AMOUNTS](StarkErrorCode.md#conflicting_order_amounts)
-- [FACT\_NOT\_REGISTERED](StarkErrorCode.md#fact_not_registered)
-- [INSUFFICIENT\_ONCHAIN\_BALANCE](StarkErrorCode.md#insufficient_onchain_balance)
-- [INVALID\_BATCH\_ID](StarkErrorCode.md#invalid_batch_id)
-- [INVALID\_CLAIM\_HASH](StarkErrorCode.md#invalid_claim_hash)
-- [INVALID\_COMMITTEE\_MEMBER](StarkErrorCode.md#invalid_committee_member)
-- [INVALID\_CONTRACT\_ADDRESS](StarkErrorCode.md#invalid_contract_address)
-- [INVALID\_CONTRACT\_RESPONSE](StarkErrorCode.md#invalid_contract_response)
-- [INVALID\_DEPLOYMENT\_INFO](StarkErrorCode.md#invalid_deployment_info)
-- [INVALID\_ETH\_ADDRESS](StarkErrorCode.md#invalid_eth_address)
-- [INVALID\_FACT](StarkErrorCode.md#invalid_fact)
-- [INVALID\_FEE\_TAKEN](StarkErrorCode.md#invalid_fee_taken)
-- [INVALID\_ORDER\_ID](StarkErrorCode.md#invalid_order_id)
-- [INVALID\_ORDER\_TYPE](StarkErrorCode.md#invalid_order_type)
-- [INVALID\_REQUEST](StarkErrorCode.md#invalid_request)
-- [INVALID\_REQUEST\_PARAMETERS](StarkErrorCode.md#invalid_request_parameters)
-- [INVALID\_SETTLEMENT\_INFO](StarkErrorCode.md#invalid_settlement_info)
-- [INVALID\_SETTLEMENT\_RATIO](StarkErrorCode.md#invalid_settlement_ratio)
-- [INVALID\_SETTLEMENT\_TOKENS](StarkErrorCode.md#invalid_settlement_tokens)
-- [INVALID\_SIGNATURE](StarkErrorCode.md#invalid_signature)
-- [INVALID\_TRANSACTION](StarkErrorCode.md#invalid_transaction)
-- [INVALID\_TRANSACTION\_ID](StarkErrorCode.md#invalid_transaction_id)
-- [INVALID\_VAULT](StarkErrorCode.md#invalid_vault)
-- [MALFORMED\_REQUEST](StarkErrorCode.md#malformed_request)
-- [MIGRATED\_PIPELINE\_OBJECT\_MISSING](StarkErrorCode.md#migrated_pipeline_object_missing)
-- [MISSING\_FEE\_OBJECT](StarkErrorCode.md#missing_fee_object)
-- [ORDER\_OVERDUE](StarkErrorCode.md#order_overdue)
-- [OUT\_OF\_RANGE\_AMOUNT](StarkErrorCode.md#out_of_range_amount)
-- [OUT\_OF\_RANGE\_BALANCE](StarkErrorCode.md#out_of_range_balance)
-- [OUT\_OF\_RANGE\_BATCH\_ID](StarkErrorCode.md#out_of_range_batch_id)
-- [OUT\_OF\_RANGE\_ETH\_ADDRESS](StarkErrorCode.md#out_of_range_eth_address)
-- [OUT\_OF\_RANGE\_EXPIRATION\_TIMESTAMP](StarkErrorCode.md#out_of_range_expiration_timestamp)
-- [OUT\_OF\_RANGE\_NONCE](StarkErrorCode.md#out_of_range_nonce)
-- [OUT\_OF\_RANGE\_ORACLE\_PRICE\_QUORUM](StarkErrorCode.md#out_of_range_oracle_price_quorum)
-- [OUT\_OF\_RANGE\_ORDER\_ID](StarkErrorCode.md#out_of_range_order_id)
-- [OUT\_OF\_RANGE\_POSITIVE\_AMOUNT](StarkErrorCode.md#out_of_range_positive_amount)
-- [OUT\_OF\_RANGE\_PUBLIC\_KEY](StarkErrorCode.md#out_of_range_public_key)
-- [OUT\_OF\_RANGE\_SIGNATURE\_SUBFIELD](StarkErrorCode.md#out_of_range_signature_subfield)
-- [OUT\_OF\_RANGE\_TOKEN\_ID](StarkErrorCode.md#out_of_range_token_id)
-- [OUT\_OF\_RANGE\_VAULT\_ID](StarkErrorCode.md#out_of_range_vault_id)
-- [REPLACED\_BEFORE](StarkErrorCode.md#replaced_before)
-- [REQUEST\_FAILED](StarkErrorCode.md#request_failed)
-- [SCHEMA\_VALIDATION\_ERROR](StarkErrorCode.md#schema_validation_error)
-- [TRANSACTION\_CANCELLED](StarkErrorCode.md#transaction_cancelled)
-- [TRANSACTION\_PENDING](StarkErrorCode.md#transaction_pending)
+- [API_FUNCTION_TEMPORARILY_DISABLED](StarkErrorCode.md#api_function_temporarily_disabled)
+- [BATCH_CREATION_FAILURE](StarkErrorCode.md#batch_creation_failure)
+- [BATCH_FULL](StarkErrorCode.md#batch_full)
+- [BATCH_NOT_READY](StarkErrorCode.md#batch_not_ready)
+- [CONFLICTING_ORDER_AMOUNTS](StarkErrorCode.md#conflicting_order_amounts)
+- [FACT_NOT_REGISTERED](StarkErrorCode.md#fact_not_registered)
+- [INSUFFICIENT_ONCHAIN_BALANCE](StarkErrorCode.md#insufficient_onchain_balance)
+- [INVALID_BATCH_ID](StarkErrorCode.md#invalid_batch_id)
+- [INVALID_CLAIM_HASH](StarkErrorCode.md#invalid_claim_hash)
+- [INVALID_COMMITTEE_MEMBER](StarkErrorCode.md#invalid_committee_member)
+- [INVALID_CONTRACT_ADDRESS](StarkErrorCode.md#invalid_contract_address)
+- [INVALID_CONTRACT_RESPONSE](StarkErrorCode.md#invalid_contract_response)
+- [INVALID_DEPLOYMENT_INFO](StarkErrorCode.md#invalid_deployment_info)
+- [INVALID_ETH_ADDRESS](StarkErrorCode.md#invalid_eth_address)
+- [INVALID_FACT](StarkErrorCode.md#invalid_fact)
+- [INVALID_FEE_TAKEN](StarkErrorCode.md#invalid_fee_taken)
+- [INVALID_ORDER_ID](StarkErrorCode.md#invalid_order_id)
+- [INVALID_ORDER_TYPE](StarkErrorCode.md#invalid_order_type)
+- [INVALID_REQUEST](StarkErrorCode.md#invalid_request)
+- [INVALID_REQUEST_PARAMETERS](StarkErrorCode.md#invalid_request_parameters)
+- [INVALID_SETTLEMENT_INFO](StarkErrorCode.md#invalid_settlement_info)
+- [INVALID_SETTLEMENT_RATIO](StarkErrorCode.md#invalid_settlement_ratio)
+- [INVALID_SETTLEMENT_TOKENS](StarkErrorCode.md#invalid_settlement_tokens)
+- [INVALID_SIGNATURE](StarkErrorCode.md#invalid_signature)
+- [INVALID_TRANSACTION](StarkErrorCode.md#invalid_transaction)
+- [INVALID_TRANSACTION_ID](StarkErrorCode.md#invalid_transaction_id)
+- [INVALID_VAULT](StarkErrorCode.md#invalid_vault)
+- [MALFORMED_REQUEST](StarkErrorCode.md#malformed_request)
+- [MIGRATED_PIPELINE_OBJECT_MISSING](StarkErrorCode.md#migrated_pipeline_object_missing)
+- [MISSING_FEE_OBJECT](StarkErrorCode.md#missing_fee_object)
+- [ORDER_OVERDUE](StarkErrorCode.md#order_overdue)
+- [OUT_OF_RANGE_AMOUNT](StarkErrorCode.md#out_of_range_amount)
+- [OUT_OF_RANGE_BALANCE](StarkErrorCode.md#out_of_range_balance)
+- [OUT_OF_RANGE_BATCH_ID](StarkErrorCode.md#out_of_range_batch_id)
+- [OUT_OF_RANGE_ETH_ADDRESS](StarkErrorCode.md#out_of_range_eth_address)
+- [OUT_OF_RANGE_EXPIRATION_TIMESTAMP](StarkErrorCode.md#out_of_range_expiration_timestamp)
+- [OUT_OF_RANGE_NONCE](StarkErrorCode.md#out_of_range_nonce)
+- [OUT_OF_RANGE_ORACLE_PRICE_QUORUM](StarkErrorCode.md#out_of_range_oracle_price_quorum)
+- [OUT_OF_RANGE_ORDER_ID](StarkErrorCode.md#out_of_range_order_id)
+- [OUT_OF_RANGE_POSITIVE_AMOUNT](StarkErrorCode.md#out_of_range_positive_amount)
+- [OUT_OF_RANGE_PUBLIC_KEY](StarkErrorCode.md#out_of_range_public_key)
+- [OUT_OF_RANGE_SIGNATURE_SUBFIELD](StarkErrorCode.md#out_of_range_signature_subfield)
+- [OUT_OF_RANGE_TOKEN_ID](StarkErrorCode.md#out_of_range_token_id)
+- [OUT_OF_RANGE_VAULT_ID](StarkErrorCode.md#out_of_range_vault_id)
+- [REPLACED_BEFORE](StarkErrorCode.md#replaced_before)
+- [REQUEST_FAILED](StarkErrorCode.md#request_failed)
+- [SCHEMA_VALIDATION_ERROR](StarkErrorCode.md#schema_validation_error)
+- [TRANSACTION_CANCELLED](StarkErrorCode.md#transaction_cancelled)
+- [TRANSACTION_PENDING](StarkErrorCode.md#transaction_pending)
 
 ## Enumeration members
 
-### API\_FUNCTION\_TEMPORARILY\_DISABLED
+### API_FUNCTION_TEMPORARILY_DISABLED
 
-• **API\_FUNCTION\_TEMPORARILY\_DISABLED** = `0`
+• **API_FUNCTION_TEMPORARILY_DISABLED** = `0`
 
 #### Defined in
 
 [common/error-codes.ts:4](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L4)
 
-___
+---
 
-### BATCH\_CREATION\_FAILURE
+### BATCH_CREATION_FAILURE
 
-• **BATCH\_CREATION\_FAILURE** = `1`
+• **BATCH_CREATION_FAILURE** = `1`
 
 #### Defined in
 
 [common/error-codes.ts:5](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L5)
 
-___
+---
 
-### BATCH\_FULL
+### BATCH_FULL
 
-• **BATCH\_FULL** = `2`
+• **BATCH_FULL** = `2`
 
 #### Defined in
 
 [common/error-codes.ts:6](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L6)
 
-___
+---
 
-### BATCH\_NOT\_READY
+### BATCH_NOT_READY
 
-• **BATCH\_NOT\_READY** = `3`
+• **BATCH_NOT_READY** = `3`
 
 #### Defined in
 
 [common/error-codes.ts:7](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L7)
 
-___
+---
 
-### CONFLICTING\_ORDER\_AMOUNTS
+### CONFLICTING_ORDER_AMOUNTS
 
-• **CONFLICTING\_ORDER\_AMOUNTS** = `4`
+• **CONFLICTING_ORDER_AMOUNTS** = `4`
 
 #### Defined in
 
 [common/error-codes.ts:8](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L8)
 
-___
+---
 
-### FACT\_NOT\_REGISTERED
+### FACT_NOT_REGISTERED
 
-• **FACT\_NOT\_REGISTERED** = `5`
+• **FACT_NOT_REGISTERED** = `5`
 
 #### Defined in
 
 [common/error-codes.ts:9](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L9)
 
-___
+---
 
-### INSUFFICIENT\_ONCHAIN\_BALANCE
+### INSUFFICIENT_ONCHAIN_BALANCE
 
-• **INSUFFICIENT\_ONCHAIN\_BALANCE** = `6`
+• **INSUFFICIENT_ONCHAIN_BALANCE** = `6`
 
 #### Defined in
 
 [common/error-codes.ts:10](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L10)
 
-___
+---
 
-### INVALID\_BATCH\_ID
+### INVALID_BATCH_ID
 
-• **INVALID\_BATCH\_ID** = `7`
+• **INVALID_BATCH_ID** = `7`
 
 #### Defined in
 
 [common/error-codes.ts:11](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L11)
 
-___
+---
 
-### INVALID\_CLAIM\_HASH
+### INVALID_CLAIM_HASH
 
-• **INVALID\_CLAIM\_HASH** = `8`
+• **INVALID_CLAIM_HASH** = `8`
 
 #### Defined in
 
 [common/error-codes.ts:12](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L12)
 
-___
+---
 
-### INVALID\_COMMITTEE\_MEMBER
+### INVALID_COMMITTEE_MEMBER
 
-• **INVALID\_COMMITTEE\_MEMBER** = `9`
+• **INVALID_COMMITTEE_MEMBER** = `9`
 
 #### Defined in
 
 [common/error-codes.ts:13](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L13)
 
-___
+---
 
-### INVALID\_CONTRACT\_ADDRESS
+### INVALID_CONTRACT_ADDRESS
 
-• **INVALID\_CONTRACT\_ADDRESS** = `10`
+• **INVALID_CONTRACT_ADDRESS** = `10`
 
 #### Defined in
 
 [common/error-codes.ts:14](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L14)
 
-___
+---
 
-### INVALID\_CONTRACT\_RESPONSE
+### INVALID_CONTRACT_RESPONSE
 
-• **INVALID\_CONTRACT\_RESPONSE** = `11`
+• **INVALID_CONTRACT_RESPONSE** = `11`
 
 #### Defined in
 
 [common/error-codes.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L15)
 
-___
+---
 
-### INVALID\_DEPLOYMENT\_INFO
+### INVALID_DEPLOYMENT_INFO
 
-• **INVALID\_DEPLOYMENT\_INFO** = `12`
+• **INVALID_DEPLOYMENT_INFO** = `12`
 
 #### Defined in
 
 [common/error-codes.ts:16](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L16)
 
-___
+---
 
-### INVALID\_ETH\_ADDRESS
+### INVALID_ETH_ADDRESS
 
-• **INVALID\_ETH\_ADDRESS** = `13`
+• **INVALID_ETH_ADDRESS** = `13`
 
 #### Defined in
 
 [common/error-codes.ts:17](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L17)
 
-___
+---
 
-### INVALID\_FACT
+### INVALID_FACT
 
-• **INVALID\_FACT** = `14`
+• **INVALID_FACT** = `14`
 
 #### Defined in
 
 [common/error-codes.ts:18](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L18)
 
-___
+---
 
-### INVALID\_FEE\_TAKEN
+### INVALID_FEE_TAKEN
 
-• **INVALID\_FEE\_TAKEN** = `15`
+• **INVALID_FEE_TAKEN** = `15`
 
 #### Defined in
 
 [common/error-codes.ts:19](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L19)
 
-___
+---
 
-### INVALID\_ORDER\_ID
+### INVALID_ORDER_ID
 
-• **INVALID\_ORDER\_ID** = `16`
+• **INVALID_ORDER_ID** = `16`
 
 #### Defined in
 
 [common/error-codes.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L20)
 
-___
+---
 
-### INVALID\_ORDER\_TYPE
+### INVALID_ORDER_TYPE
 
-• **INVALID\_ORDER\_TYPE** = `17`
+• **INVALID_ORDER_TYPE** = `17`
 
 #### Defined in
 
 [common/error-codes.ts:21](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L21)
 
-___
+---
 
-### INVALID\_REQUEST
+### INVALID_REQUEST
 
-• **INVALID\_REQUEST** = `18`
+• **INVALID_REQUEST** = `18`
 
 #### Defined in
 
 [common/error-codes.ts:22](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L22)
 
-___
+---
 
-### INVALID\_REQUEST\_PARAMETERS
+### INVALID_REQUEST_PARAMETERS
 
-• **INVALID\_REQUEST\_PARAMETERS** = `19`
+• **INVALID_REQUEST_PARAMETERS** = `19`
 
 #### Defined in
 
 [common/error-codes.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L23)
 
-___
+---
 
-### INVALID\_SETTLEMENT\_INFO
+### INVALID_SETTLEMENT_INFO
 
-• **INVALID\_SETTLEMENT\_INFO** = `20`
+• **INVALID_SETTLEMENT_INFO** = `20`
 
 #### Defined in
 
 [common/error-codes.ts:24](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L24)
 
-___
+---
 
-### INVALID\_SETTLEMENT\_RATIO
+### INVALID_SETTLEMENT_RATIO
 
-• **INVALID\_SETTLEMENT\_RATIO** = `21`
+• **INVALID_SETTLEMENT_RATIO** = `21`
 
 #### Defined in
 
 [common/error-codes.ts:25](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L25)
 
-___
+---
 
-### INVALID\_SETTLEMENT\_TOKENS
+### INVALID_SETTLEMENT_TOKENS
 
-• **INVALID\_SETTLEMENT\_TOKENS** = `22`
+• **INVALID_SETTLEMENT_TOKENS** = `22`
 
 #### Defined in
 
 [common/error-codes.ts:26](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L26)
 
-___
+---
 
-### INVALID\_SIGNATURE
+### INVALID_SIGNATURE
 
-• **INVALID\_SIGNATURE** = `23`
+• **INVALID_SIGNATURE** = `23`
 
 #### Defined in
 
 [common/error-codes.ts:27](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L27)
 
-___
+---
 
-### INVALID\_TRANSACTION
+### INVALID_TRANSACTION
 
-• **INVALID\_TRANSACTION** = `24`
+• **INVALID_TRANSACTION** = `24`
 
 #### Defined in
 
 [common/error-codes.ts:28](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L28)
 
-___
+---
 
-### INVALID\_TRANSACTION\_ID
+### INVALID_TRANSACTION_ID
 
-• **INVALID\_TRANSACTION\_ID** = `25`
+• **INVALID_TRANSACTION_ID** = `25`
 
 #### Defined in
 
 [common/error-codes.ts:29](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L29)
 
-___
+---
 
-### INVALID\_VAULT
+### INVALID_VAULT
 
-• **INVALID\_VAULT** = `26`
+• **INVALID_VAULT** = `26`
 
 #### Defined in
 
 [common/error-codes.ts:30](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L30)
 
-___
+---
 
-### MALFORMED\_REQUEST
+### MALFORMED_REQUEST
 
-• **MALFORMED\_REQUEST** = `27`
+• **MALFORMED_REQUEST** = `27`
 
 #### Defined in
 
 [common/error-codes.ts:31](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L31)
 
-___
+---
 
-### MIGRATED\_PIPELINE\_OBJECT\_MISSING
+### MIGRATED_PIPELINE_OBJECT_MISSING
 
-• **MIGRATED\_PIPELINE\_OBJECT\_MISSING** = `28`
+• **MIGRATED_PIPELINE_OBJECT_MISSING** = `28`
 
 #### Defined in
 
 [common/error-codes.ts:32](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L32)
 
-___
+---
 
-### MISSING\_FEE\_OBJECT
+### MISSING_FEE_OBJECT
 
-• **MISSING\_FEE\_OBJECT** = `29`
+• **MISSING_FEE_OBJECT** = `29`
 
 #### Defined in
 
 [common/error-codes.ts:33](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L33)
 
-___
+---
 
-### ORDER\_OVERDUE
+### ORDER_OVERDUE
 
-• **ORDER\_OVERDUE** = `30`
+• **ORDER_OVERDUE** = `30`
 
 #### Defined in
 
 [common/error-codes.ts:34](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L34)
 
-___
+---
 
-### OUT\_OF\_RANGE\_AMOUNT
+### OUT_OF_RANGE_AMOUNT
 
-• **OUT\_OF\_RANGE\_AMOUNT** = `32`
+• **OUT_OF_RANGE_AMOUNT** = `32`
 
 #### Defined in
 
 [common/error-codes.ts:35](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L35)
 
-___
+---
 
-### OUT\_OF\_RANGE\_BALANCE
+### OUT_OF_RANGE_BALANCE
 
-• **OUT\_OF\_RANGE\_BALANCE** = `33`
+• **OUT_OF_RANGE_BALANCE** = `33`
 
 #### Defined in
 
 [common/error-codes.ts:36](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L36)
 
-___
+---
 
-### OUT\_OF\_RANGE\_BATCH\_ID
+### OUT_OF_RANGE_BATCH_ID
 
-• **OUT\_OF\_RANGE\_BATCH\_ID** = `34`
+• **OUT_OF_RANGE_BATCH_ID** = `34`
 
 #### Defined in
 
 [common/error-codes.ts:37](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L37)
 
-___
+---
 
-### OUT\_OF\_RANGE\_ETH\_ADDRESS
+### OUT_OF_RANGE_ETH_ADDRESS
 
-• **OUT\_OF\_RANGE\_ETH\_ADDRESS** = `35`
+• **OUT_OF_RANGE_ETH_ADDRESS** = `35`
 
 #### Defined in
 
 [common/error-codes.ts:38](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L38)
 
-___
+---
 
-### OUT\_OF\_RANGE\_EXPIRATION\_TIMESTAMP
+### OUT_OF_RANGE_EXPIRATION_TIMESTAMP
 
-• **OUT\_OF\_RANGE\_EXPIRATION\_TIMESTAMP** = `36`
+• **OUT_OF_RANGE_EXPIRATION_TIMESTAMP** = `36`
 
 #### Defined in
 
 [common/error-codes.ts:39](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L39)
 
-___
+---
 
-### OUT\_OF\_RANGE\_NONCE
+### OUT_OF_RANGE_NONCE
 
-• **OUT\_OF\_RANGE\_NONCE** = `37`
+• **OUT_OF_RANGE_NONCE** = `37`
 
 #### Defined in
 
 [common/error-codes.ts:40](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L40)
 
-___
+---
 
-### OUT\_OF\_RANGE\_ORACLE\_PRICE\_QUORUM
+### OUT_OF_RANGE_ORACLE_PRICE_QUORUM
 
-• **OUT\_OF\_RANGE\_ORACLE\_PRICE\_QUORUM** = `38`
+• **OUT_OF_RANGE_ORACLE_PRICE_QUORUM** = `38`
 
 #### Defined in
 
 [common/error-codes.ts:41](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L41)
 
-___
+---
 
-### OUT\_OF\_RANGE\_ORDER\_ID
+### OUT_OF_RANGE_ORDER_ID
 
-• **OUT\_OF\_RANGE\_ORDER\_ID** = `39`
+• **OUT_OF_RANGE_ORDER_ID** = `39`
 
 #### Defined in
 
 [common/error-codes.ts:42](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L42)
 
-___
+---
 
-### OUT\_OF\_RANGE\_POSITIVE\_AMOUNT
+### OUT_OF_RANGE_POSITIVE_AMOUNT
 
-• **OUT\_OF\_RANGE\_POSITIVE\_AMOUNT** = `31`
+• **OUT_OF_RANGE_POSITIVE_AMOUNT** = `31`
 
 #### Defined in
 
 [common/error-codes.ts:43](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L43)
 
-___
+---
 
-### OUT\_OF\_RANGE\_PUBLIC\_KEY
+### OUT_OF_RANGE_PUBLIC_KEY
 
-• **OUT\_OF\_RANGE\_PUBLIC\_KEY** = `40`
+• **OUT_OF_RANGE_PUBLIC_KEY** = `40`
 
 #### Defined in
 
 [common/error-codes.ts:44](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L44)
 
-___
+---
 
-### OUT\_OF\_RANGE\_SIGNATURE\_SUBFIELD
+### OUT_OF_RANGE_SIGNATURE_SUBFIELD
 
-• **OUT\_OF\_RANGE\_SIGNATURE\_SUBFIELD** = `41`
+• **OUT_OF_RANGE_SIGNATURE_SUBFIELD** = `41`
 
 #### Defined in
 
 [common/error-codes.ts:45](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L45)
 
-___
+---
 
-### OUT\_OF\_RANGE\_TOKEN\_ID
+### OUT_OF_RANGE_TOKEN_ID
 
-• **OUT\_OF\_RANGE\_TOKEN\_ID** = `42`
+• **OUT_OF_RANGE_TOKEN_ID** = `42`
 
 #### Defined in
 
 [common/error-codes.ts:46](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L46)
 
-___
+---
 
-### OUT\_OF\_RANGE\_VAULT\_ID
+### OUT_OF_RANGE_VAULT_ID
 
-• **OUT\_OF\_RANGE\_VAULT\_ID** = `43`
+• **OUT_OF_RANGE_VAULT_ID** = `43`
 
 #### Defined in
 
 [common/error-codes.ts:47](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L47)
 
-___
+---
 
-### REPLACED\_BEFORE
+### REPLACED_BEFORE
 
-• **REPLACED\_BEFORE** = `44`
+• **REPLACED_BEFORE** = `44`
 
 #### Defined in
 
 [common/error-codes.ts:48](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L48)
 
-___
+---
 
-### REQUEST\_FAILED
+### REQUEST_FAILED
 
-• **REQUEST\_FAILED** = `45`
+• **REQUEST_FAILED** = `45`
 
 #### Defined in
 
 [common/error-codes.ts:49](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L49)
 
-___
+---
 
-### SCHEMA\_VALIDATION\_ERROR
+### SCHEMA_VALIDATION_ERROR
 
-• **SCHEMA\_VALIDATION\_ERROR** = `46`
+• **SCHEMA_VALIDATION_ERROR** = `46`
 
 #### Defined in
 
 [common/error-codes.ts:50](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L50)
 
-___
+---
 
-### TRANSACTION\_CANCELLED
+### TRANSACTION_CANCELLED
 
-• **TRANSACTION\_CANCELLED** = `47`
+• **TRANSACTION_CANCELLED** = `47`
 
 #### Defined in
 
 [common/error-codes.ts:51](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L51)
 
-___
+---
 
-### TRANSACTION\_PENDING
+### TRANSACTION_PENDING
 
-• **TRANSACTION\_PENDING** = `48`
+• **TRANSACTION_PENDING** = `48`
 
 #### Defined in
 

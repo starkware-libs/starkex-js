@@ -23,8 +23,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Defined in
@@ -41,7 +41,7 @@
 
 [starkex-client.ts:10](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L10)
 
-___
+---
 
 ### gateway
 
@@ -51,7 +51,7 @@ ___
 
 [starkex-client.ts:9](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L9)
 
-___
+---
 
 ### GatewayRequestType
 
@@ -61,7 +61,7 @@ ___
 
 [starkex-client.ts:7](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L7)
 
-___
+---
 
 ### StarkErrorCode
 

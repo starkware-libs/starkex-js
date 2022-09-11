@@ -29,7 +29,7 @@
 
 [gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L20)
 
-___
+---
 
 ### txs
 

@@ -56,23 +56,23 @@
 
 ### ConditionalTransferTransaction
 
-Ƭ **ConditionalTransferTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`ConditionalTransferRequest`](interfaces/ConditionalTransferRequest.md)\> & { `type`: [`CONDITIONAL_TRANSFER_REQUEST`](enums/GatewayRequestType.md#conditional_transfer_request)  }
+Ƭ **ConditionalTransferTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`ConditionalTransferRequest`](interfaces/ConditionalTransferRequest.md)\> & { `type`: [`CONDITIONAL_TRANSFER_REQUEST`](enums/GatewayRequestType.md#conditional_transfer_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:104](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L104)
 
-___
+---
 
 ### DepositTransaction
 
-Ƭ **DepositTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransactionRequest`](interfaces/TransactionRequest.md)\> & { `type`: [`DEPOSIT_REQUEST`](enums/GatewayRequestType.md#deposit_request)  }
+Ƭ **DepositTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransactionRequest`](interfaces/TransactionRequest.md)\> & { `type`: [`DEPOSIT_REQUEST`](enums/GatewayRequestType.md#deposit_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:88](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L88)
 
-___
+---
 
 ### ExcludeRequest
 
@@ -81,34 +81,34 @@ ___
 #### Type parameters
 
 | Name |
-| :------ |
-| `T` |
+| :--- |
+| `T`  |
 
 #### Defined in
 
 [gateway/gateway-request.ts:82](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L82)
 
-___
+---
 
 ### FalseFullWithdrawalTransaction
 
-Ƭ **FalseFullWithdrawalTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`FalseFullWithdrawalRequest`](interfaces/FalseFullWithdrawalRequest.md)\> & { `type`: [`FALSE_FULL_WITHDRAWAL_REQUEST`](enums/GatewayRequestType.md#false_full_withdrawal_request)  }
+Ƭ **FalseFullWithdrawalTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`FalseFullWithdrawalRequest`](interfaces/FalseFullWithdrawalRequest.md)\> & { `type`: [`FALSE_FULL_WITHDRAWAL_REQUEST`](enums/GatewayRequestType.md#false_full_withdrawal_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:113](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L113)
 
-___
+---
 
 ### FullWithdrawalTransaction
 
-Ƭ **FullWithdrawalTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`FullWithdrawalRequest`](interfaces/FullWithdrawalRequest.md)\> & { `type`: [`FULL_WITHDRAWAL_REQUEST`](enums/GatewayRequestType.md#full_withdrawal_request)  }
+Ƭ **FullWithdrawalTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`FullWithdrawalRequest`](interfaces/FullWithdrawalRequest.md)\> & { `type`: [`FULL_WITHDRAWAL_REQUEST`](enums/GatewayRequestType.md#full_withdrawal_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:109](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L109)
 
-___
+---
 
 ### GatewayRequest
 
@@ -118,17 +118,17 @@ ___
 
 [gateway/gateway-request.ts:10](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L10)
 
-___
+---
 
 ### MintTransaction
 
-Ƭ **MintTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransactionRequest`](interfaces/TransactionRequest.md)\> & { `type`: [`MINT_REQUEST`](enums/GatewayRequestType.md#mint_request)  }
+Ƭ **MintTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransactionRequest`](interfaces/TransactionRequest.md)\> & { `type`: [`MINT_REQUEST`](enums/GatewayRequestType.md#mint_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:92](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L92)
 
-___
+---
 
 ### MultiTransactionTransaction
 
@@ -138,7 +138,7 @@ ___
 
 [gateway/gateway-request.ts:120](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L120)
 
-___
+---
 
 ### NumericSequence
 
@@ -148,17 +148,17 @@ ___
 
 [gateway/gateway-types.ts:3](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L3)
 
-___
+---
 
 ### SettlementTransaction
 
-Ƭ **SettlementTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`SettlementRequest`](interfaces/SettlementRequest.md)\> & { `type`: [`SETTLEMENT_REQUEST`](enums/GatewayRequestType.md#settlement_request)  }
+Ƭ **SettlementTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`SettlementRequest`](interfaces/SettlementRequest.md)\> & { `type`: [`SETTLEMENT_REQUEST`](enums/GatewayRequestType.md#settlement_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:96](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L96)
 
-___
+---
 
 ### StarkExCertsConfig
 
@@ -166,31 +166,31 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `ca?` | `string` |
+| Name   | Type     |
+| :----- | :------- |
+| `ca?`  | `string` |
 | `cert` | `string` |
-| `key` | `string` |
+| `key`  | `string` |
 
 #### Defined in
 
 [starkex-client.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/starkex-client.ts#L23)
 
-___
+---
 
 ### TransferTransaction
 
-Ƭ **TransferTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransferRequest`](interfaces/TransferRequest.md)\> & { `type`: [`TRANSFER_REQUEST`](enums/GatewayRequestType.md#transfer_request)  }
+Ƭ **TransferTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransferRequest`](interfaces/TransferRequest.md)\> & { `type`: [`TRANSFER_REQUEST`](enums/GatewayRequestType.md#transfer_request) }
 
 #### Defined in
 
 [gateway/gateway-request.ts:100](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L100)
 
-___
+---
 
 ### WithdrawalTransaction
 
-Ƭ **WithdrawalTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransactionRequest`](interfaces/TransactionRequest.md)\> & { `type`: [`WITHDRAWAL_REQUEST`](enums/GatewayRequestType.md#withdrawal_request)  }
+Ƭ **WithdrawalTransaction**: [`ExcludeRequest`](modules.md#excluderequest)<[`TransactionRequest`](interfaces/TransactionRequest.md)\> & { `type`: [`WITHDRAWAL_REQUEST`](enums/GatewayRequestType.md#withdrawal_request) }
 
 #### Defined in
 

@@ -16,8 +16,8 @@
 
 ### Methods
 
-- [DEPRECATED\_getBatchIds](FeederGateway.md#deprecated_getbatchids)
-- [DEPRECATED\_getBatchInfo](FeederGateway.md#deprecated_getbatchinfo)
+- [DEPRECATED_getBatchIds](FeederGateway.md#deprecated_getbatchids)
+- [DEPRECATED_getBatchInfo](FeederGateway.md#deprecated_getbatchinfo)
 - [getBatchEnclosingIds](FeederGateway.md#getbatchenclosingids)
 - [getBatchInfo](FeederGateway.md#getbatchinfo)
 - [getLastBatchId](FeederGateway.md#getlastbatchid)
@@ -33,8 +33,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -47,14 +47,14 @@ GatewayBase.constructor
 
 ## Methods
 
-### DEPRECATED\_getBatchIds
+### DEPRECATED_getBatchIds
 
 ▸ **DEPRECATED_getBatchIds**(`request`): `Promise`<`number`[]\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
 | `request` | [`BatchIdsRequest`](../interfaces/BatchIdsRequest.md) |
 
 #### Returns
@@ -65,16 +65,16 @@ GatewayBase.constructor
 
 [feeder-gateway/feeder-gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L29)
 
-___
+---
 
-### DEPRECATED\_getBatchInfo
+### DEPRECATED_getBatchInfo
 
 ▸ **DEPRECATED_getBatchInfo**(`batchId`): `Promise`<`Record`<`string`, `any`\>\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -85,7 +85,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:40](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L40)
 
-___
+---
 
 ### getBatchEnclosingIds
 
@@ -93,8 +93,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -105,7 +105,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L23)
 
-___
+---
 
 ### getBatchInfo
 
@@ -113,8 +113,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -125,7 +125,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:52](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L52)
 
-___
+---
 
 ### getLastBatchId
 
@@ -139,7 +139,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:58](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L58)
 
-___
+---
 
 ### getPrevBatchId
 
@@ -147,8 +147,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `batchId` | `number` |
 
 #### Returns
@@ -159,7 +159,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:62](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L62)
 
-___
+---
 
 ### isAlive
 
@@ -173,7 +173,7 @@ ___
 
 [feeder-gateway/feeder-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L15)
 
-___
+---
 
 ### isReady
 

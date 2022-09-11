@@ -27,7 +27,7 @@
 
 [gateway/gateway-request.ts:69](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L69)
 
-___
+---
 
 ### partyBOrder
 
@@ -37,7 +37,7 @@ ___
 
 [gateway/gateway-request.ts:70](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L70)
 
-___
+---
 
 ### settlementInfo
 
@@ -47,7 +47,7 @@ ___
 
 [gateway/gateway-request.ts:68](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L68)
 
-___
+---
 
 ### txId
 

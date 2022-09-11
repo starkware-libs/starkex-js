@@ -39,8 +39,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`StarkExClientConfig`](../interfaces/StarkExClientConfig.md) |
 
 #### Overrides
@@ -59,8 +59,8 @@ GatewayBase.constructor
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                                        |
+| :-------- | :-------------------------------------------------------------------------- |
 | `request` | [`ConditionalTransferRequest`](../interfaces/ConditionalTransferRequest.md) |
 
 #### Returns
@@ -71,7 +71,7 @@ GatewayBase.constructor
 
 [gateway/gateway.ts:72](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L72)
 
-___
+---
 
 ### deposit
 
@@ -79,8 +79,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                        |
+| :-------- | :---------------------------------------------------------- |
 | `request` | [`TransactionRequest`](../interfaces/TransactionRequest.md) |
 
 #### Returns
@@ -91,7 +91,7 @@ ___
 
 [gateway/gateway.ts:54](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L54)
 
-___
+---
 
 ### falseFullWithdrawal
 
@@ -99,8 +99,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                                        |
+| :-------- | :-------------------------------------------------------------------------- |
 | `request` | [`FalseFullWithdrawalRequest`](../interfaces/FalseFullWithdrawalRequest.md) |
 
 #### Returns
@@ -111,7 +111,7 @@ ___
 
 [gateway/gateway.ts:90](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L90)
 
-___
+---
 
 ### fullWithdrawal
 
@@ -119,8 +119,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                              |
+| :-------- | :---------------------------------------------------------------- |
 | `request` | [`FullWithdrawalRequest`](../interfaces/FullWithdrawalRequest.md) |
 
 #### Returns
@@ -131,7 +131,7 @@ ___
 
 [gateway/gateway.ts:81](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L81)
 
-___
+---
 
 ### getFirstUnusedTxId
 
@@ -145,7 +145,7 @@ ___
 
 [gateway/gateway.ts:33](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L33)
 
-___
+---
 
 ### getStarkDexAddress
 
@@ -159,7 +159,7 @@ ___
 
 [gateway/gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L29)
 
-___
+---
 
 ### getTransaction
 
@@ -167,8 +167,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `txId` | `number` |
 
 #### Returns
@@ -179,7 +179,7 @@ ___
 
 [gateway/gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L23)
 
-___
+---
 
 ### isAlive
 
@@ -193,7 +193,7 @@ ___
 
 [gateway/gateway.ts:44](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L44)
 
-___
+---
 
 ### markTransactionForReplacement
 
@@ -201,8 +201,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type                                               |
+| :----- | :------------------------------------------------- |
 | `txId` | [`NumericSequence`](../modules.md#numericsequence) |
 
 #### Returns
@@ -213,7 +213,7 @@ ___
 
 [gateway/gateway.ts:37](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L37)
 
-___
+---
 
 ### mint
 
@@ -221,8 +221,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                        |
+| :-------- | :---------------------------------------------------------- |
 | `request` | [`TransactionRequest`](../interfaces/TransactionRequest.md) |
 
 #### Returns
@@ -233,7 +233,7 @@ ___
 
 [gateway/gateway.ts:58](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L58)
 
-___
+---
 
 ### multiTransaction
 
@@ -241,8 +241,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                                  |
+| :-------- | :-------------------------------------------------------------------- |
 | `request` | [`MultiTransactionRequest`](../interfaces/MultiTransactionRequest.md) |
 
 #### Returns
@@ -253,7 +253,7 @@ ___
 
 [gateway/gateway.ts:99](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L99)
 
-___
+---
 
 ### settlement
 
@@ -261,8 +261,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                      |
+| :-------- | :-------------------------------------------------------- |
 | `request` | [`SettlementRequest`](../interfaces/SettlementRequest.md) |
 
 #### Returns
@@ -273,7 +273,7 @@ ___
 
 [gateway/gateway.ts:62](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L62)
 
-___
+---
 
 ### transfer
 
@@ -281,8 +281,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
 | `request` | [`TransferRequest`](../interfaces/TransferRequest.md) |
 
 #### Returns
@@ -293,7 +293,7 @@ ___
 
 [gateway/gateway.ts:68](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway.ts#L68)
 
-___
+---
 
 ### withdrawal
 
@@ -301,8 +301,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                        |
+| :-------- | :---------------------------------------------------------- |
 | `request` | [`TransactionRequest`](../interfaces/TransactionRequest.md) |
 
 #### Returns

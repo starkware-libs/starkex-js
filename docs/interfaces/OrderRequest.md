@@ -27,7 +27,7 @@
 
 [gateway/gateway-types.ts:9](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L9)
 
-___
+---
 
 ### amountSell
 
@@ -37,7 +37,7 @@ ___
 
 [gateway/gateway-types.ts:8](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L8)
 
-___
+---
 
 ### expirationTimestamp
 
@@ -47,7 +47,7 @@ ___
 
 [gateway/gateway-types.ts:14](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L14)
 
-___
+---
 
 ### feeInfo
 
@@ -57,7 +57,7 @@ ___
 
 [gateway/gateway-types.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L15)
 
-___
+---
 
 ### nonce
 
@@ -67,7 +67,7 @@ ___
 
 [gateway/gateway-types.ts:7](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L7)
 
-___
+---
 
 ### orderType
 
@@ -77,7 +77,7 @@ ___
 
 [gateway/gateway-types.ts:6](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L6)
 
-___
+---
 
 ### tokenBuy
 
@@ -87,7 +87,7 @@ ___
 
 [gateway/gateway-types.ts:11](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L11)
 
-___
+---
 
 ### tokenSell
 
@@ -97,7 +97,7 @@ ___
 
 [gateway/gateway-types.ts:10](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L10)
 
-___
+---
 
 ### vaultIdBuy
 
@@ -107,7 +107,7 @@ ___
 
 [gateway/gateway-types.ts:13](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L13)
 
-___
+---
 
 ### vaultIdSell
 

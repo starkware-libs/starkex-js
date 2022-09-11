@@ -38,7 +38,7 @@ WithAmount.amount
 
 [gateway/gateway-request.ts:33](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L33)
 
-___
+---
 
 ### starkKey
 
@@ -52,7 +52,7 @@ WithStarkKey.starkKey
 
 [gateway/gateway-request.ts:28](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L28)
 
-___
+---
 
 ### tokenId
 
@@ -66,7 +66,7 @@ WithAmount.tokenId
 
 [gateway/gateway-request.ts:32](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L32)
 
-___
+---
 
 ### txId
 
@@ -80,7 +80,7 @@ ___
 
 [gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L20)
 
-___
+---
 
 ### vaultId
 

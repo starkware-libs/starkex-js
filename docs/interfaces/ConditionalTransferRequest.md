@@ -41,7 +41,7 @@
 
 [gateway/gateway-request.ts:49](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L49)
 
-___
+---
 
 ### expirationTimestamp
 
@@ -55,7 +55,7 @@ ___
 
 [gateway/gateway-request.ts:56](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L56)
 
-___
+---
 
 ### fact
 
@@ -65,7 +65,7 @@ ___
 
 [gateway/gateway-request.ts:64](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L64)
 
-___
+---
 
 ### factRegistryAddress
 
@@ -75,7 +75,7 @@ ___
 
 [gateway/gateway-request.ts:63](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L63)
 
-___
+---
 
 ### feeInfoExchange
 
@@ -89,7 +89,7 @@ ___
 
 [gateway/gateway-request.ts:59](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L59)
 
-___
+---
 
 ### feeInfoUser
 
@@ -103,7 +103,7 @@ ___
 
 [gateway/gateway-request.ts:58](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L58)
 
-___
+---
 
 ### nonce
 
@@ -117,7 +117,7 @@ ___
 
 [gateway/gateway-request.ts:50](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L50)
 
-___
+---
 
 ### receiverPublicKey
 
@@ -131,7 +131,7 @@ ___
 
 [gateway/gateway-request.ts:54](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L54)
 
-___
+---
 
 ### receiverVaultId
 
@@ -145,7 +145,7 @@ ___
 
 [gateway/gateway-request.ts:55](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L55)
 
-___
+---
 
 ### senderPublicKey
 
@@ -159,7 +159,7 @@ ___
 
 [gateway/gateway-request.ts:51](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L51)
 
-___
+---
 
 ### senderVaultId
 
@@ -173,7 +173,7 @@ ___
 
 [gateway/gateway-request.ts:52](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L52)
 
-___
+---
 
 ### signature
 
@@ -187,7 +187,7 @@ ___
 
 [gateway/gateway-request.ts:57](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L57)
 
-___
+---
 
 ### token
 
@@ -201,7 +201,7 @@ ___
 
 [gateway/gateway-request.ts:53](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L53)
 
-___
+---
 
 ### txId
 

@@ -19,7 +19,7 @@
 
 [gateway/gateway-types.ts:36](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L36)
 
-___
+---
 
 ### TRANSFER
 
