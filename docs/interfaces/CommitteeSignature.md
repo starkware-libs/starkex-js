@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / CommitteeSignature
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / CommitteeSignature
 
 # Interface: CommitteeSignature
 
@@ -19,9 +19,9 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/availability-gateway/availability-gateway-types.ts#L2)
+[availability-gateway/availability-gateway-types.ts:2](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway-types.ts#L2)
 
----
+___
 
 ### claimHash
 
@@ -29,9 +29,9 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/availability-gateway/availability-gateway-types.ts#L5)
+[availability-gateway/availability-gateway-types.ts:5](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway-types.ts#L5)
 
----
+___
 
 ### memberKey
 
@@ -39,9 +39,9 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/availability-gateway/availability-gateway-types.ts#L4)
+[availability-gateway/availability-gateway-types.ts:4](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway-types.ts#L4)
 
----
+___
 
 ### signature
 
@@ -49,4 +49,4 @@
 
 #### Defined in
 
-[availability-gateway/availability-gateway-types.ts:3](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/availability-gateway/availability-gateway-types.ts#L3)
+[availability-gateway/availability-gateway-types.ts:3](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway-types.ts#L3)

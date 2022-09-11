@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / Signature
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / Signature
 
 # Interface: Signature
 
@@ -17,9 +17,9 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:15](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-types.ts#L15)
+[gateway/gateway-types.ts:19](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L19)
 
----
+___
 
 ### s
 
@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:16](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-types.ts#L16)
+[gateway/gateway-types.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L20)

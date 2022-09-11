@@ -1,4 +1,4 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / SettlementInfoRequest
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / SettlementInfoRequest
 
 # Interface: SettlementInfoRequest
 
@@ -19,9 +19,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:73](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L73)
+[gateway/gateway-request.ts:76](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L76)
 
----
+___
 
 ### partyASold
 
@@ -29,9 +29,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:71](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L71)
+[gateway/gateway-request.ts:74](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L74)
 
----
+___
 
 ### partyBFeeInfo
 
@@ -39,9 +39,9 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:74](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L74)
+[gateway/gateway-request.ts:77](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L77)
 
----
+___
 
 ### partyBSold
 
@@ -49,4 +49,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:72](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L72)
+[gateway/gateway-request.ts:75](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L75)

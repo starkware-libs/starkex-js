@@ -1,10 +1,10 @@
-[StarkEx JavaScript Client Library - v0.0.6](../README.md) / [Exports](../modules.md) / FullWithdrawalRequest
+[StarkEx JavaScript Client Library - v0.1.0-dev.7](../README.md) / [Exports](../modules.md) / FullWithdrawalRequest
 
 # Interface: FullWithdrawalRequest
 
 ## Hierarchy
 
-- `Request`
+- [`Request`](Request.md)
 
 - `WithVault`
 
@@ -32,27 +32,27 @@ WithStarkKey.starkKey
 
 #### Defined in
 
-[gateway/gateway-request.ts:25](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L25)
+[gateway/gateway-request.ts:28](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L28)
 
----
+___
 
 ### txId
 
-• **txId**: `number`
+• **txId**: [`NumericSequence`](../modules.md#numericsequence)
 
 #### Inherited from
 
-Request.txId
+[Request](Request.md).[txId](Request.md#txid)
 
 #### Defined in
 
-[gateway/gateway-request.ts:17](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L17)
+[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L20)
 
----
+___
 
 ### vaultId
 
-• **vaultId**: `number`
+• **vaultId**: [`NumericSequence`](../modules.md#numericsequence)
 
 #### Inherited from
 
@@ -60,4 +60,4 @@ WithVault.vaultId
 
 #### Defined in
 
-[gateway/gateway-request.ts:21](https://github.com/starkware-libs/starkex-js/blob/3031d40/src/lib/gateway/gateway-request.ts#L21)
+[gateway/gateway-request.ts:24](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L24)
