@@ -1,10 +1,8 @@
-/* eslint-disable */
-
 import StarkExAPI from '../dist/node';
 import fs from 'fs';
 import path from 'path';
 
-const readCert = certType =>
+const readCert = (certType: string) =>
   fs.readFileSync(path.resolve(`certs/user.${certType}`));
 
 const starkExAPI = new StarkExAPI({
