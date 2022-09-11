@@ -12,4 +12,4 @@ Run node package from a TS file (assuming ts-node installed globally):
 
 `npm run playground:ts`
 
-Run browser package from a HTML page: Open client.html with your browser. 
+Run browser package from a HTML page: Open client.html with your browser.

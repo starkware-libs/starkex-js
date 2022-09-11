@@ -11,14 +11,15 @@
     <title>StarkEX JavaScript Client Lib</title>
   </head>
   <body>
-    <h3>Is Alive: </h3><h3 id="stark"></h3>
+    <h3>Is Alive:</h3>
+    <h3 id="stark"></h3>
     <script>
       (window.onload = async function () {
         const starkExAPI = new StarkExAPI({
           endpoint: 'https://gw.playground-v2.starkex.co'
         });
         const result = await starkExAPI.gateway.isAlive();
-        document.getElementById("stark").innerHTML = result;
+        document.getElementById('stark').innerHTML = result;
       })();
     </script>
   </body>

@@ -48,7 +48,8 @@
     "typecheck": "tsc --noemit",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix .",
-    "lint": "yarn run eslint && yarn run typecheck",
+    "lint": "yarn run eslint && yarn run typecheck && yarn run format:check",
+    "format:check": "prettier --check \"**/*.+(ts|js|json|md|html|yml)\"",
     "format": "prettier --write \"**/*.+(ts|js|json|md|html|yml)\"",
     "docs:generate": "typedoc",
     "docs:watch": "typedoc --watch",
@@ -96,6 +97,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.1.1",
@@ -104,6 +106,7 @@
     "semantic-release": "^19.0.2",
     "terser-webpack-plugin": "^5.1.4",
     "ts-loader": "^9.2.5",
+    "ts-node": "^10.9.1",
     "typedoc": "^0.22.6",
     "typedoc-plugin-markdown": "^3.11.3",
     "typescript": "^4.3.5",
@@ -112,10 +115,5 @@
     "webpack-dev-server": "^4.0.0-beta.0",
     "webpack-merge": "^5.8.0",
     "webpack-node-externals": "^3.0.0"
-  },
-  "standard-version": {
-    "scripts": {
-      "postcommit": "bash ./scripts/docs-publish.bash"
-    }
   }
 }

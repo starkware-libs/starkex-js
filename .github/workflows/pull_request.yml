@@ -36,4 +36,4 @@ jobs:
       - name: Run tests
         run: |
           yarn run build
-          yarn run test --passWithNoTests
+          yarn run test

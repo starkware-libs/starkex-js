@@ -132,13 +132,13 @@ describe('Gateway', () => {
     });
   });
 
-  it.only('should succeed markTransactionForReplacement', async () => {
-    const resposne = await starkExAPI.gateway.markTransactionForReplacement(
+  it('should succeed markTransactionForReplacement', async () => {
+    const response = await starkExAPI.gateway.markTransactionForReplacement(
       txId
     );
 
     chai
-      .expect(resposne)
+      .expect(response)
       .to.equal(`transaction ${txId} marked for replacement`);
   });
 });
