@@ -54,7 +54,7 @@
     "docs:watch": "typedoc --watch",
     "release": "semantic-release",
     "release:dry": "semantic-release --no-ci --dry-run",
-    "publish": "bash ./scripts/npm-publish.bash",
+    "npm-publish": "bash ./scripts/npm-publish.bash",
     "test": "mocha --recursive",
     "playground:js": "node playground/server.js",
     "playground:ts": "ts-node -O '{\"module\": \"commonjs\"}' -T playground/server.ts"
