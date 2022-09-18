@@ -43,7 +43,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L8)
+[feeder-gateway/feeder-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L8)
 
 ## Methods
 
@@ -63,7 +63,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L29)
+[feeder-gateway/feeder-gateway.ts:29](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L29)
 
 ---
 
@@ -83,7 +83,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:40](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L40)
+[feeder-gateway/feeder-gateway.ts:40](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L40)
 
 ---
 
@@ -103,7 +103,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L23)
+[feeder-gateway/feeder-gateway.ts:23](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L23)
 
 ---
 
@@ -123,7 +123,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:52](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L52)
+[feeder-gateway/feeder-gateway.ts:52](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L52)
 
 ---
 
@@ -137,7 +137,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:58](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L58)
+[feeder-gateway/feeder-gateway.ts:58](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L58)
 
 ---
 
@@ -157,7 +157,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:62](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L62)
+[feeder-gateway/feeder-gateway.ts:62](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L62)
 
 ---
 
@@ -171,7 +171,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L15)
+[feeder-gateway/feeder-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L15)
 
 ---
 
@@ -185,4 +185,4 @@ GatewayBase.constructor
 
 #### Defined in
 
-[feeder-gateway/feeder-gateway.ts:19](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/feeder-gateway/feeder-gateway.ts#L19)
+[feeder-gateway/feeder-gateway.ts:19](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/feeder-gateway/feeder-gateway.ts#L19)

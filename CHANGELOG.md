@@ -1,3 +1,21 @@
+## [0.1.0](https://github.com/starkware-libs/starkex-js/compare/v0.0.6...v0.1.0) (2022-09-18)
+
+
+### 🧩 Features
+
+* **2847512314:** Add Stark Error Code ([#16](https://github.com/starkware-libs/starkex-js/issues/16)) ([b276cda](https://github.com/starkware-libs/starkex-js/commit/b276cdae756e01461252472e5b5e7cc348e4e1e1))
+* **2847512320:** adjust numeric types ([#20](https://github.com/starkware-libs/starkex-js/issues/20)) ([37550b7](https://github.com/starkware-libs/starkex-js/commit/37550b7d1d1a858e8a3afe93c0ecfe06e8419978))
+* **3075511177:** support multi-transaction ([#21](https://github.com/starkware-libs/starkex-js/issues/21)) ([d788a18](https://github.com/starkware-libs/starkex-js/commit/d788a1823c0d2786250c915c1bf9891683a2478b))
+* **3127780111:** drop support for availability gateway ([#25](https://github.com/starkware-libs/starkex-js/issues/25)) ([bf8bbcf](https://github.com/starkware-libs/starkex-js/commit/bf8bbcf4da9c2d3f528662c0014c91e31f142fcf))
+* **3127791831:** dynamic versioning ([#27](https://github.com/starkware-libs/starkex-js/issues/27)) ([935dd55](https://github.com/starkware-libs/starkex-js/commit/935dd552ffa3a3790d1c107b024d4c8a51c6e337))
+* **3200394536:** gateway - add mark_transaction_for_replacement support ([#29](https://github.com/starkware-libs/starkex-js/issues/29)) ([da402e7](https://github.com/starkware-libs/starkex-js/commit/da402e71d3764a5364f807fadb923c71aba67c29))
+* **3202221738:** feeder gateway - add v4.5 capabilities ([#26](https://github.com/starkware-libs/starkex-js/issues/26)) ([a6b5975](https://github.com/starkware-libs/starkex-js/commit/a6b59755ffb1d46c82495f6cb05275a4ee8a33dc))
+
+
+### 📚 Docs
+
+* generate v4.5 canary docs ([#33](https://github.com/starkware-libs/starkex-js/issues/33)) ([b8c2d71](https://github.com/starkware-libs/starkex-js/commit/b8c2d7120779a835c76ae3ff08c7a5b6edca6422))
+
 ## [0.1.0-dev.7](https://github.com/starkware-libs/starkex-js/compare/v0.1.0-dev.6...v0.1.0-dev.7) (2022-09-08)
 
 

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:24](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L24)
+[gateway/gateway-types.ts:24](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-types.ts#L24)
 
 ---
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:25](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L25)
+[gateway/gateway-types.ts:25](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-types.ts#L25)
 
 ---
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[gateway/gateway-types.ts:26](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-types.ts#L26)
+[gateway/gateway-types.ts:26](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-types.ts#L26)

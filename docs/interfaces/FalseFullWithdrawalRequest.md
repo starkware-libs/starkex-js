@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:45](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L45)
+[gateway/gateway-request.ts:45](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L45)
 
 ---
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L20)
+[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L20)
 
 ---
 
@@ -54,4 +54,4 @@ WithVault.vaultId
 
 #### Defined in
 
-[gateway/gateway-request.ts:24](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L24)
+[gateway/gateway-request.ts:24](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L24)

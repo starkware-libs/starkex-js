@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:69](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L69)
+[gateway/gateway-request.ts:69](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L69)
 
 ---
 
@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:70](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L70)
+[gateway/gateway-request.ts:70](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L70)
 
 ---
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:68](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L68)
+[gateway/gateway-request.ts:68](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L68)
 
 ---
 
@@ -59,4 +59,4 @@
 
 #### Defined in
 
-[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/gateway/gateway-request.ts#L20)
+[gateway/gateway-request.ts:20](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/gateway/gateway-request.ts#L20)

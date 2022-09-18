@@ -37,7 +37,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway.ts#L8)
+[availability-gateway/availability-gateway.ts:8](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/availability-gateway/availability-gateway.ts#L8)
 
 ## Methods
 
@@ -57,7 +57,7 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway.ts#L15)
+[availability-gateway/availability-gateway.ts:15](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/availability-gateway/availability-gateway.ts#L15)
 
 ---
 
@@ -77,4 +77,4 @@ GatewayBase.constructor
 
 #### Defined in
 
-[availability-gateway/availability-gateway.ts:24](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/availability-gateway/availability-gateway.ts#L24)
+[availability-gateway/availability-gateway.ts:24](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/availability-gateway/availability-gateway.ts#L24)

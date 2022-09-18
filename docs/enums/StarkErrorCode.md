@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:4](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L4)
+[common/error-codes.ts:4](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L4)
 
 ---
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:5](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L5)
+[common/error-codes.ts:5](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L5)
 
 ---
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:6](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L6)
+[common/error-codes.ts:6](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L6)
 
 ---
 
@@ -94,7 +94,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:7](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L7)
+[common/error-codes.ts:7](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L7)
 
 ---
 
@@ -104,7 +104,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:8](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L8)
+[common/error-codes.ts:8](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L8)
 
 ---
 
@@ -114,7 +114,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:9](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L9)
+[common/error-codes.ts:9](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L9)
 
 ---
 
@@ -124,7 +124,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:10](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L10)
+[common/error-codes.ts:10](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L10)
 
 ---
 
@@ -134,7 +134,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:11](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L11)
+[common/error-codes.ts:11](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L11)
 
 ---
 
@@ -144,7 +144,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:12](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L12)
+[common/error-codes.ts:12](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L12)
 
 ---
 
@@ -154,7 +154,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:13](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L13)
+[common/error-codes.ts:13](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L13)
 
 ---
 
@@ -164,7 +164,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:14](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L14)
+[common/error-codes.ts:14](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L14)
 
 ---
 
@@ -174,7 +174,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:15](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L15)
+[common/error-codes.ts:15](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L15)
 
 ---
 
@@ -184,7 +184,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:16](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L16)
+[common/error-codes.ts:16](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L16)
 
 ---
 
@@ -194,7 +194,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:17](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L17)
+[common/error-codes.ts:17](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L17)
 
 ---
 
@@ -204,7 +204,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:18](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L18)
+[common/error-codes.ts:18](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L18)
 
 ---
 
@@ -214,7 +214,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:19](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L19)
+[common/error-codes.ts:19](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L19)
 
 ---
 
@@ -224,7 +224,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:20](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L20)
+[common/error-codes.ts:20](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L20)
 
 ---
 
@@ -234,7 +234,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:21](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L21)
+[common/error-codes.ts:21](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L21)
 
 ---
 
@@ -244,7 +244,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:22](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L22)
+[common/error-codes.ts:22](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L22)
 
 ---
 
@@ -254,7 +254,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:23](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L23)
+[common/error-codes.ts:23](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L23)
 
 ---
 
@@ -264,7 +264,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:24](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L24)
+[common/error-codes.ts:24](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L24)
 
 ---
 
@@ -274,7 +274,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:25](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L25)
+[common/error-codes.ts:25](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L25)
 
 ---
 
@@ -284,7 +284,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:26](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L26)
+[common/error-codes.ts:26](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L26)
 
 ---
 
@@ -294,7 +294,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:27](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L27)
+[common/error-codes.ts:27](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L27)
 
 ---
 
@@ -304,7 +304,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:28](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L28)
+[common/error-codes.ts:28](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L28)
 
 ---
 
@@ -314,7 +314,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:29](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L29)
+[common/error-codes.ts:29](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L29)
 
 ---
 
@@ -324,7 +324,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:30](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L30)
+[common/error-codes.ts:30](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L30)
 
 ---
 
@@ -334,7 +334,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:31](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L31)
+[common/error-codes.ts:31](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L31)
 
 ---
 
@@ -344,7 +344,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:32](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L32)
+[common/error-codes.ts:32](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L32)
 
 ---
 
@@ -354,7 +354,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:33](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L33)
+[common/error-codes.ts:33](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L33)
 
 ---
 
@@ -364,7 +364,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:34](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L34)
+[common/error-codes.ts:34](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L34)
 
 ---
 
@@ -374,7 +374,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:35](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L35)
+[common/error-codes.ts:35](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L35)
 
 ---
 
@@ -384,7 +384,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:36](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L36)
+[common/error-codes.ts:36](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L36)
 
 ---
 
@@ -394,7 +394,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:37](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L37)
+[common/error-codes.ts:37](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L37)
 
 ---
 
@@ -404,7 +404,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:38](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L38)
+[common/error-codes.ts:38](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L38)
 
 ---
 
@@ -414,7 +414,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:39](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L39)
+[common/error-codes.ts:39](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L39)
 
 ---
 
@@ -424,7 +424,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:40](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L40)
+[common/error-codes.ts:40](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L40)
 
 ---
 
@@ -434,7 +434,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:41](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L41)
+[common/error-codes.ts:41](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L41)
 
 ---
 
@@ -444,7 +444,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:42](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L42)
+[common/error-codes.ts:42](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L42)
 
 ---
 
@@ -454,7 +454,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:43](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L43)
+[common/error-codes.ts:43](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L43)
 
 ---
 
@@ -464,7 +464,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:44](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L44)
+[common/error-codes.ts:44](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L44)
 
 ---
 
@@ -474,7 +474,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:45](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L45)
+[common/error-codes.ts:45](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L45)
 
 ---
 
@@ -484,7 +484,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:46](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L46)
+[common/error-codes.ts:46](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L46)
 
 ---
 
@@ -494,7 +494,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:47](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L47)
+[common/error-codes.ts:47](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L47)
 
 ---
 
@@ -504,7 +504,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:48](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L48)
+[common/error-codes.ts:48](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L48)
 
 ---
 
@@ -514,7 +514,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:49](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L49)
+[common/error-codes.ts:49](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L49)
 
 ---
 
@@ -524,7 +524,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:50](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L50)
+[common/error-codes.ts:50](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L50)
 
 ---
 
@@ -534,7 +534,7 @@
 
 #### Defined in
 
-[common/error-codes.ts:51](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L51)
+[common/error-codes.ts:51](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L51)
 
 ---
 
@@ -544,4 +544,4 @@
 
 #### Defined in
 
-[common/error-codes.ts:52](https://github.com/starkware-libs/starkex-js/blob/26f82a7/src/lib/common/error-codes.ts#L52)
+[common/error-codes.ts:52](https://github.com/starkware-libs/starkex-js/blob/d7a28bb/src/lib/common/error-codes.ts#L52)
