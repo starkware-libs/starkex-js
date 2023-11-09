@@ -10,7 +10,8 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "allowJs": true
+    "allowJs": true,
+    "lib": ["es2015"]
   },
   "include": ["src/**/*"],
   "exclude": ["playground/**/*"]
